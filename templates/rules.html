@@ -1,0 +1,461 @@
+{% extends "base.html" %}
+
+{% block title %}Rules - AI-Enhanced Email Manager{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1><i data-feather="sliders"></i> Email Rules</h1>
+            <div>
+                <button id="suggestRules" class="btn btn-info me-2">
+                    <i data-feather="cpu"></i> AI Suggestions
+                </button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addRuleModal">
+                    <i data-feather="plus"></i> Add Rule
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Current Rules</h5>
+            </div>
+            <div class="card-body">
+                {% if rules %}
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Targets</th>
+                                <th>Parameters</th>
+                                <th>Results</th>
+                                <th>Applied Count</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for rule in rules %}
+                                <tr>
+                                    <td>
+                                        {% if rule.type.startswith('a:') %}
+                                            <span class="badge bg-info" title="AI-generated rule">
+                                                <i data-feather="cpu"></i> {{ rule.type[2:] }}
+                                            </span>
+                                        {% elif rule.type.startswith('u:') %}
+                                            <span class="badge bg-primary" title="User-created rule">
+                                                <i data-feather="user"></i> {{ rule.type[2:] }}
+                                            </span>
+                                        {% elif rule.type.startswith('r:') %}
+                                            <span class="badge bg-warning" title="Rule-generated rule">
+                                                <i data-feather="sliders"></i> {{ rule.type[2:] }}
+                                            </span>
+                                        {% else %}
+                                            {{ rule.type }}
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% set targets = rule.targets|tojson|safe %}
+                                        {% if targets %}
+                                            <div class="rule-targets">
+                                                {% for target in targets %}
+                                                    <span class="badge bg-secondary">{{ target }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        {% else %}
+                                            <span class="text-muted">None</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% set params = rule.parameters|tojson|safe %}
+                                        {% if params %}
+                                            <small>{{ params|truncate(30) }}</small>
+                                        {% else %}
+                                            <span class="text-muted">None</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% set results = rule.results|tojson|safe %}
+                                        {% if results %}
+                                            <div class="rule-results">
+                                                {% for result in results %}
+                                                    <span class="badge bg-primary">{{ result }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        {% else %}
+                                            <span class="text-muted">None</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>{{ rule.applied_count }}</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-primary me-1" data-bs-toggle="modal" data-bs-target="#editRuleModal" 
+                                            data-rule-id="{{ rule.id }}">
+                                            <i data-feather="edit-2"></i>
+                                        </button>
+                                        <form action="{{ url_for('delete_rule', rule_id=rule.id) }}" method="POST" class="d-inline">
+                                            <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                <i data-feather="trash-2"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% else %}
+                    <div class="alert alert-info">
+                        No rules defined yet. Rules help automatically categorize your emails.
+                        <ul class="mt-2 mb-0">
+                            <li>Click "AI Suggestions" to have the AI create rules based on your email patterns.</li>
+                            <li>Click "Add Rule" to manually create a rule.</li>
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0"><i data-feather="info"></i> About Rules</h5>
+            </div>
+            <div class="card-body">
+                <p>Rules automatically categorize emails based on various criteria.</p>
+                <h6>Rule Types:</h6>
+                <ul>
+                    <li>
+                        <span class="badge bg-info">
+                            <i data-feather="cpu"></i> AI-assigned
+                        </span> - Rules generated by AI analysis of your emails
+                    </li>
+                    <li>
+                        <span class="badge bg-primary">
+                            <i data-feather="user"></i> User-assigned
+                        </span> - Rules you create manually
+                    </li>
+                    <li>
+                        <span class="badge bg-warning">
+                            <i data-feather="sliders"></i> Rule-based
+                        </span> - Rules generated by other rules
+                    </li>
+                </ul>
+                <h6>Common Rule Targets:</h6>
+                <ul>
+                    <li><strong>sender</strong> - Match emails from specific senders</li>
+                    <li><strong>domain</strong> - Match emails from specific domains</li>
+                    <li><strong>subject</strong> - Match text in the subject line</li>
+                    <li><strong>keyword</strong> - Match text anywhere in the email</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title mb-0"><i data-feather="cpu"></i> AI Rule Suggestions</h5>
+            </div>
+            <div class="card-body">
+                <p>Let the AI analyze your email patterns and suggest rules for automatic categorization.</p>
+                <div class="alert alert-light">
+                    <strong>How it works:</strong> The AI examines your categorized emails to find patterns and creates rules to automatically assign the same categories to similar emails in the future.
+                </div>
+                <button id="aiSuggestRules" class="btn btn-info w-100">
+                    <i data-feather="lightbulb"></i> Get AI Rule Suggestions
+                </button>
+                
+                <div id="aiRuleSuggestions" class="mt-3" style="display: none;">
+                    <h6>Suggested Rules:</h6>
+                    <div id="suggestedRulesList">
+                        <!-- AI rule suggestions will be inserted here -->
+                    </div>
+                    <button id="applyAllRules" class="btn btn-success btn-sm mt-2">
+                        Apply All Suggestions
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Rule Modal -->
+<div class="modal fade" id="addRuleModal" tabindex="-1" aria-labelledby="addRuleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addRuleModalLabel">Add New Rule</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="{{ url_for('add_rule') }}" method="POST">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="ruleType" class="form-label">Rule Type</label>
+                            <select class="form-select" id="ruleType" name="type">
+                                <option value="u:sender">Sender</option>
+                                <option value="u:domain">Domain</option>
+                                <option value="u:subject">Subject</option>
+                                <option value="u:keyword">Keyword</option>
+                            </select>
+                            <small class="form-text text-muted">What criteria should this rule match?</small>
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="ruleTargets" class="form-label">Targets</label>
+                            <input type="text" class="form-control" id="ruleTargets" name="targets" placeholder="Comma-separated values">
+                            <small class="form-text text-muted">
+                                What values to match (e.g., email addresses, domains, keywords)
+                            </small>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="ruleParameters" class="form-label">Parameters (Optional)</label>
+                        <input type="text" class="form-control" id="ruleParameters" name="parameters" placeholder="JSON format: {&quot;key&quot;: &quot;value&quot;}">
+                        <small class="form-text text-muted">
+                            Additional parameters for matching (JSON format)
+                        </small>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="ruleResults" class="form-label">Results (Categories to assign)</label>
+                        <input type="text" class="form-control" id="ruleResults" name="results" placeholder="Comma-separated category names">
+                        <small class="form-text text-muted">
+                            Categories to assign when rule matches. New categories will be created if they don't exist.
+                        </small>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Create Rule</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Rule Modal -->
+<div class="modal fade" id="editRuleModal" tabindex="-1" aria-labelledby="editRuleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editRuleModalLabel">Edit Rule</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="{{ url_for('edit_rule') }}" method="POST" id="editRuleForm">
+                <div class="modal-body">
+                    <input type="hidden" name="rule_id" id="editRuleId">
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="editRuleType" class="form-label">Rule Type</label>
+                            <select class="form-select" id="editRuleType" name="type">
+                                <option value="u:sender">Sender</option>
+                                <option value="u:domain">Domain</option>
+                                <option value="u:subject">Subject</option>
+                                <option value="u:keyword">Keyword</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="editRuleTargets" class="form-label">Targets</label>
+                            <input type="text" class="form-control" id="editRuleTargets" name="targets">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="editRuleParameters" class="form-label">Parameters (Optional)</label>
+                        <input type="text" class="form-control" id="editRuleParameters" name="parameters">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="editRuleResults" class="form-label">Results (Categories to assign)</label>
+                        <input type="text" class="form-control" id="editRuleResults" name="results">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Edit Rule Modal
+    const editRuleModal = document.getElementById('editRuleModal');
+    if (editRuleModal) {
+        editRuleModal.addEventListener('show.bs.modal', function(event) {
+            const button = event.relatedTarget;
+            const ruleId = button.getAttribute('data-rule-id');
+            
+            // Fetch rule details via API
+            fetch(`/rules/${ruleId}`)
+                .then(response => response.json())
+                .then(rule => {
+                    document.getElementById('editRuleId').value = rule.id;
+                    document.getElementById('editRuleType').value = rule.type;
+                    document.getElementById('editRuleTargets').value = Array.isArray(rule.targets) ? 
+                        rule.targets.join(', ') : rule.targets;
+                    document.getElementById('editRuleParameters').value = typeof rule.parameters === 'object' ? 
+                        JSON.stringify(rule.parameters) : rule.parameters;
+                    document.getElementById('editRuleResults').value = Array.isArray(rule.results) ? 
+                        rule.results.join(', ') : rule.results;
+                })
+                .catch(error => {
+                    console.error('Error fetching rule details:', error);
+                    alert('Error loading rule details. Please try again.');
+                });
+        });
+    }
+    
+    // AI Rule Suggestions
+    const aiSuggestRulesBtn = document.getElementById('aiSuggestRules');
+    if (aiSuggestRulesBtn) {
+        aiSuggestRulesBtn.addEventListener('click', function() {
+            this.disabled = true;
+            this.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Analyzing...';
+            
+            fetch('/ai/suggest-rules', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                this.disabled = false;
+                this.innerHTML = '<i data-feather="lightbulb"></i> Get AI Rule Suggestions';
+                feather.replace();
+                
+                if (data.success) {
+                    const suggestionsDiv = document.getElementById('aiRuleSuggestions');
+                    suggestionsDiv.style.display = 'block';
+                    
+                    const suggestionsList = document.getElementById('suggestedRulesList');
+                    suggestionsList.innerHTML = '';
+                    
+                    if (data.rules && data.rules.length > 0) {
+                        let html = '<div class="list-group">';
+                        
+                        data.rules.forEach((rule, index) => {
+                            html += `
+                                <div class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h6 class="mb-1">
+                                            <span class="badge bg-info">
+                                                <i data-feather="cpu"></i> ${rule.type}
+                                            </span>
+                                        </h6>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input rule-toggle" type="checkbox" id="rule-${index}" checked>
+                                            <label class="form-check-label" for="rule-${index}">Apply</label>
+                                        </div>
+                                    </div>
+                                    <p class="mb-1">
+                                        <small><strong>Targets:</strong> ${Array.isArray(rule.targets) ? rule.targets.join(', ') : JSON.stringify(rule.targets)}</small>
+                                    </p>
+                                    <p class="mb-1">
+                                        <small><strong>Results:</strong>
+                                            ${Array.isArray(rule.results) ? rule.results.map(r => `<span class="badge bg-primary">${r}</span>`).join(' ') : JSON.stringify(rule.results)}
+                                        </small>
+                                    </p>
+                                    <input type="hidden" class="rule-data" value='${JSON.stringify(rule)}'>
+                                </div>
+                            `;
+                        });
+                        
+                        html += '</div>';
+                        suggestionsList.innerHTML = html;
+                        feather.replace();
+                    } else {
+                        suggestionsList.innerHTML = '<div class="alert alert-info">No rule suggestions found. This could be because you need more categorized emails for the AI to identify patterns.</div>';
+                    }
+                } else {
+                    alert(`Error: ${data.message}`);
+                }
+            })
+            .catch(error => {
+                this.disabled = false;
+                this.innerHTML = '<i data-feather="lightbulb"></i> Get AI Rule Suggestions';
+                feather.replace();
+                alert(`Error: ${error.message}`);
+            });
+        });
+    }
+    
+    // Apply All Suggested Rules
+    const applyAllRulesBtn = document.getElementById('applyAllRules');
+    if (applyAllRulesBtn) {
+        applyAllRulesBtn.addEventListener('click', function() {
+            const ruleToggles = document.querySelectorAll('.rule-toggle:checked');
+            if (ruleToggles.length === 0) {
+                alert('No rules selected to apply.');
+                return;
+            }
+            
+            this.disabled = true;
+            this.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Applying...';
+            
+            const rulesToApply = [];
+            ruleToggles.forEach(toggle => {
+                const ruleData = toggle.closest('.list-group-item').querySelector('.rule-data').value;
+                rulesToApply.push(JSON.parse(ruleData));
+            });
+            
+            fetch('/rules/apply-batch', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ rules: rulesToApply })
+            })
+            .then(response => response.json())
+            .then(data => {
+                this.disabled = false;
+                this.innerHTML = 'Apply All Suggestions';
+                
+                if (data.success) {
+                    alert(`Successfully applied ${data.applied} rules.`);
+                    window.location.reload();
+                } else {
+                    alert(`Error: ${data.message}`);
+                }
+            })
+            .catch(error => {
+                this.disabled = false;
+                this.innerHTML = 'Apply All Suggestions';
+                alert(`Error: ${error.message}`);
+            });
+        });
+    }
+    
+    // Simple Rule Suggestion Button
+    const suggestRulesBtn = document.getElementById('suggestRules');
+    if (suggestRulesBtn) {
+        suggestRulesBtn.addEventListener('click', function() {
+            const aiBtn = document.getElementById('aiSuggestRules');
+            if (aiBtn) {
+                aiBtn.click();
+                
+                // Scroll to the suggestions section
+                document.querySelector('.card.bg-info').scrollIntoView({ 
+                    behavior: 'smooth'
+                });
+            }
+        });
+    }
+});
+</script>
+{% endblock %}

@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block title %}Setup - AI-Enhanced Email Manager{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col">
+        <h1><i data-feather="settings"></i> System Setup</h1>
+        <p class="lead">Welcome to the AI-Enhanced Email Management System! Let's get you set up.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0"><i data-feather="mail"></i> Connect Email Accounts</h5>
+            </div>
+            <div class="card-body">
+                <p>Connect your email accounts to start managing your emails with AI assistance.</p>
+                
+                <div class="mb-4">
+                    <h6>Gmail</h6>
+                    <p>Connect your Gmail account using Google OAuth.</p>
+                    <a href="{{ url_for('add_gmail_account') }}" class="btn btn-danger">
+                        <i data-feather="mail"></i> Connect Gmail
+                    </a>
+                </div>
+                
+                <div>
+                    <h6>Exchange Online</h6>
+                    <p>Connect your Microsoft Exchange Online account using Microsoft OAuth.</p>
+                    <a href="{{ url_for('add_exchange_account') }}" class="btn btn-primary">
+                        <i data-feather="mail"></i> Connect Exchange
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title mb-0"><i data-feather="cpu"></i> AI-Assisted Setup</h5>
+            </div>
+            <div class="card-body">
+                <p>After connecting an email account, the system will:</p>
+                
+                <ol class="mb-4">
+                    <li>Sync your recent emails</li>
+                    <li>Analyze email content and patterns</li>
+                    <li>Suggest categories based on your email usage</li>
+                    <li>Create automatic organization rules</li>
+                    <li>Extract important information from emails</li>
+                </ol>
+                
+                <div class="alert alert-info">
+                    <i data-feather="info"></i> This process will happen automatically after you connect your first email account.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 mb-4">
+        <div class="card">
+            <div class="card-header bg-secondary text-white">
+                <h5 class="card-title mb-0"><i data-feather="help-circle"></i> System Features</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title"><i data-feather="layers"></i> Email Processing</h5>
+                                <ul class="list-unstyled">
+                                    <li><i data-feather="check" class="text-success"></i> Email deduplication</li>
+                                    <li><i data-feather="check" class="text-success"></i> Attachment extraction</li>
+                                    <li><i data-feather="check" class="text-success"></i> Thread reconstruction</li>
+                                    <li><i data-feather="check" class="text-success"></i> Disclaimer separation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title"><i data-feather="cpu"></i> AI Capabilities</h5>
+                                <ul class="list-unstyled">
+                                    <li><i data-feather="check" class="text-success"></i> Smart categorization</li>
+                                    <li><i data-feather="check" class="text-success"></i> Rule generation</li>
+                                    <li><i data-feather="check" class="text-success"></i> Content extraction</li>
+                                    <li><i data-feather="check" class="text-success"></i> Priority prediction</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title"><i data-feather="search"></i> Search & Organization</h5>
+                                <ul class="list-unstyled">
+                                    <li><i data-feather="check" class="text-success"></i> Advanced search</li>
+                                    <li><i data-feather="check" class="text-success"></i> Thread view</li>
+                                    <li><i data-feather="check" class="text-success"></i> Category management</li>
+                                    <li><i data-feather="check" class="text-success"></i> Rule-based organization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

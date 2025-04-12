@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}Thread: {{ thread.subject }} - AI-Enhanced Email Manager{% endblock %}
+
+{% block content %}
+<div class="row mb-3">
+    <div class="col">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Dashboard</a></li>
+                <li class="breadcrumb-item"><a href="{{ url_for('list_emails') }}">Emails</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Thread: {{ thread.subject }}</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">
+            <i data-feather="message-square"></i> {{ thread.subject }}
+        </h5>
+        <div>
+            <span class="text-muted me-3">
+                {{ emails|length }} messages from {{ thread.date_started.strftime('%Y-%m-%d') }}
+                to {{ thread.last_date.strftime('%Y-%m-%d') }}
+            </span>
+            {% if thread.categories %}
+            <div class="d-inline-block">
+                {% for category in thread.categories %}
+                    <span class="badge bg-primary">{{ category.name }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="thread-container">
+    {% for email in emails %}
+    <div class="card mb-3 email-card" id="email-{{ email.id }}">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <div>
+                <strong>{{ email.sender }}</strong>
+                <span class="text-muted ms-2">{{ email.date_sent.strftime('%Y-%m-%d %H:%M') }}</span>
+            </div>
+            <div>
+                <a href="{{ url_for('view_email', email_id=email.id) }}" class="btn btn-sm btn-outline-secondary">
+                    <i data-feather="external-link"></i> View Full Email
+                </a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="email-header mb-2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-2">
+                            <strong>To:</strong> {{ email.recipients | safe }}
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        {% if email.attachments %}
+                        <div class="email-attachments">
+                            <strong>Attachments:</strong>
+                            {% for attachment in email.attachments %}
+                                <span class="badge bg-secondary me-1">
+                                    <i data-feather="paperclip"></i> {{ attachment.filename }}
+                                </span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="email-content mt-3">
+                {% if email.format == 'html' %}
+                    <div class="html-content">
+                        <iframe id="iframe-{{ email.id }}" class="email-iframe" src="{{ url_for('view_email', email_id=email.id) }}?content_only=1" frameborder="0" width="100%"></iframe>
+                    </div>
+                {% else %}
+                    <div class="text-content">
+                        <pre class="email-text">{{ body_content }}</pre>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

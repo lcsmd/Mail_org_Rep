@@ -1,0 +1,221 @@
+{% extends "base.html" %}
+
+{% block title %}{{ email.subject }} - AI-Enhanced Email Manager{% endblock %}
+
+{% block content %}
+<div class="row mb-3">
+    <div class="col">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Dashboard</a></li>
+                <li class="breadcrumb-item"><a href="{{ url_for('list_emails') }}">Emails</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ email.subject }}</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">
+            {% if email.thread %}
+                <a href="{{ url_for('view_thread', thread_id=email.thread_id) }}" class="btn btn-sm btn-outline-secondary me-2">
+                    <i data-feather="message-square"></i> View Thread
+                </a>
+            {% endif %}
+            {{ email.subject }}
+        </h5>
+        <div>
+            <button class="btn btn-sm btn-info" id="analyzeEmail">
+                <i data-feather="cpu"></i> AI Analysis
+            </button>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="email-header mb-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-2">
+                        <strong>From:</strong> {{ email.sender }}
+                    </div>
+                    <div class="mb-2">
+                        <strong>To:</strong> {{ email.recipients | safe }}
+                    </div>
+                    {% if email.cc %}
+                    <div class="mb-2">
+                        <strong>CC:</strong> {{ email.cc | safe }}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="mb-2">
+                        <strong>Date:</strong> {{ email.date_sent.strftime('%Y-%m-%d %H:%M:%S') }}
+                    </div>
+                    {% if email.categories %}
+                    <div class="mb-2">
+                        <strong>Categories:</strong>
+                        {% for category in email.categories %}
+                            <span class="badge bg-primary">{{ category.name }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% if email.attachments %}
+            <div class="email-attachments mt-3">
+                <strong>Attachments:</strong>
+                <div class="mt-2">
+                    {% for attachment in email.attachments %}
+                    <span class="badge bg-secondary me-2 p-2">
+                        <i data-feather="paperclip"></i> {{ attachment.filename }}
+                        ({{ (attachment.size / 1024) | round(1) }} KB)
+                    </span>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        
+        <hr>
+        
+        <div class="email-content">
+            {% if email.format == 'html' %}
+                <div class="html-content">
+                    {{ body_content | safe }}
+                </div>
+            {% else %}
+                <div class="text-content">
+                    <pre class="email-text">{{ body_content }}</pre>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="card mb-4" id="aiAnalysisCard" style="display: none;">
+    <div class="card-header bg-info text-white">
+        <h5 class="card-title mb-0"><i data-feather="cpu"></i> AI Analysis</h5>
+    </div>
+    <div class="card-body" id="aiAnalysisContent">
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Analyzing email content...</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // AI Analysis button
+    document.getElementById('analyzeEmail').addEventListener('click', function() {
+        const analysisCard = document.getElementById('aiAnalysisCard');
+        analysisCard.style.display = 'block';
+        
+        fetch('/ai/analyze/{{ email.id }}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                const analysis = data.analysis;
+                let html = '<div class="row">';
+                
+                // Key points
+                html += '<div class="col-md-6 mb-3">';
+                html += '<h6><i data-feather="list"></i> Key Points</h6>';
+                html += '<ul>';
+                for (const point of analysis.key_points || []) {
+                    html += `<li>${point}</li>`;
+                }
+                html += '</ul>';
+                html += '</div>';
+                
+                // Action items
+                html += '<div class="col-md-6 mb-3">';
+                html += '<h6><i data-feather="check-square"></i> Action Items</h6>';
+                html += '<ul>';
+                for (const item of analysis.action_items || []) {
+                    html += `<li>${item}</li>`;
+                }
+                html += '</ul>';
+                html += '</div>';
+                
+                // Deadlines
+                html += '<div class="col-md-6 mb-3">';
+                html += '<h6><i data-feather="calendar"></i> Deadlines</h6>';
+                if (analysis.deadlines && analysis.deadlines.length > 0) {
+                    html += '<ul>';
+                    for (const deadline of analysis.deadlines) {
+                        html += `<li>${deadline}</li>`;
+                    }
+                    html += '</ul>';
+                } else {
+                    html += '<p>No deadlines identified.</p>';
+                }
+                html += '</div>';
+                
+                // Contacts
+                html += '<div class="col-md-6 mb-3">';
+                html += '<h6><i data-feather="users"></i> Contacts Mentioned</h6>';
+                if (analysis.contacts && analysis.contacts.length > 0) {
+                    html += '<ul>';
+                    for (const contact of analysis.contacts) {
+                        html += `<li>${contact}</li>`;
+                    }
+                    html += '</ul>';
+                } else {
+                    html += '<p>No contacts identified.</p>';
+                }
+                html += '</div>';
+                
+                // Sentiment and Importance
+                html += '<div class="col-12">';
+                html += '<div class="d-flex justify-content-between">';
+                html += `<div><strong>Sentiment:</strong> <span class="badge ${getBadgeColorForSentiment(analysis.sentiment)}">${analysis.sentiment}</span></div>`;
+                html += `<div><strong>Importance:</strong> <span class="badge ${getBadgeColorForImportance(analysis.importance)}">${analysis.importance}</span></div>`;
+                html += '</div>';
+                html += '</div>';
+                
+                html += '</div>'; // Close row
+                
+                document.getElementById('aiAnalysisContent').innerHTML = html;
+                feather.replace();
+            } else {
+                document.getElementById('aiAnalysisContent').innerHTML = 
+                    `<div class="alert alert-danger">Error analyzing email: ${data.message}</div>`;
+            }
+        })
+        .catch(error => {
+            document.getElementById('aiAnalysisContent').innerHTML = 
+                `<div class="alert alert-danger">Error: ${error.message}</div>`;
+        });
+    });
+});
+
+function getBadgeColorForSentiment(sentiment) {
+    if (!sentiment) return 'bg-secondary';
+    
+    sentiment = sentiment.toLowerCase();
+    if (sentiment.includes('positive')) return 'bg-success';
+    if (sentiment.includes('negative')) return 'bg-danger';
+    return 'bg-secondary';
+}
+
+function getBadgeColorForImportance(importance) {
+    if (!importance) return 'bg-secondary';
+    
+    importance = importance.toLowerCase();
+    if (importance.includes('high')) return 'bg-danger';
+    if (importance.includes('medium')) return 'bg-warning';
+    if (importance.includes('low')) return 'bg-info';
+    return 'bg-secondary';
+}
+</script>
+{% endblock %}

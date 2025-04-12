@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}500 - Server Error{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6 text-center">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="display-1 text-danger">500</h1>
+                <h2 class="mb-4">Internal Server Error</h2>
+                
+                <div class="my-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="currentColor" class="text-danger mb-4" viewBox="0 0 24 24">
+                        <path d="M12 6C12.5523 6 13 6.44772 13 7V13C13 13.5523 12.5523 14 12 14C11.4477 14 11 13.5523 11 13V7C11 6.44772 11.4477 6 12 6ZM12 16C11.4477 16 11 16.4477 11 17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17C13 16.4477 12.5523 16 12 16ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"/>
+                    </svg>
+                    
+                    <p class="lead">Something went wrong on our servers while processing your request.</p>
+                    <p>Our team has been notified and we're working to fix the issue.</p>
+                </div>
+                
+                <div class="mt-4">
+                    <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg">
+                        <i data-feather="home"></i> Return to Dashboard
+                    </a>
+                </div>
+                
+                <div class="mt-3">
+                    <button class="btn btn-outline-secondary" onclick="window.location.reload();">
+                        <i data-feather="refresh-cw"></i> Try Again
+                    </button>
+                </div>
+                
+                <div class="mt-4 text-muted">
+                    <small>If the problem persists, please try again later or contact support.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

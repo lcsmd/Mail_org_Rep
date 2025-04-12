@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+
+{% block title %}Search Results - AI-Enhanced Email Manager{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col">
+        <h1><i data-feather="search"></i> Search Results</h1>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Advanced Search</h5>
+            </div>
+            <div class="card-body">
+                <form action="{{ url_for('search') }}" method="GET">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="searchQuery" class="form-label">Search Text</label>
+                            <input type="text" class="form-control" id="searchQuery" name="q" value="{{ query if query else '' }}">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="searchSender" class="form-label">Sender</label>
+                            <input type="text" class="form-control" id="searchSender" name="sender" value="{{ request.args.get('sender', '') }}">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="searchCategory" class="form-label">Category</label>
+                            <select class="form-select" id="searchCategory" name="category">
+                                <option value="">All Categories</option>
+                                {% for category in categories if categories %}
+                                    <option value="{{ category.id }}" {% if request.args.get('category') == category.id|string %}selected{% endif %}>
+                                        {{ category.name }}
+                                    </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label class="form-label d-block">&nbsp;</label>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i data-feather="search"></i> Search
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="searchDateStart" class="form-label">Date From</label>
+                            <input type="date" class="form-control" id="searchDateStart" name="date_from" value="{{ request.args.get('date_from', '') }}">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="searchDateEnd" class="form-label">Date To</label>
+                            <input type="date" class="form-control" id="searchDateEnd" name="date_to" value="{{ request.args.get('date_to', '') }}">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="searchHasAttachment" class="form-label">Has Attachment</label>
+                            <select class="form-select" id="searchHasAttachment" name="has_attachment">
+                                <option value="">Any</option>
+                                <option value="1" {% if request.args.get('has_attachment') == '1' %}selected{% endif %}>Yes</option>
+                                <option value="0" {% if request.args.get('has_attachment') == '0' %}selected{% endif %}>No</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0">
+                    {% if query %}
+                        Results for "{{ query }}"
+                    {% else %}
+                        All Emails
+                    {% endif %}
+                </h5>
+                {% if results %}
+                    <span class="badge bg-primary">{{ results|length }} results</span>
+                {% endif %}
+            </div>
+            <div class="card-body">
+                {% if results %}
+                    <div class="list-group">
+                        {% for email in results %}
+                            <a href="{{ url_for('view_email', email_id=email.id) }}" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h6 class="mb-1">{{ email.subject }}</h6>
+                                    <small class="text-muted">{{ email.date_sent.strftime('%Y-%m-%d %H:%M') }}</small>
+                                </div>
+                                <div class="d-flex w-100 justify-content-between align-items-center">
+                                    <p class="mb-1">
+                                        <small>From: {{ email.sender }}</small>
+                                    </p>
+                                    <div>
+                                        {% if email.categories %}
+                                            {% for category in email.categories %}
+                                                <span class="badge bg-primary">{{ category.name }}</span>
+                                            {% endfor %}
+                                        {% endif %}
+                                        
+                                        {% if email.attachments %}
+                                            <span class="badge bg-secondary">
+                                                <i data-feather="paperclip"></i> {{ email.attachments|length }}
+                                            </span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                    
+                    {% if results|length >= 100 %}
+                        <div class="alert alert-info mt-3">
+                            <i data-feather="info"></i> Showing top 100 results. Refine your search to see more specific results.
+                        </div>
+                    {% endif %}
+                {% else %}
+                    <div class="alert alert-info">
+                        {% if query %}
+                            No emails found matching your search criteria. Try broadening your search or using different keywords.
+                        {% else %}
+                            Enter search terms above to find emails.
+                        {% endif %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0"><i data-feather="info"></i> Search Tips</h5>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Search in subject lines, sender names, and email bodies</li>
+                    <li>Use quotes for exact phrases: <code>"project update"</code></li>
+                    <li>Filter by date ranges to narrow your results</li>
+                    <li>Combine filters for more precise searching</li>
+                    <li>Search within specific categories to find related emails</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title mb-0"><i data-feather="cpu"></i> AI Search Assistant</h5>
+            </div>
+            <div class="card-body">
+                <p>Need help finding something specific? Describe what you're looking for in natural language.</p>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="aiSearchQuery" placeholder="Example: Find emails about the quarterly budget from last month">
+                </div>
+                <button class="btn btn-info w-100" id="aiSearchButton">
+                    <i data-feather="search"></i> AI-Assisted Search
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // AI-Assisted Search
+    const aiSearchButton = document.getElementById('aiSearchButton');
+    if (aiSearchButton) {
+        aiSearchButton.addEventListener('click', function() {
+            const query = document.getElementById('aiSearchQuery').value.trim();
+            if (!query) {
+                alert('Please enter a search description.');
+                return;
+            }
+            
+            this.disabled = true;
+            this.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Processing...';
+            
+            fetch('/ai/search', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query: query })
+            })
+            .then(response => response.json())
+            .then(data => {
+                this.disabled = false;
+                this.innerHTML = '<i data-feather="search"></i> AI-Assisted Search';
+                feather.replace();
+                
+                if (data.success) {
+                    // Fill the search form with AI-generated parameters
+                    document.getElementById('searchQuery').value = data.params.q || '';
+                    document.getElementById('searchSender').value = data.params.sender || '';
+                    document.getElementById('searchCategory').value = data.params.category || '';
+                    document.getElementById('searchDateStart').value = data.params.date_from || '';
+                    document.getElementById('searchDateEnd').value = data.params.date_to || '';
+                    document.getElementById('searchHasAttachment').value = data.params.has_attachment || '';
+                    
+                    // Submit the form
+                    document.querySelector('form').submit();
+                } else {
+                    alert(`Error: ${data.message}`);
+                }
+            })
+            .catch(error => {
+                this.disabled = false;
+                this.innerHTML = '<i data-feather="search"></i> AI-Assisted Search';
+                feather.replace();
+                alert(`Error: ${error.message}`);
+            });
+        });
+    }
+});
+</script>
+{% endblock %}
