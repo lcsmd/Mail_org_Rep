@@ -19,13 +19,17 @@ app.secret_key = os.environ.get("SESSION_SECRET", "development-secret-key")
 # Configure proxy fix for URL generation
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
-# Configure SQLite database
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///email_manager.db"
+# Configure PostgreSQL database - ensuring DATABASE_URL is properly set
+database_url = os.environ.get("DATABASE_URL")
+if not database_url:
+    raise RuntimeError("DATABASE_URL environment variable is not set.")
+app.config["SQLALCHEMY_DATABASE_URI"] = database_url
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {
     "pool_recycle": 300,
     "pool_pre_ping": True,
 }
+print(f"Using database URL: {database_url}")
 
 # Initialize the database with the app
 db.init_app(app)
