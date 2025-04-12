@@ -1,0 +1,286 @@
+Product Requirements Document (PRD)
+
+Project Title: AI-Enhanced Email Management System
+
+Prepared By: Dr. Lawrence C. Sullivan
+
+Date: April 12, 2025
+
+1. Overview
+
+This project aims to create a modular, AI-driven email management application with a web interface and support for Exchange Online and Gmail. The system will:
+
+Process and index all incoming emails.
+
+Decompose, classify, and deduplicate emails.
+
+Store metadata, bodies, disclaimers, and attachments in structured formats.
+
+Enable AI-assisted categorization, rule creation, and knowledge extraction.
+
+2. System Architecture
+
+2.1 Web Interface
+
+Web-based frontend to:
+
+Set up email accounts (OAuth2 for Gmail, MS Graph for Exchange Online).
+
+Interact via voice or text with a natural language AI interface.
+
+Search and display individual emails or reconstructed threads.
+
+Modify rules, categories, and retention policies.
+
+2.2 Backend Services
+
+Python-based services:
+
+Email ingestion (IMAP/Graph API).
+
+Email parsing and deduplication.
+
+Attachment and HTML object extraction.
+
+Discrete storage of all components.
+
+Thread and group reconstruction.
+
+Categorization and rule application.
+
+2.3 Data Storage Structure
+
+File-based and indexed:
+
+Emails (1 record per email).
+
+Bodies (.bod or .hbod).
+
+Attachments (stored once).
+
+HTML objects (stored once).
+
+Disclaimers (stored once).
+
+Threads and email-groups.
+
+AI-generated categories, rules, and extracted knowledge.
+
+3. Data Schema
+
+3.1 Email
+
+Email.id
+
+from, to, cc, bcc
+
+attachments<list>
+
+format (text/html)
+
+date_sent, subject, body.id, html.id, thread.id
+
+categories<list>, priority, disclaimers<list>
+
+spam_score, read<list>, confidential
+
+retention_policy, rules<list>
+
+forwarded_emails<list>
+
+3.2 Attachments
+
+Attachments.id
+
+file_names<list>
+
+3.3 HTML Objects
+
+HTMLObjects.id
+
+file_names<list>
+
+3.4 Disclaimers
+
+Disclaimers.id
+
+text
+
+3.5 Bodies
+
+Bodies.id
+
+file (.bod or .hbod)
+
+disclaimers<list>
+
+3.6 Threads
+
+Thread.id
+
+emails<list>, date_started, last_date
+
+categories<list>, priority, rules<list>
+
+3.7 Contacts
+
+Contacts.id
+
+firstname, lastname, categories<list>
+
+priority, retention_policy, sent.ct, rec.ct
+
+3.8 Groups
+
+Group.id
+
+contacts<list>, categories<list>
+
+priority, threads<list>, retention_policy, sent.ct
+
+3.9 Domains
+
+Domains.id
+
+email_domain, categories<list>, priority
+
+retention_policy, rules<list>, sent.ct, rec.ct
+
+3.10 Rules
+
+Rules.id, type, targets, parameters, results, applied.ct
+
+Rule type prefixes:
+
+AI-assigned: a:
+
+User-assigned: u:
+
+Rule-based: r:
+
+3.11 Categories
+
+Categories.id
+
+name, parent_prop, child_prop, assigned.ct
+
+3.12 Keywords
+
+Keywords
+
+emails<list>, assigned.ct
+
+4. Processing and Extraction Pipeline
+
+4.1 Ingestion
+
+Pull emails using filters: date, recipient, sender, subject, keywords.
+
+Parse headers and content.
+
+4.2 Separation and Deduplication
+
+Extract embedded emails using From: headers and date markers.
+
+Use checksums for deduplication.
+
+Forwarded emails tracked via forwarded_emails field.
+
+4.3 Attachments and HTML
+
+Store attachments uniquely, reference in attachments<list>.
+
+Parse HTML, extract embedded objects (images, logos), store separately.
+
+Replace references in HTML with object links.
+
+4.4 Disclaimer Removal
+
+Detect common disclaimer patterns.
+
+Store only once, reference in emails.
+
+4.5 Thread and Group Reconstruction
+
+Generate email-group files from email sets.
+
+Store mappings in sorted order by date.
+
+5. AI Layer
+
+5.1 Category Assignment
+
+AI reviews 100 newest emails.
+
+Proposes categories and assigns.
+
+User edits categories and assignments.
+
+AI generates rules (sender, domain, subject, keywords).
+
+5.2 Ongoing Categorization
+
+New emails evaluated against existing rules.
+
+If unmatched, AI assigns or suggests new categories.
+
+Undefined category triggers user input and rule creation.
+
+5.3 Knowledge Extraction
+
+AI extracts addresses, phone numbers, events, facts.
+
+Stores them in structured Knowledge Base.
+
+6. Interface & Interaction
+
+6.1 Web UI
+
+Dashboard of threads and categories.
+
+Filters: sender, recipient, subject, date, keywords.
+
+Thread view and single email view.
+
+Rule editor and category management.
+
+6.2 AI Assistant
+
+Voice/text chat interface.
+
+User can:
+
+Create/edit categories or rules.
+
+Reconstruct threads.
+
+Query extracted facts.
+
+Search and display messages.
+
+7. Setup Program
+
+Creates directory structure:
+
+/emails/, /attachments/, /html-obj/, /bodies/, /disclaimers/, /threads/, /groups/, /rules/, /categories/
+
+Initializes Python virtual environment.
+
+Installs dependencies via pip.
+
+Sets up config files for email access credentials.
+
+8. Future Enhancements
+
+Add encryption and access control.
+
+Export/import rules and categories.
+
+Timeline view for email threads.
+
+Inline AI annotation of messages.
+
+Full voice-command navigation.
+
+End of Document
+
