@@ -88,8 +88,14 @@ def register_routes(app):
         else:
             # Initiate Gmail OAuth flow
             from email_services import start_gmail_oauth
-            auth_url = start_gmail_oauth()
-            return redirect(auth_url)
+            result = start_gmail_oauth()
+            
+            # Check if we got an error instead of an auth URL
+            if isinstance(result, dict) and result.get('error'):
+                return render_template('error.html', message=result['message'])
+                
+            # Otherwise, redirect to the authorization URL
+            return redirect(result)
     
     @app.route('/accounts/add/exchange', methods=['GET', 'POST'])
     def add_exchange_account():
@@ -104,8 +110,14 @@ def register_routes(app):
         else:
             # Initiate Exchange OAuth flow
             from email_services import start_exchange_oauth
-            auth_url = start_exchange_oauth()
-            return redirect(auth_url)
+            result = start_exchange_oauth()
+            
+            # Check if we got an error instead of an auth URL
+            if isinstance(result, dict) and result.get('error'):
+                return render_template('error.html', message=result['message'])
+                
+            # Otherwise, redirect to the authorization URL
+            return redirect(result)
     
     @app.route('/accounts/delete/<int:account_id>', methods=['POST'])
     def delete_account(account_id):

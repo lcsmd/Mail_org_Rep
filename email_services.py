@@ -32,7 +32,9 @@ MS_SCOPE = "https://outlook.office.com/IMAP.AccessAsUser.All https://outlook.off
 def start_gmail_oauth():
     """Start the OAuth2 flow for Gmail."""
     if not GMAIL_CLIENT_ID or not GMAIL_CLIENT_SECRET:
-        raise ValueError("Gmail client ID and secret must be configured")
+        logger.warning("Gmail client ID and secret not configured")
+        # Return a dictionary with error info instead of raising an exception
+        return {"error": True, "message": "Gmail client ID and secret must be configured. Please set the GMAIL_CLIENT_ID and GMAIL_CLIENT_SECRET environment variables."}
     
     auth_params = {
         "client_id": GMAIL_CLIENT_ID,
@@ -113,7 +115,9 @@ def get_gmail_user_email(access_token):
 def start_exchange_oauth():
     """Start the OAuth2 flow for Exchange Online."""
     if not MS_CLIENT_ID or not MS_CLIENT_SECRET:
-        raise ValueError("Microsoft client ID and secret must be configured")
+        logger.warning("Microsoft client ID and secret not configured")
+        # Return a dictionary with error info instead of raising an exception
+        return {"error": True, "message": "Microsoft client ID and secret must be configured. Please set the MS_CLIENT_ID and MS_CLIENT_SECRET environment variables."}
     
     auth_params = {
         "client_id": MS_CLIENT_ID,
