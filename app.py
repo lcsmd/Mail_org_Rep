@@ -82,8 +82,9 @@ def register_routes(app):
     @app.route('/accounts', methods=['GET'])
     def list_accounts():
         from models import EmailAccount
+        from datetime import datetime
         accounts = EmailAccount.query.all()
-        return render_template('accounts.html', accounts=accounts)
+        return render_template('accounts.html', accounts=accounts, now=datetime.utcnow())
     
     @app.route('/accounts/add/gmail', methods=['GET', 'POST'])
     def add_gmail_account():
