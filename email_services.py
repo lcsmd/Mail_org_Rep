@@ -13,10 +13,14 @@ from models import EmailAccount
 
 logger = logging.getLogger(__name__)
 
+# Replit domain for redirect URIs
+replit_dev_domain = os.environ.get("REPLIT_DEV_DOMAIN", "")
+replit_domain = f"https://{replit_dev_domain}" if replit_dev_domain else f"https://{os.environ.get('REPL_SLUG')}.{os.environ.get('REPL_OWNER')}.repl.co"
+
 # Google OAuth2 constants
 GMAIL_CLIENT_ID = os.environ.get("GMAIL_CLIENT_ID")
 GMAIL_CLIENT_SECRET = os.environ.get("GMAIL_CLIENT_SECRET")
-GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/gmail")
+GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", f"{replit_domain}/accounts/add/gmail")
 GMAIL_AUTH_URL = "https://accounts.google.com/o/oauth2/auth"
 GMAIL_TOKEN_URL = "https://oauth2.googleapis.com/token"
 GMAIL_SCOPE = "https://mail.google.com/"
@@ -24,7 +28,7 @@ GMAIL_SCOPE = "https://mail.google.com/"
 # Microsoft OAuth2 constants
 MS_CLIENT_ID = os.environ.get("MS_CLIENT_ID")
 MS_CLIENT_SECRET = os.environ.get("MS_CLIENT_SECRET")
-MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/exchange")
+MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", f"{replit_domain}/accounts/add/exchange")
 MS_AUTH_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize"
 MS_TOKEN_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/token"
 MS_SCOPE = "https://outlook.office.com/IMAP.AccessAsUser.All https://outlook.office.com/mail.read"
@@ -46,6 +50,11 @@ def start_gmail_oauth():
     }
     
     auth_url = f"{GMAIL_AUTH_URL}?{urllib.parse.urlencode(auth_params)}"
+    
+    # Log the auth URL for debugging
+    logger.info(f"Gmail OAuth URL: {auth_url}")
+    logger.info(f"Gmail Redirect URI: {GMAIL_REDIRECT_URI}")
+    
     return auth_url
 
 def process_gmail_oauth(request):
@@ -128,13 +137,23 @@ def start_exchange_oauth():
     }
     
     auth_url = f"{MS_AUTH_URL}?{urllib.parse.urlencode(auth_params)}"
+    
+    # Log the auth URL for debugging
+    logger.info(f"Exchange OAuth URL: {auth_url}")
+    logger.info(f"Redirect URI: {MS_REDIRECT_URI}")
+    
     return auth_url
 
 def process_exchange_oauth(request):
     """Process the OAuth2 callback for Exchange Online."""
     try:
+        # Log the request URL and args for debugging
+        logger.info(f"Processing Exchange OAuth callback. Request URL: {request.url}")
+        logger.info(f"Request args: {request.args}")
+        
         code = request.args.get('code')
         if not code:
+            logger.error("No authorization code received in the request")
             return {"success": False, "message": "Authorization code not received"}
         
         # Exchange code for access token
@@ -146,18 +165,25 @@ def process_exchange_oauth(request):
             "grant_type": "authorization_code"
         }
         
+        logger.info(f"Exchanging code for token with params: {token_params}")
+        
         response = requests.post(MS_TOKEN_URL, data=token_params)
         if response.status_code != 200:
+            logger.error(f"Token exchange failed. Status: {response.status_code}, Response: {response.text}")
             return {"success": False, "message": f"Token exchange failed: {response.text}"}
         
         token_data = response.json()
+        logger.info("Successfully exchanged code for token")
         
         # Get user email
+        logger.info("Getting user email from Microsoft Graph API")
         user_email = get_exchange_user_email(token_data["access_token"])
+        logger.info(f"User email: {user_email}")
         
         # Check if account already exists
         existing_account = EmailAccount.query.filter_by(email=user_email).first()
         if existing_account:
+            logger.info(f"Updating existing account for {user_email}")
             # Update tokens
             existing_account.access_token = token_data["access_token"]
             existing_account.refresh_token = token_data.get("refresh_token", existing_account.refresh_token)
@@ -166,6 +192,7 @@ def process_exchange_oauth(request):
             return {"success": True, "message": f"Updated access for {user_email}"}
         
         # Create new account
+        logger.info(f"Creating new account for {user_email}")
         new_account = EmailAccount(
             email=user_email,
             account_type="exchange",
@@ -177,11 +204,14 @@ def process_exchange_oauth(request):
         
         db.session.add(new_account)
         db.session.commit()
+        logger.info(f"Successfully added Exchange account: {user_email}")
         
         return {"success": True, "message": f"Added Exchange account: {user_email}"}
     
     except Exception as e:
         logger.error(f"Exchange OAuth error: {str(e)}")
+        import traceback
+        logger.error(f"Exchange OAuth error traceback: {traceback.format_exc()}")
         return {"success": False, "message": f"Error: {str(e)}"}
 
 def get_exchange_user_email(access_token):

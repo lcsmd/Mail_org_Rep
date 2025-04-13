@@ -14,11 +14,16 @@ class Config:
     # API keys and credentials
     GMAIL_CLIENT_ID = os.environ.get("GMAIL_CLIENT_ID")
     GMAIL_CLIENT_SECRET = os.environ.get("GMAIL_CLIENT_SECRET")
-    GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/gmail")
+    
+    # Use the development domain provided by Replit
+    replit_dev_domain = os.environ.get("REPLIT_DEV_DOMAIN", "")
+    replit_domain = f"https://{replit_dev_domain}" if replit_dev_domain else f"https://{os.environ.get('REPL_SLUG')}.{os.environ.get('REPL_OWNER')}.repl.co"
+    
+    GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", f"{replit_domain}/accounts/add/gmail")
     
     MS_CLIENT_ID = os.environ.get("MS_CLIENT_ID")
     MS_CLIENT_SECRET = os.environ.get("MS_CLIENT_SECRET")
-    MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/exchange")
+    MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", f"{replit_domain}/accounts/add/exchange")
     
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
     
