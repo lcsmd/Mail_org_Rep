@@ -37,22 +37,34 @@ MS_TOKEN_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/token"
 MS_SCOPE = "https://outlook.office.com/IMAP.AccessAsUser.All https://outlook.office.com/mail.read"
 
 # Print configuration information for debugging
-logger.info(f"GMAIL_CLIENT_ID: {'Set' if GMAIL_CLIENT_ID else 'Not set'}")
-logger.info(f"GMAIL_CLIENT_SECRET: {'Set' if GMAIL_CLIENT_SECRET else 'Not set'}")
+logger.info(f"GMAIL_CLIENT_ID: {GMAIL_CLIENT_ID[:10]}... (length: {len(GMAIL_CLIENT_ID)})" if GMAIL_CLIENT_ID else "GMAIL_CLIENT_ID: Not set")
+logger.info(f"GMAIL_CLIENT_SECRET: {GMAIL_CLIENT_SECRET[:5]}... (length: {len(GMAIL_CLIENT_SECRET)})" if GMAIL_CLIENT_SECRET else "GMAIL_CLIENT_SECRET: Not set")
 logger.info(f"GMAIL_REDIRECT_URI: {GMAIL_REDIRECT_URI}")
-logger.info(f"MS_CLIENT_ID: {'Set' if MS_CLIENT_ID else 'Not set'}")
-logger.info(f"MS_CLIENT_SECRET: {'Set' if MS_CLIENT_SECRET else 'Not set'}")
+
+# Print environment variables for debugging
+import os
+logger.info(f"GOOGLE_OAUTH_CLIENT_ID env var: {'Set with length '+str(len(os.environ.get('GOOGLE_OAUTH_CLIENT_ID', ''))) if os.environ.get('GOOGLE_OAUTH_CLIENT_ID') else 'Not set'}")
+logger.info(f"GOOGLE_OAUTH_CLIENT_SECRET env var: {'Set with length '+str(len(os.environ.get('GOOGLE_OAUTH_CLIENT_SECRET', ''))) if os.environ.get('GOOGLE_OAUTH_CLIENT_SECRET') else 'Not set'}")
+
+logger.info(f"MS_CLIENT_ID: {MS_CLIENT_ID[:10]}... (length: {len(MS_CLIENT_ID)})" if MS_CLIENT_ID else "MS_CLIENT_ID: Not set")
+logger.info(f"MS_CLIENT_SECRET: {MS_CLIENT_SECRET[:5]}... (length: {len(MS_CLIENT_SECRET)})" if MS_CLIENT_SECRET else "MS_CLIENT_SECRET: Not set")
 logger.info(f"MS_REDIRECT_URI: {MS_REDIRECT_URI}")
 
 def start_gmail_oauth():
     """Start the OAuth2 flow for Gmail."""
-    if not GMAIL_CLIENT_ID or not GMAIL_CLIENT_SECRET:
-        logger.warning("Gmail client ID and secret not configured")
+    # Get the OAuth client ID directly from environment variable
+    oauth_client_id = os.environ.get("GOOGLE_OAUTH_CLIENT_ID")
+    oauth_client_secret = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET")
+    
+    if not oauth_client_id or not oauth_client_secret:
+        logger.warning("Google OAuth client ID and secret not configured")
         # Return a dictionary with error info instead of raising an exception
-        return {"error": True, "message": "Gmail client ID and secret must be configured. Please set the GMAIL_CLIENT_ID and GMAIL_CLIENT_SECRET environment variables."}
+        return {"error": True, "message": "Google OAuth client ID and secret must be configured."}
+    
+    logger.info(f"Using direct Google OAuth Client ID: {oauth_client_id[:10]}...")
     
     auth_params = {
-        "client_id": GMAIL_CLIENT_ID,
+        "client_id": oauth_client_id,
         "redirect_uri": GMAIL_REDIRECT_URI,
         "response_type": "code",
         "scope": GMAIL_SCOPE,
@@ -71,14 +83,24 @@ def start_gmail_oauth():
 def process_gmail_oauth(request):
     """Process the OAuth2 callback for Gmail."""
     try:
+        # Get the OAuth client ID directly from environment variable
+        oauth_client_id = os.environ.get("GOOGLE_OAUTH_CLIENT_ID")
+        oauth_client_secret = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET")
+        
+        if not oauth_client_id or not oauth_client_secret:
+            logger.error("Google OAuth client ID and secret not found for callback")
+            return {"success": False, "message": "Google OAuth client ID and secret must be configured."}
+            
+        logger.info(f"Processing callback with direct Google OAuth Client ID: {oauth_client_id[:10]}...")
+        
         code = request.args.get('code')
         if not code:
             return {"success": False, "message": "Authorization code not received"}
         
         # Exchange code for access token
         token_params = {
-            "client_id": GMAIL_CLIENT_ID,
-            "client_secret": GMAIL_CLIENT_SECRET,
+            "client_id": oauth_client_id,
+            "client_secret": oauth_client_secret,
             "code": code,
             "redirect_uri": GMAIL_REDIRECT_URI,
             "grant_type": "authorization_code"
@@ -238,13 +260,23 @@ def get_exchange_user_email(access_token):
 def refresh_gmail_token(account):
     """Refresh the OAuth2 token for a Gmail account."""
     try:
+        # Get the OAuth client ID directly from environment variable
+        oauth_client_id = os.environ.get("GOOGLE_OAUTH_CLIENT_ID")
+        oauth_client_secret = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET")
+        
+        if not oauth_client_id or not oauth_client_secret:
+            logger.error("Google OAuth client ID and secret not found for refresh")
+            return False
+            
         if not account.refresh_token:
             logger.error(f"No refresh token for account {account.email}")
             return False
         
+        logger.info(f"Refreshing token with direct Google OAuth Client ID: {oauth_client_id[:10]}...")
+        
         token_params = {
-            "client_id": GMAIL_CLIENT_ID,
-            "client_secret": GMAIL_CLIENT_SECRET,
+            "client_id": oauth_client_id,
+            "client_secret": oauth_client_secret,
             "refresh_token": account.refresh_token,
             "grant_type": "refresh_token"
         }
