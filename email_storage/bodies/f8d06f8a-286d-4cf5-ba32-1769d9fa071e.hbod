@@ -1,0 +1,646 @@
+<html><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/><meta name="x-apple-disable-message-reformatting"/><meta content="IE=edge"/><meta content="date=no" name="format-detection"/><meta content="address=no" name="format-detection"/><meta content="telephone=no" name="format-detection"/><style>
+<!--
+.ReadMsgBody
+	{width:100%}
+.ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td
+	{line-height:100%}
+body
+	{width:100%!important;
+	margin:0;
+	padding:0}
+table
+	{border-collapse:collapse;
+	padding:0}
+table td
+	{border-collapse:collapse}
+p
+	{margin:0 auto;
+	text-align:center}
+*
+	{max-height:1000000px;
+	line-height:100%}
+@media only screen and (max-width: 418px) {
+.mobile
+	{width:414px!important;
+	height:auto!important}
+.block
+	{display:block!important}
+.hide
+	{display:none!important}
+.w20
+	{width:20px!important}
+.w262
+	{width:262px!important}
+.h20
+	{height:20px!important}
+.h34
+	{height:34px!important}
+.w-sm-auto_cta
+	{width:auto!important}
+.m-sm-button
+	{margin:auto 20px auto 10px}
+.f12
+	{font-size:12px}
+.f16
+	{font-size:16px}
+.f10
+	{font-size:10px!important;
+	line-height:12px!important}
+.f14
+	{font-size:14px!important;
+	line-height:16px!important}
+.f20
+	{font-size:20px!important;
+	line-height:22px!important}
+.p-sm-button
+	{padding:9px 13px 9px 13px!important}
+.py-sm-0
+	{padding-top:0px!important;
+	padding-bottom:0px!important}
+.py-sm-7
+	{padding-top:7px!important;
+	padding-bottom:7px!important}
+.px-sm-0
+	{padding-left:0px!important;
+	padding-right:0px!important}
+.px-sm-10
+	{padding-left:10px!important;
+	padding-right:10px!important}
+.px-sm-20
+	{padding-left:20px!important;
+	padding-right:20px!important}
+
+	}
+@media only screen and (min-width: 768px) {
+img
+	{max-width:100%!important}
+
+	}
+@media only screen and (min-width: 690px) {
+img
+	{max-width:690px}
+
+	}
+-->
+</style><style media="screen" type="text/css">
+<!--
+body
+	{padding:0!important;
+	margin:0 auto!important;
+	display:block!important;
+	min-width:100%!important;
+	width:100%!important;
+	background:#ffffff}
+@font-face
+	{font-family:"Lineto Brown Light Sub"}
+@font-face
+	{font-family:"Lineto Brown Sub"}
+@font-face
+	{font-family:"Lineto Brown Sub";
+	font-weight:400;
+	font-style:normal}
+@font-face
+	{font-family:"Lineto Brown Sub";
+	font-weight:600;
+	font-style:normal}
+@font-face
+	{font-family:GT Sectra;
+	font-weight:400;
+	font-style:normal}
+@font-face
+	{font-family:"HNW05";
+	font-weight:normal}
+@font-face
+	{font-family:"HNW05";
+	font-weight:lighter}
+@font-face
+	{font-family:"HNW05";
+	font-weight:bold}
+@font-face
+	{font-family:"HNW05";
+	font-style:italic}
+a
+	{color:#333333;
+	font-family:'Lineto Brown Light Sub',Helvetica,sans-serif}
+p
+	{padding:0!important;
+	margin:0!important}
+th
+	{font-weight:normal!important;
+	padding:0px!important}
+img
+	{}
+img
+	{border:0px!important}
+.appleLinksBlack a
+	{color:#000000!important;
+	font-family:'Lineto Brown Light Sub',Helvetica,sans-serif;
+	text-decoration:none}
+.appleLinksWhite a
+	{color:#ffffff!important;
+	font-family:'Lineto Brown Light Sub',Helvetica,sans-serif;
+	text-decoration:none}
+.appleLinksGray a
+	{color:#666666!important;
+	font-family:'Lineto Brown Light Sub',Helvetica,sans-serif;
+	text-decoration:none}
+.appleLinksGray2 a
+	{color:#333333!important;
+	font-family:'Lineto Brown Light Sub',Helvetica,sans-serif;
+	text-decoration:none}
+.appleLinksGray span span
+	{color:#666666!important;
+	font-family:'Lineto Brown Light Sub',Helvetica,sans-serif!important;
+	font-size:10px!important;
+	line-height:14px!important}
+.alt, .alt a
+	{color:#000000;
+	font-family:'Lineto Brown Light Sub',Helvetica,sans-serif;
+	font-size:12px;
+	line-height:14px;
+	text-align:left}
+.nobr
+	{white-space:nowrap!important}
+.sup
+	{font-size:0.6em!important;
+	line-height:0.8em!important}
+@media only screen and (max-device-width: 640px), only screen and (max-width: 640px) {
+.button-width
+	{width:20px!important}
+.center, .textCenter
+	{text-align:center!important}
+.column, .columnStack
+	{float:left!important;
+	width:100%!important;
+	display:block!important}
+.content-spacing
+	{width:10px!important}
+.fluid-img img, .photo img
+	{width:100%!important;
+	max-width:100%!important;
+	height:auto!important}
+.font-16
+	{font-size:16px!important;
+	line-height:20px!important}
+.font-16-center
+	{font-size:16px!important;
+	line-height:20px!important;
+	text-align:center!important}
+.font-20
+	{font-size:20px!important;
+	line-height:24px!important}
+.font-20-center
+	{font-size:20px!important;
+	line-height:24px!important;
+	text-align:center!important}
+.font-30
+	{font-size:30px!important;
+	line-height:34px!important}
+.font-30-center
+	{font-size:30px!important;
+	line-height:34px!important;
+	text-align:center!important}
+.hide-for-desktop, .showmobile
+	{display:block!important;
+	max-width:100%!important;
+	max-height:1000px!important;
+	visibility:visible!important;
+	opacity:1!important;
+	width:auto!important;
+	height:auto!important}
+.hide-for-mobile, .mobileHide
+	{display:none!important;
+	width:0!important;
+	height:0!important;
+	font-size:0!important;
+	line-height:0!important;
+	min-height:0!important}
+.left
+	{text-align:left!important}
+.mobile-logo
+	{height:37px!important;
+	width:68px!important}
+.mobile-shell, .contenttable
+	{width:100%!important;
+	width:100vw!important;
+	min-width:100%!important}
+.right
+	{text-align:right!important}
+.shrink
+	{width:0px!important}
+.text-button
+	{font-size:20px!important;
+	line-height:24px!important;
+	padding:0!important}
+.text-button a
+	{padding:15px 17px!important;
+	display:inline-block}
+.leftPad20
+	{padding-left:20px!important}
+.bottomPromo
+	{padding:10px 0px!important;
+	text-align:center!important;
+	border-top:solid 1px #cccccc!important;
+	border-left:solid 1px #cccccc!important;
+	border-right:solid 1px #cccccc!important}
+.nullPad
+	{padding:0px!important}
+.mobilePadding, .mobilePad
+	{padding-right:20px!important;
+	padding-left:20px!important}
+.mobilePad5
+	{padding-right:5px!important;
+	padding-left:5px!important;
+	padding-top:5px!important;
+	padding-bottom:5px!important}
+.contentCenter
+	{margin:0 auto!important}
+.noBorder
+	{border:none!important}
+.bottomBorder
+	{border-bottom:solid 1px #cccccc!important}
+.bottomBorderLONHead
+	{border-bottom:dotted 2px #5fa5cd!important}
+.bottomBorderCBHead
+	{border-bottom:solid 1px #e9e8e8!important}
+.noWidth
+	{width:auto!important}
+.flexibleGrid
+	{width:50%!important}
+.flexibleGrid table
+	{width:100%!important}
+
+	}
+-->
+</style><style type="text/css">
+<!--
+@media only screen and (max-device-width: 640px), only screen and (max-width: 640px) {
+.contenttable
+	{width:100%!important}
+.mobile-br-no, .mobile-br-0
+	{height:0px!important}
+.mobile-br-5
+	{height:5px!important}
+.mobile-br-10
+	{height:10px!important}
+.mobile-br-15
+	{height:15px!important}
+.mobile-br-20
+	{height:20px!important}
+.mobile-br-25
+	{height:25px!important}
+.mobile-br-30
+	{height:30px!important}
+.mobile-br-35
+	{height:35px!important}
+.mobile-br-40
+	{height:40px!important}
+.mobile-br-45
+	{height:45px!important}
+.mobile-br-50
+	{height:50px!important}
+.mobile-br-55
+	{height:55px!important}
+.mobile-br-70
+	{height:70px!important}
+.mobile-br-auto
+	{height:auto!important}
+.mobile-width-5
+	{width:5px!important}
+.mobile-width-10
+	{width:10px!important}
+.mobile-width-15
+	{width:15px!important}
+.mobile-width-20
+	{width:20px!important}
+.mobile-width-25
+	{width:25px!important}
+.mobile-width-30
+	{width:30px!important}
+.mobile-width-35
+	{width:35px!important}
+.mobile-width-40
+	{width:40px!important}
+.mobile-width-45
+	{width:45px!important}
+.mobile-width-50
+	{width:50px!important}
+.mobile-width-50
+	{width:55px!important}
+.mobile-width-60
+	{width:60px!important}
+.mobile-width-90
+	{width:90px!important}
+.mobile-width-120
+	{width:120px!important}
+.mobile-width-145
+	{width:145px!important}
+.mobile-width-165
+	{width:165px!important}
+.mobile-width-170
+	{width:170px!important}
+.mobile-width-180
+	{width:180px!important}
+.mobile-width-190
+	{width:190px!important}
+.mobile-width-210
+	{width:205px!important}
+.mobile-width-205
+	{width:205px!important}
+.mobile-width-220
+	{width:220px!important}
+.mobile-width-380
+	{width:380px!important}
+.mobile-width-410
+	{width:410px!important}
+.button-width
+	{width:20px!important}
+.center
+	{text-align:center!important}
+.contentCenter
+	{margin:0 auto!important}
+.responsive-tdNope
+	{width:100%!important;
+	display:block!important;
+	padding:0!important}
+.column, .columnStack, .drop
+	{display:block!important;
+	width:100%!important;
+	float:left;
+	clear:both}
+.content-spacing
+	{width:20px!important}
+.fluid-img img, .photo img
+	{width:100%!important;
+	max-width:100%!important;
+	height:auto!important}
+.fontSize16
+	{font-size:16px!important;
+	line-height:20px!important}
+.font-20
+	{font-size:20px!important;
+	line-height:24px!important}
+.font-20-center
+	{font-size:20px!important;
+	line-height:24px!important;
+	text-align:center!important}
+.hide-for-desktop, .showmobile
+	{display:block!important;
+	max-width:100%!important;
+	max-height:1000px!important;
+	visibility:visible!important;
+	opacity:1!important;
+	width:auto!important;
+	height:auto!important}
+.hide-for-mobile, .mobileHide, .mobile-hidden
+	{display:none!important;
+	width:0!important;
+	height:0!important;
+	font-size:0!important;
+	line-height:0!important;
+	min-height:0!important}
+.mobile-shell, .contenttable
+	{width:100%!important;
+	min-width:100%!important}
+.shrink
+	{width:0px!important}
+.text-button
+	{font-size:20px!important;
+	line-height:24px!important;
+	padding:0!important}
+.text-button a
+	{padding:15px 17px!important;
+	display:inline-block}
+.width120
+	{width:120px!important;
+	float:left!important}
+.leftPad20
+	{padding-left:20px!important}
+.bottomPromo
+	{padding:10px 0px!important;
+	text-align:center!important;
+	border-top:solid 1px #e9e8e8!important;
+	border-left:solid 1px #e9e8e8!important;
+	border-right:solid 1px #e9e8e8!important}
+.socialIcon
+	{width:33px!important;
+	height:auto!important}
+.socialPad
+	{width:10px!important}
+.fontSize07
+	{font-size:7px!important;
+	line-height:11px!important}
+.fontSize08
+	{font-size:8px!important;
+	line-height:12px!important}
+.fontSize09
+	{font-size:9px!important;
+	line-height:13px!important}
+.fontSize10
+	{font-size:10px!important;
+	line-height:14px!important}
+.fontSize11
+	{font-size:11px!important;
+	line-height:15px!important}
+.fontSize12
+	{font-size:12px!important;
+	line-height:16px!important}
+.fontSize13
+	{font-size:13px!important;
+	line-height:17px!important}
+.fontSize14
+	{font-size:14px!important;
+	line-height:18px!important}
+.fontSize15
+	{font-size:15px!important;
+	line-height:19px!important}
+.fontSize16
+	{font-size:16px!important;
+	line-height:20px!important}
+.fontSize17
+	{font-size:17px!important;
+	line-height:21px!important}
+.fontSize18
+	{font-size:18px!important;
+	line-height:22px!important}
+.fontSize19
+	{font-size:19px!important;
+	line-height:23px!important}
+.fontSize20
+	{font-size:20px!important;
+	line-height:24px!important}
+.fontSize21
+	{font-size:21px!important;
+	line-height:25px!important}
+.fontSize22
+	{font-size:22px!important;
+	line-height:26px!important}
+.fontSize23
+	{font-size:23px!important;
+	line-height:27px!important}
+.fontSize24
+	{font-size:24px!important;
+	line-height:28px!important}
+.fontSize25
+	{font-size:25px!important;
+	line-height:29px!important}
+.fontSize26
+	{font-size:26px!important;
+	line-height:30px!important}
+.fontSize27
+	{font-size:27px!important;
+	line-height:31px!important}
+.fontSize28
+	{font-size:28px!important;
+	line-height:32px!important}
+.fontSize29
+	{font-size:29px!important;
+	line-height:33px!important}
+.fontSize30
+	{font-size:30px!important;
+	line-height:34px!important}
+.NoHeight
+	{line-height:0px!important}
+.fontMobile
+	{font-family:Helvetica,Arial,sans-serif}
+.resetWrap
+	{white-space:normal!important}
+.resetWrapAddHyphen
+	{white-space:normal!important}
+.nullPad
+	{padding:0px!important}
+.mobilePadding, .mobilePad
+	{padding-right:20px!important;
+	padding-left:20px!important}
+.mobilePad5
+	{padding-right:5px!important;
+	padding-left:5px!important}
+.tp10
+	{padding-top:10px!important}
+.tp20, .topPad20
+	{padding-top:20px!important}
+.rp10
+	{padding-right:10px!important}
+.rp20
+	{padding-right:20px!important}
+.bp10
+	{padding-bottom:10px!important}
+.bp20, .bottomPad20
+	{padding-bottom:20px!important}
+.lp10
+	{padding-left:10px!important}
+.lp20
+	{padding-left:20px!important}
+.contentCenter
+	{margin:0 auto!important}
+.textCenter
+	{text-align:center!important}
+.noBorder
+	{border:none!important}
+.bottomBorder
+	{border-bottom:solid 1px #e9e8e8!important}
+.bottomBorderLONHead
+	{border-bottom:dotted 2px #e9e8e8!important}
+.bottomBorderCBHead
+	{border-bottom:solid 1px #e9e8e8!important}
+.noWidth
+	{width:auto!important}
+.noHeight
+	{height:0!important}
+.flexibleGrid
+	{width:50%!important}
+.flexibleGrid table
+	{width:100%!important}
+.noBold
+	{font-weight:300!important}
+.mobileAutoSize
+	{width:auto!important;
+	height:auto!important}
+
+	}
+@media only screen and (max-device-width: 560px), only screen and (max-width: 560px) {
+.mobileShow560
+	{display:block!important;
+	max-width:100%!important;
+	max-height:1000px!important;
+	visibility:visible!important;
+	opacity:1!important;
+	width:auto!important;
+	height:auto!important}
+.mobileHide560
+	{display:none!important;
+	width:0!important;
+	height:0!important;
+	font-size:0!important;
+	line-height:0!important;
+	min-height:0!important}
+.photo560 img
+	{width:100%!important;
+	max-width:100%!important;
+	height:auto!important}
+
+	}
+@media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+.mobileShow480
+	{display:block!important;
+	max-width:100%!important;
+	max-height:1000px!important;
+	visibility:visible!important;
+	opacity:1!important;
+	width:auto!important;
+	height:auto!important}
+.mobileHide480
+	{display:none!important;
+	width:0!important;
+	height:0!important;
+	font-size:0!important;
+	line-height:0!important;
+	min-height:0!important}
+.photo480 img
+	{width:100%!important;
+	max-width:100%!important;
+	height:auto!important}
+
+	}
+@media only screen and (max-device-width: 360px), only screen and (max-width: 360px) {
+.mobileShow360
+	{display:block!important;
+	max-width:100%!important;
+	max-height:1000px!important;
+	visibility:visible!important;
+	opacity:1!important;
+	width:auto!important;
+	height:auto!important}
+.mobileHide360
+	{display:none!important;
+	width:0!important;
+	height:0!important;
+	font-size:0!important;
+	line-height:0!important;
+	min-height:0!important}
+.photo360 img
+	{width:100%!important;
+	max-width:100%!important;
+	height:auto!important}
+
+	}
+-->
+</style><style type="text/css">
+<!--
+u ~ div .gmail-hide
+	{display:none}
+u ~ div .gmail-show
+	{display:block!important}
+-->
+</style><style type="text/css">
+<!--
+@media yahoo {
+.yahoo-hide
+	{display:none}
+.yahoo-show
+	{display:block!important}
+
+	}
+-->
+</style></head><body style="padding:0!important"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:690px" width="690"><tbody><tr><td valign="top"><table align="center" border="0" cellpadding="0" cellspacing="0" class="contenttable" role="presentation" width="690"><tbody><tr><td align="center" valign="top" width="690"><div style="font-family:verdana,arial; font-size:9px; color:#333333; line-height:13px; display:none!important"><div style="margin-bottom:1px">In-stock styles ship quick.</div><div style="display:none; font-size:1px; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden"> ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ </div></div></td></tr></tbody></table><table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="contenttable" width="100%"><tbody><tr><td align="center"><table align="center" border="0" cellpadding="0" cellspacing="0" class="contenttable" width="100%"><tbody><tr><td align="center" height="30" style="height:30px"> </td></tr><tr><td align="center"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef906bc39d41f3010fb9a77641dadbdecfd2c4a0d1c633434701e075dabb91de7cd74528412a6ff3716c0fade779ec730dbad9b35aac243ea080&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938815748%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=XdAc8PrtcIpQuz7a%2BrBJ1rqSO8g8WW%2Be5GPhGb6uyjA%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef906bc39d41f3010fb9a77641dadbdecfd2c4a0d1c633434701e075dabb91de7cd74528412a6ff3716c0fade779ec730dbad9b35aac243ea080" style="text-decoration:none!important"><img alt="CB2" border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/18/5ac6898a-92dc-4f7a-a6b4-53785b8e43b8.gif" style="display:block; padding:0px; text-align:center; border:0px; width:84px; height:auto" title="CB2" width="84"/> </a></td></tr><tr><td align="center" height="30" style="height:30px"> </td></tr></tbody></table></td></tr></tbody></table><table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="contenttable mobileHide" width="690"><tbody><tr><td align="center"><table border="0" cellpadding="0" cellspacing="0" class="mobileHide" width="100%"><tbody><tr><td width="25"></td><td align="center" style="padding-bottom:20px"><table cellpadding="0" cellspacing="0" style="margin:auto"><tbody><tr><td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90466e29ae22ef432edf81dfbaa9540f9f00d5ce4e85dd768ec483de581dadfcfc5a4f95f61f3ae9c6e95118394a1b3c8160b437b0da9e842d&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938839694%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=sK%2BwsexyZ62cpPud4x8Z2kwNMk7tsXo%2FMfDaDu%2B0wGk%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90466e29ae22ef432edf81dfbaa9540f9f00d5ce4e85dd768ec483de581dadfcfc5a4f95f61f3ae9c6e95118394a1b3c8160b437b0da9e842d" style="color:#333333; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:14px; line-height:18px; letter-spacing:-0.014em; text-align:center; text-decoration:none" target="_blank">NEW ARRIVALS </a></td><td align="center" width="33">|</td><td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef904d4ef2c7d74d00ffe5911a4139ba1513c26e01f60da4765181ef972c0a3045308f07dfffea231e022cce3eebed1453a4d6dbc45da6dbe807&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938855199%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=fJCvriCPNfkopmhzyl4dkdi3xBBmxaIOq%2B%2BMfgcdGOA%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef904d4ef2c7d74d00ffe5911a4139ba1513c26e01f60da4765181ef972c0a3045308f07dfffea231e022cce3eebed1453a4d6dbc45da6dbe807" style="color:#333333; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:14px; line-height:18px; letter-spacing:-0.014em; text-align:center; text-decoration:none" target="_blank">FURNITURE </a></td><td align="center" width="33">|</td><td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef909c1e0a6a5a5bc08198448fcf5c7269d02de29cdd9b2291e3647dc3fe9ea080d2fd5226730873b737fd68b1c53cf0302f54546c5bd6b3251f&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938870351%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=SjFv7SOjblZm%2FYkJRf%2BqcV8UehR91CtKVfvAm8t0pCs%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef909c1e0a6a5a5bc08198448fcf5c7269d02de29cdd9b2291e3647dc3fe9ea080d2fd5226730873b737fd68b1c53cf0302f54546c5bd6b3251f" style="color:#333333; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:14px; line-height:18px; letter-spacing:-0.014em; text-align:center; text-decoration:none" target="_blank">DECOR </a></td><td align="center" width="33">|</td><td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef902719f97e86a31b72bfde9a7a9d164f2e3701d784538dd3da880a0111c5cd96d77fe4e825053d6a464f6f60f153620b8887ed973f7ebeefbe&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938885788%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=JZ9BO8fanIoIg4p0vvYQ0UtMFV6HCFXuLTbxNVFc4RI%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef902719f97e86a31b72bfde9a7a9d164f2e3701d784538dd3da880a0111c5cd96d77fe4e825053d6a464f6f60f153620b8887ed973f7ebeefbe" style="color:#333333; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:14px; line-height:18px; letter-spacing:-0.014em; text-align:center; text-decoration:none" target="_blank">RUGS </a></td><td align="center" width="33">|</td><td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90dd9651235568db7a0495e40e5e14a254699222a72fa2f0ecd0d3f1ccf0c78f78b56947f71b54a2efe681650a111ce88c6ac02da7487962eb&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938901116%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=lmkBFDqXIt9r6ivNxp3FDPlrowJ9c0V4dpuSALXt7oE%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90dd9651235568db7a0495e40e5e14a254699222a72fa2f0ecd0d3f1ccf0c78f78b56947f71b54a2efe681650a111ce88c6ac02da7487962eb" style="color:#333333; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:14px; line-height:18px; letter-spacing:-0.014em; text-align:center; text-decoration:none" target="_blank">LIGHTING </a></td></tr></tbody></table></td><td width="25"></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td><table cellpadding="0" cellspacing="0" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td><table cellpadding="0" cellspacing="0" height="10" width="100%"><tbody><tr><td align="center" style="font-size:10px!important"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table cellpadding="0" cellspacing="0" height="10" width="100%"><tbody><tr><td align="center" style="font-size:10px!important"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="contenttable" width="690"><tbody><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef902c1151879a08f462e03604e06c0dd55a7ad80d896bda7254785ae8a8a6a81b730a74cc48c2c4d1c6f6d76d3a46856014e45064143ae9602880665b095cf1b8e2&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938916326%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=JWe4uvp%2B6FGRi4XLx%2FP%2BYk%2BZ%2FKgc%2FYrZsvJ9UGRyxlU%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef902c1151879a08f462e03604e06c0dd55a7ad80d896bda7254785ae8a8a6a81b730a74cc48c2c4d1c6f6d76d3a46856014e45064143ae9602880665b095cf1b8e2" style="text-decoration:none"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/34c53688-6489-4855-ba60-731d2fcbc813.jpg" style="display:block" width="100%"/> </a></td></tr></tbody></table></td></tr><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9042afed016ed0f25ff545324a14ea3cc1aa8c751b853a023056ae1ec442aacd2cc9d71b7a4a0d8de33b23b03146abd7062c5b1be96f4fdd501278c910c99b37fd&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938931698%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=BMfh7Ps6wAl2EJ6lZMxPOCmwlPyqicOjn7xGqPjhFf0%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9042afed016ed0f25ff545324a14ea3cc1aa8c751b853a023056ae1ec442aacd2cc9d71b7a4a0d8de33b23b03146abd7062c5b1be96f4fdd501278c910c99b37fd" style="text-decoration:none"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/d1d32b4c-e8d2-4260-a195-974ac758b344.jpg" style="display:block" width="100%"/> </a></td></tr></tbody></table></td></tr><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9092502f5e2a792d401b522001442449f75c1c45672f33f6fbba775bc4b6f4d2a4184409e40173c2319d3d9c6024240781a34a0470b631aac72174526f1b3b85f9&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938946950%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=24ObaLLMmDIJ0kn4K64jlQMkGOnEkxQ6Xh0u0dqMCtE%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9092502f5e2a792d401b522001442449f75c1c45672f33f6fbba775bc4b6f4d2a4184409e40173c2319d3d9c6024240781a34a0470b631aac72174526f1b3b85f9" style="text-decoration:none"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/6b33dd59-a4c3-4e3b-a6a7-766fb948b16a.jpg" style="display:block" width="100%"/> </a></td></tr></tbody></table></td></tr><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef906327210b45b883670ce72e14fa7cf05bf9b65082e203427b75d43103bf8704519f30a33973e41e4f72fffec5002643a8218d15a661828bf6f85e77e0b80dc22d&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938962082%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=lythzSttDYiYLsZY2iLkIGGaBV9AGwblbzXupvKFCWM%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef906327210b45b883670ce72e14fa7cf05bf9b65082e203427b75d43103bf8704519f30a33973e41e4f72fffec5002643a8218d15a661828bf6f85e77e0b80dc22d" style="text-decoration:none"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/77609672-fe5f-4012-a393-486cb2c67994.jpg" style="display:block" width="100%"/> </a></td></tr></tbody></table></td></tr><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9053e95bf5cbfdb8bfed00a31c999adcf1e2022635a28aef8cc0c9da3e2a08dbdfe0dee112aaebc1008558ad389bcb1a9dc572007c7c68f15f896089cf76cf58ba&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938977255%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=QP7Rhb%2FDx54O72rrqPYHJwqAe8jKNoPN1QSl%2FpVeM6U%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9053e95bf5cbfdb8bfed00a31c999adcf1e2022635a28aef8cc0c9da3e2a08dbdfe0dee112aaebc1008558ad389bcb1a9dc572007c7c68f15f896089cf76cf58ba" style="text-decoration:none"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/c1635b3b-5185-4be8-b477-672fd269a82d.jpg" style="display:block" width="100%"/> </a></td></tr></tbody></table></td></tr><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90d15b99fbc811cd3861a28ad07d059e63b9fd46f6f6ca1dd90ba28880251549d196b88b83f967d9d08a3da9aa04ed9facbdeecbdba8d10b1463e07ff5f55099b7&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967938993718%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=W%2FkQxObFTfuMrGZepXtU8ZVYrpDKi97CXqw7eCmMknI%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90d15b99fbc811cd3861a28ad07d059e63b9fd46f6f6ca1dd90ba28880251549d196b88b83f967d9d08a3da9aa04ed9facbdeecbdba8d10b1463e07ff5f55099b7" style="text-decoration:none"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/315cbdaf-03b6-4f8d-a2b2-dff61a036486.jpg" style="display:block" width="100%"/> </a></td></tr></tbody></table></td></tr><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef902a96b9a796e8f265973dd187d04498b40ae9a3a6bd346ea4df4f549d489f5be404e1065ba7d99d83cb3a182e1c8dc0b9438821367fe1de7e026db82d3149b436&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939009177%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=rBLMK5PUxvppucZ12NFCvNfviXOGhXPJeAlSvtved7I%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef902a96b9a796e8f265973dd187d04498b40ae9a3a6bd346ea4df4f549d489f5be404e1065ba7d99d83cb3a182e1c8dc0b9438821367fe1de7e026db82d3149b436" style="text-decoration:none"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/029bacef-d7c5-4070-8b16-cf0b2dfbc0f5.jpg" style="display:block" width="100%"/> </a></td></tr></tbody></table></td></tr><tr><td><table align="center" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" valign="top"><img border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/70485777-fe38-4e31-a5b2-29f4d7526e9f.jpg" style="display:block" width="100%"/> </td></tr></tbody></table></td></tr></tbody></table><table align="center" cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" cellpadding="0" cellspacing="0" class="mobile-br-20" height="70" width="100%"><tbody><tr><td align="center" style="font-size:10px!important">  </td></tr></tbody></table></td></tr></tbody></table><table align="center" border="0" cellpadding="0" class="contenttable" width="690"><tbody><tr><td class="mobileHide" width="20"></td><td align="center" class="tPad-20 bPad-0" style="vertical-align:top; padding-top:0; padding-bottom:20px" valign="top"><table bgcolor="#f7f7f7" border="0" cellpadding="0" class="contenttable" style="margin:auto" width="600"><tbody><tr><td class="mobile-width-20" width="40"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0" style="margin:auto"><tbody><tr><td style="padding-bottom:0px"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef905ee2d0647dfde2c7e604b2514c39a21c8f43767e47a61ff2b16b8865f320cba69daa95708bf53ef967a0745386013d5e358d694a852661fa&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939024359%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=kFlHyurzLRHZarGL%2Bn%2BDOTa8VzI5tB9OHHLmjReoUuw%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef905ee2d0647dfde2c7e604b2514c39a21c8f43767e47a61ff2b16b8865f320cba69daa95708bf53ef967a0745386013d5e358d694a852661fa" style="text-decoration:none!important"><img alt="one easy app" border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/31d12abd-0fe7-4daa-8e9c-777211d864cf.png" style="display:block; padding:0px; border:0px" title="one easy app"/> </a></td></tr></tbody></table></td><td class="mobile-width-20" width="40"></td><td class="mobile-width-20" width="30"></td><td class="mobile-width-170" valign="top" width="240"><table border="0" cellpadding="0" style="margin:auto"><tbody><tr><td class="mobileAutoSize bPad-0" style="padding-bottom:0px"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90c98348933a0877fa4e86b45a7ae9f01507f83b63006333f6dd3c2c08cad9a1e89172da9b0744c0ce8171694216e1211d0ff23f49d382ae04&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939039570%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=RusJWwh1HraN8NYtELb0SfTHMllnu%2FVrAfqS3J1qxng%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90c98348933a0877fa4e86b45a7ae9f01507f83b63006333f6dd3c2c08cad9a1e89172da9b0744c0ce8171694216e1211d0ff23f49d382ae04" style="text-decoration:none!important"><img alt="Earn 10% Back*" border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/c3d7874f-daf4-4414-a6a6-315fbeb49c1f.png" style="display:block; padding:0px; border:0px" title="Earn 10% Back*"/> </a></td></tr></tbody></table></td><td class="mobile-width-20" width="30"></td></tr><tr><td class="mobile-width-20" width="40"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center" style="padding-bottom:10px"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef905ee2d0647dfde2c7e604b2514c39a21c8f43767e47a61ff2b16b8865f320cba69daa95708bf53ef967a0745386013d5e358d694a852661fa&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939054727%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=WG9%2BlzX2Pmip%2B00%2BG3PefRcJ27wKQF8vMXdyVA140AM%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef905ee2d0647dfde2c7e604b2514c39a21c8f43767e47a61ff2b16b8865f320cba69daa95708bf53ef967a0745386013d5e358d694a852661fa" style="font-size:17px; line-height:27px; letter-spacing:0.08em; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:bold; color:#000; border:0; text-decoration:none; text-align:center">ONE EASY APP</a> </td></tr></tbody></table></td><td class="mobile-width-20" style="border-right:1px solid #cecece" width="40"></td><td class="mobile-width-20" width="30"></td><td class="mobile-width-170" valign="top" width="240"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center" style="padding-bottom:10px"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90c98348933a0877fa4e86b45a7ae9f01507f83b63006333f6dd3c2c08cad9a1e89172da9b0744c0ce8171694216e1211d0ff23f49d382ae04&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939070137%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=4CqqH4FLfPBa1wOCDGILLjtsfAOY1h8WjPovVcGKM0Y%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90c98348933a0877fa4e86b45a7ae9f01507f83b63006333f6dd3c2c08cad9a1e89172da9b0744c0ce8171694216e1211d0ff23f49d382ae04" style="font-size:17px; letter-spacing:0.08em; line-height:27px; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:bold; color:#000; border:0; text-decoration:none; text-align:center">EARN 10% BACK<sup style="font-size:10px; line-height:0px!important">*</sup></a> </td></tr></tbody></table></td><td class="mobile-width-20" width="30"></td></tr><tr><td class="mobile-width-20" width="40"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90e7d20acd8c0ca8b073373e350ffd83ef42843e273b23aa5e41d174e8fad9e730ebf5a90de11992ba441fb1bfe4c641513fb11dc6db0d8bf7&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939085402%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=dGhXcNid5bM3%2BsnRIYUvtGbPZ8k0cs2%2F%2F0m6mc9oP4A%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90e7d20acd8c0ca8b073373e350ffd83ef42843e273b23aa5e41d174e8fad9e730ebf5a90de11992ba441fb1bfe4c641513fb11dc6db0d8bf7" style="text-decoration:none!important"><span style="font-size:17px; line-height:27px; letter-spacing:0.01em; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:normal; color:#000">Shop the entire CB2 collection, build your registry and more. </span></a></td></tr></tbody></table></td><td class="mobile-width-20" style="border-right:1px solid #cecece" width="40"></td><td class="mobile-width-20" width="30"></td><td class="mobile-width-170" valign="top" width="240"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9015718bb1463976dbbe93d119007de1ba366c4b6cff755b605e9f4a13b24cf69996829dfc5386378417fe740d3c4dbb4316f5cd7fc667983e&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939100654%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=ySZZAP8JuD7w43Oo1DsbxhEZSwViSp42fVcLJTfMDqo%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9015718bb1463976dbbe93d119007de1ba366c4b6cff755b605e9f4a13b24cf69996829dfc5386378417fe740d3c4dbb4316f5cd7fc667983e" style="text-decoration:none!important"><span style="font-size:17px; line-height:27px; letter-spacing:0.01em; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:normal; color:#000">in Rewards Dollars every day on purchases at CB2 and Crate &amp; Barrel.</span> </a></td></tr></tbody></table></td><td class="mobile-width-20" width="30"></td></tr><tr><td style="height:10px"></td></tr><tr><td class="mobile-width-20" width="40"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0" style="margin:auto"><tbody><tr><td style="padding-bottom:0px"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef908061c89c66b8c1a6aad4bf09aeb269219349053a2a8220686d52c66e651e7664a4cd99893af9f3569d521d1fa6bd490f66c942ee90597ff8&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939116269%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=FbRSFLDAZWTYB9Anl79nhd0BXVPGUR2JmA87HBhww%2F8%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef908061c89c66b8c1a6aad4bf09aeb269219349053a2a8220686d52c66e651e7664a4cd99893af9f3569d521d1fa6bd490f66c942ee90597ff8" style="text-decoration:none!important"><img alt="Let's Celebrate" border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/2ac17fca-484f-4143-b2e4-f0a9147338f3.png" style="display:block; padding:0px; border:0px" title="Let's Celebrate"/> </a></td></tr></tbody></table></td><td class="mobile-width-20" width="40"></td><td class="mobile-width-20" width="30"></td><td class="mobile-width-170" valign="top" width="240"><table border="0" cellpadding="0" style="margin:auto"><tbody><tr><td class="mobileAutoSize bPad-0" style="padding-bottom:0px"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90667873f0190b536abcfb3f3f3b34069de3e99072074cdbc0322d6d62dc916ea454e686ba3ed6279979472f0ed7a5aa79fb9c2f7332ac9b1f&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939131799%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=%2BBEmtLxbGmVzqc9tIo73GSRnC13yGAF5YV4svpjgZn8%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90667873f0190b536abcfb3f3f3b34069de3e99072074cdbc0322d6d62dc916ea454e686ba3ed6279979472f0ed7a5aa79fb9c2f7332ac9b1f" style="text-decoration:none!important"><img alt="Get 15% Off" border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/c70b3d48-8226-4f02-87c7-022902ec921b.png" style="display:block; padding:0px; border:0px" title="Get 15% Off"/> </a></td></tr></tbody></table></td><td class="mobile-width-20" width="30"></td></tr><tr><td class="mobile-width-20" width="40"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center" style="padding-bottom:0px"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef908061c89c66b8c1a6aad4bf09aeb269219349053a2a8220686d52c66e651e7664a4cd99893af9f3569d521d1fa6bd490f66c942ee90597ff8&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939148485%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=imKbkT6yD2VIVlOOVHI%2B8SMd4k2YPeS4b51AZrPlFtM%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef908061c89c66b8c1a6aad4bf09aeb269219349053a2a8220686d52c66e651e7664a4cd99893af9f3569d521d1fa6bd490f66c942ee90597ff8" style="font-size:17px; line-height:27px; letter-spacing:0.08em; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:bold; color:#000; border:0; text-decoration:none; text-align:center">LET'S CELEBRATE</a> </td></tr></tbody></table></td><td class="mobile-width-20" style="border-right:1px solid #cecece" width="40"></td><td class="mobile-width-20" width="30"></td><td class="mobile-width-170" valign="top" width="240"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center" style="padding-bottom:0px"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90048300eaef13a6217c10fccdd46333c76f93b53e63713488ff664341e7a3b643e55d50b8bb5ccaa01abf2e917c0b91c208fbc18f9d2a2ded&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939164883%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=klLMdSW1xQK6WNbjt%2F40Xi2FKfZQ2CU8I7%2Ft1GEmfQs%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90048300eaef13a6217c10fccdd46333c76f93b53e63713488ff664341e7a3b643e55d50b8bb5ccaa01abf2e917c0b91c208fbc18f9d2a2ded" style="font-size:17px; letter-spacing:0.08em; line-height:27px; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:bold; color:#000; border:0; text-decoration:none; text-align:center">GET 15% OFF<sup style="font-size:10px; line-height:0px!important">‡</sup></a> </td></tr></tbody></table></td><td class="mobile-width-20" width="30"></td></tr><tr><td class="mobile-width-20" width="40"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef908e49be39c3b9ca15d658df11e6430ff8800f6c3491020e7d856a5d97e76415732cb4f284688e193d82ff0548bc0e44bedee21f9ef89752b8&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939180388%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=75tBWItk8WsQcT%2F7YRyfsqlbpX5OTNhkhix0j0ohTdc%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef908e49be39c3b9ca15d658df11e6430ff8800f6c3491020e7d856a5d97e76415732cb4f284688e193d82ff0548bc0e44bedee21f9ef89752b8" style="text-decoration:none!important"><span style="font-size:17px; line-height:27px; letter-spacing:0.01em; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:normal; color:#000">A gift list for weddings, housewarmings and parties in between.</span> </a></td></tr></tbody></table></td><td class="mobile-width-20" style="border-right:1px solid #cecece" width="40"></td><td class="mobile-width-20" width="30"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0" style="width:100%"><tbody><tr><td align="center"><a border="0" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9058328e1398c8e381f181ef072c2346dc6c3d5c0a6a9b0be6f808f7343293deb93ddd8d98fa3c345f6c8368bc0578042a6075966bb37bd42a&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939195979%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=ngk%2BsgtZv3nBHjJT9AshVPtS1hSnlmumioQM7%2BKd4r0%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9058328e1398c8e381f181ef072c2346dc6c3d5c0a6a9b0be6f808f7343293deb93ddd8d98fa3c345f6c8368bc0578042a6075966bb37bd42a" style="text-decoration:none!important"><span style="font-size:17px; line-height:27px; letter-spacing:0.01em; font-family:'Lineto Brown Sub',Verdana,sans-serif; font-weight:normal; color:#000">when you sign up for texts to stay in the know on all things CB2.</span> </a></td></tr></tbody></table></td><td class="mobile-width-20" width="30"></td></tr><tr><td class="mobile-width-20" width="40"></td><td class="mobile-width-170" valign="top" width="230"><table border="0" cellpadding="0"><tbody><tr><td align="left" class="mobile-br-40" height="40"></td></tr></tbody></table></td><td class="mobile-width-20" width="40"></td><td class="mobile-width-20" width="30"></td><td class="mobile-width-170" width="240"></td><td class="mobile-width-20" width="30"></td></tr></tbody></table></td><td class="mobileHide" width="20"></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="contenttable showmobile" style="display:none; overflow:hidden"><tbody><tr><td width="690"><table bgcolor="#f7f7f7" border="0" cellpadding="0" class="contenttable" width="690"><tbody><tr><td align="center" class="mobile-width-20" valign="middle" width="20"></td><td align="center" style="padding:22px 0px 16px 0px; border-bottom:solid 1px #e6e6e7" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef905e5069c566d6cc8b726962de9b27fa5e70a057e3e4354be3d559c0bb560200bd61b3b5290087327357555f063bec24b7ff90d18ca18529b6&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939307953%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=Mkj%2FbH02N5bTfWba8eKb6UN9ugCeUf1rd%2Bq6weqEB50%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef905e5069c566d6cc8b726962de9b27fa5e70a057e3e4354be3d559c0bb560200bd61b3b5290087327357555f063bec24b7ff90d18ca18529b6" style="font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:15px; letter-spacing:0.08em; color:#000; text-decoration:none; text-transform:uppercase">NEW ARRIVALS</a> </td><td align="center" class="mobile-width-20" valign="middle" width="20"></td></tr><tr><td align="center" class="mobile-width-20" valign="middle" width="20"></td><td align="center" style="padding:22px 0px 16px 0px; border-bottom:solid 1px #e6e6e7" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9020e4b5745ed4fe26e4ae656bac9e112d822dbcc1b21e5b55af0fda245c0c887b675de6f2a7cad9913e8805406040c7efbe6b650ec5eb24b4&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939323368%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=j9i0N8sQ2jTtBcqJjjrm0v7pM7Fv2n7b2ANqkgEUBKA%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9020e4b5745ed4fe26e4ae656bac9e112d822dbcc1b21e5b55af0fda245c0c887b675de6f2a7cad9913e8805406040c7efbe6b650ec5eb24b4" style="font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:15px; letter-spacing:0.08em; color:#000; text-decoration:none; text-transform:uppercase">FURNITURE</a> </td><td align="center" class="mobile-width-20" valign="middle" width="20"></td></tr><tr><td align="center" class="mobile-width-20" valign="middle" width="20"></td><td align="center" style="padding:22px 0px 16px 0px; border-bottom:solid 1px #e6e6e7" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9077c2c249f81f93ac33927a285be141c6b5d615e56a124d5e5473385a1fb5da25bb7531702dd85afedf031d3fb6922d39007271bac16a0726&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939339292%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=Wwcga9g6jQRWMrWKxygX%2BcLmsn9c15zKVYA3rYuYQWI%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9077c2c249f81f93ac33927a285be141c6b5d615e56a124d5e5473385a1fb5da25bb7531702dd85afedf031d3fb6922d39007271bac16a0726" style="font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:15px; letter-spacing:0.08em; color:#000; text-decoration:none; text-transform:uppercase">DECOR</a> </td><td align="center" class="mobile-width-20" valign="middle" width="20"></td></tr><tr><td align="center" class="mobile-width-20" valign="middle" width="20"></td><td align="center" style="padding:22px 0px 16px 0px; border-bottom:solid 1px #e6e6e7" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef904ff61d3a3415c2dcd22ada422c6e95ded21b10e9b6eec1155fe969b3be18b8e5fc04f466bebc20b6867c3ba1b17498d4fc06943f9e80590f&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939354189%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=n3SvDOHmZlPYjK5QmvrsPZYv0IrGaUrUL6iI69O6or4%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef904ff61d3a3415c2dcd22ada422c6e95ded21b10e9b6eec1155fe969b3be18b8e5fc04f466bebc20b6867c3ba1b17498d4fc06943f9e80590f" style="font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:15px; letter-spacing:0.08em; color:#000; text-decoration:none; text-transform:uppercase">RUGS</a> </td><td align="center" class="mobile-width-20" valign="middle" width="20"></td></tr><tr><td align="center" class="mobile-width-20" valign="middle" width="20"></td><td align="center" style="padding:22px 0px 16px 0px; border-bottom:solid 1px #e6e6e7" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90d60c6e2939c5b95bfdf187101bf9c1f66546f74e29fd2d6ca301242ac1f9fbe7ca96b6a16b207aae73a416b77a77f4f851789200ccd729ff&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939369044%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=fx9jlzrUW%2Fy2aI9EZvNOjtp6r2hcYFgp6gHX9AWZL8A%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90d60c6e2939c5b95bfdf187101bf9c1f66546f74e29fd2d6ca301242ac1f9fbe7ca96b6a16b207aae73a416b77a77f4f851789200ccd729ff" style="font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:15px; letter-spacing:0.08em; color:#000; text-decoration:none; text-transform:uppercase">LIGHTING</a> </td><td align="center" class="mobile-width-20" valign="middle" width="20"></td></tr><tr><td align="center" class="mobile-width-20" valign="middle" width="20"></td><td align="center" style="padding:22px 0px 16px 0px; border-bottom:solid 1px #e6e6e7" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef909f9cf00908a722340e66a9e9c153645b2683b970718f20a96d87c921d704932b0254035864f3f96feb443899157f078b01b996e24bfc9a56&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939384153%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=GY%2ByD3%2B82iLnrVhPwQQ3k2zU6Z6xwsmo4CJ51B2vrJY%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef909f9cf00908a722340e66a9e9c153645b2683b970718f20a96d87c921d704932b0254035864f3f96feb443899157f078b01b996e24bfc9a56" style="font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:15px; letter-spacing:0.08em; color:#000; text-decoration:none; text-transform:uppercase">BEDDING &amp; BATH</a> </td><td align="center" class="mobile-width-20" valign="middle" width="20"></td></tr></tbody></table></td></tr></tbody></table><table align="center" bgcolor="#f7f7f7" border="0" cellpadding="0" class="contenttable" height="90" style="color:#e6e6e7; height:90px" width="690"><tbody><tr><td class="mobile-width-20" width="120"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef905ded540cce6173800a34d6cbd559bc43808debe7f29975aa48e477202a5814807dbec183c011aee4c398c18a6e86061dbd46282f7a5f1122&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939399878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=5rNx5B0mrpcNBMnLXjFgALGsfekStjCV%2BwnoY9YTFDw%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef905ded540cce6173800a34d6cbd559bc43808debe7f29975aa48e477202a5814807dbec183c011aee4c398c18a6e86061dbd46282f7a5f1122" style="text-decoration:none; color:#000" title="Follow us"><i style="font-size:18px; line-height:18px; font-weight:normal; font-family:Georgia,Times,'Times New Roman',serif; letter-spacing:-0.01em">Follow us </i><b style="font-size:15px; line-height:15px; font-weight:bold; font-family:'HNW05','Helvetica Neue',Helvetica,Arial,sans-serif; letter-spacing:0.1em">@CB2 </b></a></td><td width="30"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90ba28127a7367948e7ea797db8f328ecd7082806a30636a1a71c25e64803f9577d7cc11b3d2a2fdfd8538b45484c6aab5c603e5284ecc1841&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939415335%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=S1mgyJkvDA6UphurEp1ptZ5dBBoRHU9T7%2FNeyMjnc1k%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90ba28127a7367948e7ea797db8f328ecd7082806a30636a1a71c25e64803f9577d7cc11b3d2a2fdfd8538b45484c6aab5c603e5284ecc1841" target="_blank" title="Instagram"><img alt="Instagram" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/c099a7dc-af56-4219-aabf-2ca7cbb5e569.png" style="display:block"/> </a></td><td width="30"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef900be9f12bd1f0a679b366948f76ccdab877932e850fc053c74d1af6c34675c1c87edf82b8099522c62be21726d2608e106e5ba6234b617963&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939431407%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=myX%2B55Q7Ym%2BBUt67IRvAGuo4DtmxZrz5SyUhewW4IJI%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef900be9f12bd1f0a679b366948f76ccdab877932e850fc053c74d1af6c34675c1c87edf82b8099522c62be21726d2608e106e5ba6234b617963" target="_blank" title="TikTok"><img alt="TikTok" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/69dfb07c-edcb-44b2-b554-842888cd09e6.png" style="display:block"/> </a></td><td width="30"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90821dce303b3bc8e27eb388fb8e8e8886eaad11af74f5283df54b92915ab2bbc3e149a959e5bbede4525acd4dbe0c66951f2aa56a3fa564a7&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939447016%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=uQ%2Bv2ni9Eq0zQXSoVEerbhNGqZRhSglRkCuTmy%2B6kjg%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90821dce303b3bc8e27eb388fb8e8e8886eaad11af74f5283df54b92915ab2bbc3e149a959e5bbede4525acd4dbe0c66951f2aa56a3fa564a7" target="_blank" title="Pinterest"><img alt="Pinterest" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/c7976a8f-b186-4ca2-93fd-383a05922f18.png" style="display:block"/> </a></td><td width="30"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90606414c3f2053e437a44bef7d08a32de4bc0aa72d5c587bd6f668a5a08e8807fb201aa15747cb6df767cc4ae670257a713f3574fc358ee1b&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939464621%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=PBO6H0lJcKgvk3XgPRl8%2Fh7t7Em1ccz4bS%2BPsGqyDlM%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90606414c3f2053e437a44bef7d08a32de4bc0aa72d5c587bd6f668a5a08e8807fb201aa15747cb6df767cc4ae670257a713f3574fc358ee1b" target="_blank" title="Facebook"><img alt="Facebook" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/39056c92-7299-455d-8440-054d750a6886.png" style="display:block"/> </a></td><td class="mobile-width-20" width="120"></td></tr></tbody></table><table bgcolor="#f7f7f7" border="0" cellpadding="0" class="contenttable mobileHide" width="690"><tbody><tr><td class="mobileHide" width="40"></td><td align="left" class="mobileHide" height="10" style="border-top:solid 1px #e6e6e7"></td><td class="mobileHide" width="40"></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="center"><table bgcolor="#f7f7f7" border="0" cellpadding="0" class="mobileHide" width="690"><tbody><tr><td align="center" height="35" valign="top">  </td></tr><tr><td class="mobile-width-20" width="40"></td><td align="left" valign="middle" width="110"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90751a7b1fd8143bfc2a8a057a40fbe8fae6f2ebba9b200fc31a51b3c6f5cb14b002ecfbc7d0ef2471ce1f8763ba5e926ed82f89fe3e6357f4&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939480782%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=63ZtZ4T0cLF1yxBY%2BrhGVaQdUMLBLF1enj2wviCI2ZU%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90751a7b1fd8143bfc2a8a057a40fbe8fae6f2ebba9b200fc31a51b3c6f5cb14b002ecfbc7d0ef2471ce1f8763ba5e926ed82f89fe3e6357f4" target="_blank" title="CB2"><img alt="CB2" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/febb91f9-90b3-4759-b672-29fc31aad5cf.png" style="display:block"/> </a></td><td align="left" valign="middle" width="210"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9049368a753d0fd5054187818927c19352ba4cf775b0028d931ad9cdd157f7fcb6f2645b1ec2d8b28717eb811f2ce9e8cb188a470d72b13e1f&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939496156%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=dQ5tvuEvYs0zziDRVbAi%2BSh%2BkZXg8j%2FHZPIZ4z0Oz1A%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9049368a753d0fd5054187818927c19352ba4cf775b0028d931ad9cdd157f7fcb6f2645b1ec2d8b28717eb811f2ce9e8cb188a470d72b13e1f" target="_blank" title="Crate and Barrel"><img alt="Crate and Barrel" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/090a20d0-fdab-408a-8c76-8eee17af1af7.png" style="display:block"/> </a></td><td align="left" valign="middle" width="190"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90220613fd63ae3174970ec21950624a4d9ff0dd0ef7fe344fc85099fbfd7e57b29436df5d57eb93a8dc9f9d76b421a08a999ff1393805e996&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939511584%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=DhvTohBV8dQms6qXRshVMgiKqKjQBIfK36Rx923GRO8%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90220613fd63ae3174970ec21950624a4d9ff0dd0ef7fe344fc85099fbfd7e57b29436df5d57eb93a8dc9f9d76b421a08a999ff1393805e996" target="_blank" title="Crate and Kids"><img alt="Crate and Kids" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/91e6ad53-7833-4fe5-bb98-8ba978eed0f8.png" style="display:block"/> </a></td><td align="right" valign="middle" width="50"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90753e9da26d6285638bb02ca5b272581b841377dda98ce17dbc4a42d5e5d574cdb954ec53855a13aa9c4d8999d91740b5a253097a644c54fb&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939527370%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=295NpV7r%2BuZ1xIIwb%2BaeAJ4ozZK%2FyZnSOFIISDu9%2FDY%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90753e9da26d6285638bb02ca5b272581b841377dda98ce17dbc4a42d5e5d574cdb954ec53855a13aa9c4d8999d91740b5a253097a644c54fb" target="_blank" title="Hudson Grace"><img alt="Hudson Grace" border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/692486db-011a-49ae-bfc7-08a9f3bec434.png" style="display:block"/> </a></td><td class="mobile-width-20" width="40"></td></tr><tr><td height="34"></td></tr></tbody></table><div class="showmobile" style="display:none; max-height:0; max-width:0; visibility:hidden; overflow:hidden; width:0; height:0"><div bgcolor="#f7f7f7" style="width:100%; background-color:#f7f7f7"><table bgcolor="#f7f7f7" border="0" cellpadding="0" cellspacing="0" style="width:100%!important"><tbody><tr><td align="center" height="35" valign="top">  </td></tr><tr><td width="86"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90751a7b1fd8143bfc2a8a057a40fbe8fae6f2ebba9b200fc31a51b3c6f5cb14b002ecfbc7d0ef2471ce1f8763ba5e926ed82f89fe3e6357f4&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939543332%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=%2F2O1lMaJMIhaOhip4KEb4Vpfi3b6dGgIM6%2F0l2gT4CM%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90751a7b1fd8143bfc2a8a057a40fbe8fae6f2ebba9b200fc31a51b3c6f5cb14b002ecfbc7d0ef2471ce1f8763ba5e926ed82f89fe3e6357f4" target="_blank" title="CB2"><img alt="CB2" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/febb91f9-90b3-4759-b672-29fc31aad5cf.png" style="display:block"/> </a></td><td width="30"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9049368a753d0fd5054187818927c19352ba4cf775b0028d931ad9cdd157f7fcb6f2645b1ec2d8b28717eb811f2ce9e8cb188a470d72b13e1f&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939558661%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=6ld3J9BfCqmzj16uEqCVYwJ2rBd4tGEBqy5XZk2jtuY%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9049368a753d0fd5054187818927c19352ba4cf775b0028d931ad9cdd157f7fcb6f2645b1ec2d8b28717eb811f2ce9e8cb188a470d72b13e1f" target="_blank" title="Crate and Barrel"><img alt="Crate and Barrel" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/090a20d0-fdab-408a-8c76-8eee17af1af7.png" style="display:block"/> </a></td><td width="83"></td></tr></tbody></table><table bgcolor="#f7f7f7" border="0" cellpadding="0" cellspacing="0" style="width:100%!important"><tbody><tr><td height="16"></td></tr><tr><td width="110"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90220613fd63ae3174970ec21950624a4d9ff0dd0ef7fe344fc85099fbfd7e57b29436df5d57eb93a8dc9f9d76b421a08a999ff1393805e996&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939573784%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=gwHNvSAkxTEhQXMAdyOz0s5h3rHlifzZDxRza%2BEanP8%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90220613fd63ae3174970ec21950624a4d9ff0dd0ef7fe344fc85099fbfd7e57b29436df5d57eb93a8dc9f9d76b421a08a999ff1393805e996" target="_blank" title="Crate and Kids"><img alt="Crate and Kids" border="0" src="https://image.mail.crateandbarrel.com/lib/fe9013727564027a7c/m/56/91e6ad53-7833-4fe5-bb98-8ba978eed0f8.png" style="display:block"/> </a></td><td width="21"></td><td align="center" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90753e9da26d6285638bb02ca5b272581b841377dda98ce17dbc4a42d5e5d574cdb954ec53855a13aa9c4d8999d91740b5a253097a644c54fb&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939589158%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=28qjn%2FFWFl01KA2jC2jDqQUkS9SkO2tQbWycQzhXxZw%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90753e9da26d6285638bb02ca5b272581b841377dda98ce17dbc4a42d5e5d574cdb954ec53855a13aa9c4d8999d91740b5a253097a644c54fb" target="_blank" title="Hudson Grace"><img alt="Hudson Grace" border="0" src="https://image.mail.cb2.com/lib/fe9213727564027a72/m/1/692486db-011a-49ae-bfc7-08a9f3bec434.png" style="display:block"/> </a></td><td width="113"></td></tr><tr><td height="30"></td></tr></tbody></table></div></div></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="center" style="padding:20px 0px"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="content-spacing" width="25"></td><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><div class="appleLinksGray" style="color:#666666; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; font-size:10px; line-height:14px; text-align:left"><span style="color:#666666!important; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif!important; font-size:10px; line-height:14px; text-align:left"><span style="font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#717171; line-height:14px"><strong>‡UP TO 30% OFF SELECT FURNITURE, RUGS AND MORE:</strong> Cannot be combined with any other offer or promotions, except free shipping (where applicable). Ends April 16. </span><br/></span><br/><br/>*Purchases subject to credit approval. See the <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef903ac4e518e2a62d41ab9e45e805a8ae52f716647d1082e98cf23d05a8562fd5ea3707930e463169862a7009107bb69a149b1161cdb0f2bdca&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939604337%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=UtaY26eEZvcAYX6mlA4uUz6KVRDPIOqX%2FApqfH7c7jE%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef903ac4e518e2a62d41ab9e45e805a8ae52f716647d1082e98cf23d05a8562fd5ea3707930e463169862a7009107bb69a149b1161cdb0f2bdca">Rewards Program Terms</a> for details. <br/><br/>‡This 15% discount is valid following first-time enrollment in CB2 marketing text messages, and is good toward a purchase of full-price items made in one (1) transaction at any CB2 store (U.S. only), online at cb2.com or by phone to 800.606.6252 through 2/1/2030 at 11:59 pm PT using the preprinted barcode or unique 19-digit code. Discount will become void after the first purchase is made in any channel, or at 11:59 pm PT on 2/1/2030, whichever is earlier. Discount may not be used at CB2 stores outside the U.S., or at any Crate &amp; Barrel or Hudson Grace stores, catalogs or websites. Discount is not applicable toward past purchases, returned merchandise, special orders, floor samples, gift cards, eGift cards, associate purchases, Trade Program purchases, international purchases through our global partner Borderfree, or assembly or installation fees by Handy. Discount cannot be combined with any other offers or promotions, except Free Shipping (where applicable). Discount applies to merchandise only and cannot be applied toward shipping and handling charges, taxes or fees. Offer has no cash value, is nontransferable, will not be replaced if lost or stolen, and cannot be auctioned or sold. No cash/credit back. CB2 reserves the right to modify or discontinue this program at any time without notice. Subject to applicable Terms of Use at cb2.com. Void where prohibited by law. <br/><br/>To make sure our email updates are delivered to your inbox, please add <a href="mailto:cb2@mail.cb2.com" style="color:#666666; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; text-decoration:none" target="_blank">cb2@mail.cb2.com</a> to your email Address Book. <br/><br/>To unsubscribe, just <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef90e297cfcd2bf9d28a1e7c02b5b60450f40edf7c51941c2d6fd52f0bfddfe87b62d7c6ee37bca7f0795e0e0ebf64f102c5ffb30092636c6e13&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939621218%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=VrEBFhH4pbjIqLo1t317nk9U4%2BhUUZDW6aJHMeTR39k%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef90e297cfcd2bf9d28a1e7c02b5b60450f40edf7c51941c2d6fd52f0bfddfe87b62d7c6ee37bca7f0795e0e0ebf64f102c5ffb30092636c6e13" style="color:#666666; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; text-decoration:underline" target="_blank">click here</a>. <br/><br/>View our <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef9052c02806e20e0d365f2454aaaae85586f16a8a25b059c13b09e72497ad7fd8fe3d9d49e260010a48063a288a8d58aa829e83dae3b577a440&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939636553%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=zpMEosEO0SM9j7UAH4r8q1dLw1QaqBwGuQp4Lt42Ma0%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef9052c02806e20e0d365f2454aaaae85586f16a8a25b059c13b09e72497ad7fd8fe3d9d49e260010a48063a288a8d58aa829e83dae3b577a440" style="color:#666666; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; text-decoration:underline" target="_blank">privacy policy</a> and <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.cb2.com%2Fu%2F%3Fqs%3D03a6b3dfa1bbef900c74f6c2beec0c35ed5e4c5df8190b75a26c1bd5c530f4ebe9597cdb217d0cdd7e455e6d58a7b759d503f08b0e7690c062689956bc2a6707&amp;data=05%7C02%7CL%40LCS.AI%7C42f9424fbbbb41eae69908dd7a18854d%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800967939651678%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=yV9APjW6%2FZfsfCrnU05Jd4FZPzsWIisqpWsUXyx%2B03o%3D&amp;reserved=0" originalsrc="https://click.mail.cb2.com/u/?qs=03a6b3dfa1bbef900c74f6c2beec0c35ed5e4c5df8190b75a26c1bd5c530f4ebe9597cdb217d0cdd7e455e6d58a7b759d503f08b0e7690c062689956bc2a6707" style="color:#666666; font-family:'Lineto Brown Light Sub',Helvetica,sans-serif; text-decoration:underline" target="_blank">terms of use</a>. <br/><br/>This email may be considered an advertising or promotional message. <br/><br/>CB2, 1250 Techny Road, Northbrook, IL 60062 </div></td></tr></tbody></table></td><td class="content-spacing" width="25"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-shell" style="color:#666666; font-family:Helvetica,Arial,sans-serif; font-size:10px; line-height:14px; text-align:left" width="690"><tbody><tr><td style="display:none!important"><img border="0" height="1" src="http://login.dotomi.com/ucm/UCMController?dtm_com=2&amp;dtm_cid=2437&amp;dtm_cmagic=654788&amp;dtm_fid=103&amp;dtm_format=6&amp;cli_promo_id=99&amp;dtm_email_hash=4daf1f2931acec49d19bfa738341b038&amp;dtmc_category_id=&amp;dtm_user_id=&amp;dtmc_drop_id=" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub1.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub2.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub3.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub4.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub5.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub6.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub7.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub8.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub9.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> <img border="0" height="1" src="http://ads.dotomi.com/cookieredir/2437/pub10.php?4daf1f2931acec49d19bfa738341b038=1" width="1"/> </td></tr></tbody></table><img height="1" src="https://dv.cb2.com/o/3989bbb0-38e7-4faf-8026-9358fed6e079?cp_tp=v3.eJzjYuJIFOLg-Lzm6X42AWYpXo5d69mF2Dle8guwSPAoiXOcX-YDFGbj-PDg9X42JZiE1n8mjusbF82ZtHzRzh5GIQal90wcM_Ycvv_j5NJdoUKiHDPlNBi9WDgYBRiDwGSEQIKAkDDHejkBRg1mZAkhcY4lcgJMaKqrE6qBEsvkBJjRJBwTHIUkOTbICbCgScznTpjPLWTM8VFWgFWCUYFRg8mCxYmL4-tGbol7IgqPOL24QMqkIFqQ2BmMQPPWyQmwoZl3iTfhBy9QaoucADua1C2WhBnMQhIca-UEONCkuBKOMAEdvkZOgBNNpiKhAiixQk6AC00iKCEIaNZWOQFuNIl2xoQSYJBtlBPg0WBBlpFYwKZwlMmKneOjsACLFAMAjulRWw==&amp;cp_cid=3bb6f1ca7c5b6245" width="1"/> <img alt="" height="1" src="https://click.mail.cb2.com/open.aspx?ffcb10-fe911579766c067c73-fe521d7377670075721d-fe9213727564027a72-ff971074-fe5e1c72766d067c7215-fef91579746102&amp;d=70239&amp;bmt=0" width="1"/> </body></html>

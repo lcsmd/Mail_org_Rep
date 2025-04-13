@@ -1,0 +1,135 @@
+<html><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="width=device-width" name="viewport"/><style>
+<!--
+body
+	{margin:0px}
+.opooD
+	{font-family:"UI Sans",Lato,sans-serif;
+	font-size:14px;
+	table-layout:fixed;
+	width:100%;
+	max-width:448px;
+	margin:0px auto;
+	text-align:center;
+	color:rgb(34,34,37)}
+.opooD td
+	{font-family:"UI Sans",Lato,sans-serif}
+.cyzlB
+	{text-decoration:none;
+	color:rgb(0,111,255)}
+.jVQjdH.jVQjdH
+	{box-sizing:border-box;
+	width:auto;
+	display:inline-block;
+	font-size:14px;
+	background-color:rgb(0,111,255);
+	line-height:24px;
+	height:40px;
+	text-align:center;
+	padding:8px 16px;
+	border-radius:4px;
+	color:rgb(255,255,255)}
+.hegTwU
+	{padding:36px 48px;
+	border:1px solid rgb(219,220,225);
+	border-radius:20px}
+.iXAkUH
+	{font-size:14px;
+	line-height:1.6;
+	text-align:left;
+	margin-top:0px;
+	margin-bottom:40px;
+	color:rgba(0,0,0,0.65)}
+.iXAkUH.center
+	{text-align:center}
+.bYXydw
+	{width:100%;
+	border-radius:20px;
+	padding:0px;
+	color:rgb(0,0,0);
+	background:rgb(249,250,250)}
+.egVrQy
+	{width:100%;
+	border-spacing:0px}
+.egVrQy td.icon
+	{border-right:1px solid rgb(238,238,241);
+	padding:8px}
+.BCYER
+	{padding:0px}
+.BCYER .Footer__Pill-sc-1sqcetw-1 td.text, .BCYER .Text__Paragraph-sc-r7gvvb-2
+	{font-size:12px;
+	line-height:20px;
+	font-weight:400}
+.bsBEXg
+	{display:block;
+	margin:0px auto;
+	max-width:80px}
+.jJjlRR
+	{padding:0px 0px 36px;
+	overflow:hidden;
+	width:100%}
+.eSPrUh
+	{width:100%}
+.izBrFg
+	{padding:0px 20px 20px;
+	border-bottom:1px solid rgb(242,242,242);
+	margin-bottom:20px}
+.iGsdfC
+	{width:100%}
+.gAwDcz
+	{color:rgb(164,167,181);
+	line-height:1.5;
+	width:50%;
+	text-align:left}
+.biA-dXM
+	{color:rgb(164,167,181);
+	line-height:1.5;
+	width:50%;
+	text-align:right}
+.bpiCRs
+	{font-weight:bold;
+	color:rgb(82,84,97)}
+.bzdFmB.bzdFmB.bzdFmB
+	{display:block;
+	width:fit-content;
+	margin:0px auto}
+.laKuNE
+	{max-width:25px;
+	margin-right:16px;
+	align-self:center}
+.cMFGjY
+	{width:100%;
+	max-width:100%;
+	margin-bottom:20px}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:100}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:200}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:300}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:400}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:500}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:600}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:700}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:800}
+@font-face
+	{font-family:"UI Sans";
+	font-weight:900}
+-->
+</style><style>
+<!--
+-->
+</style></head><body data-controller-root="#root"><div id="root"><div><div class="Email__Container-sc-1tyks3s-0 opooD"><table align="center" border="0" style="border-spacing:0px; margin:0px" width="100%"><tbody><tr><td align="center" class="Container__BorderContainer-sc-epio75-0 ProtectV2SmartDetection__StyledContainer-sc-ukptnh-0 hegTwU jJjlRR"><table class="ProtectV2SmartDetection__EventWrapper-sc-ukptnh-1 eSPrUh"><tbody><tr><td><img class="JpegCidImage__StyledJpegCidImg-sc-1jdnatb-0 bsBEXg ProtectV2SmartDetection__StyledJpegCidImage-sc-ukptnh-8 cMFGjY external" src="cid:FHBjIr"/><table class="ProtectV2SmartDetection__EventWrapper-sc-ukptnh-1 ProtectV2SmartDetection__EventContainer-sc-ukptnh-2 eSPrUh izBrFg"><tbody><tr><td><table class="ProtectV2SmartDetection__EventInfo-sc-ukptnh-3 iGsdfC"><tbody><tr><td rowspan="2"><img class="ProtectV2SmartDetection__MotionIcon-sc-ukptnh-7 laKuNE" src="cid:device-images/protect/smart-detect/motion.png"/></td><td class="ProtectV2SmartDetection__InfoCell-sc-ukptnh-4 ProtectV2SmartDetection__EvenTime-sc-ukptnh-5 gAwDcz bpiCRs">8:39 PM</td><td class="ProtectV2SmartDetection__InfoCell-sc-ukptnh-4 biA-dXM">Hillcrest</td></tr><tr><td class="ProtectV2SmartDetection__InfoCell-sc-ukptnh-4 gAwDcz">G4 Doorbell</td><td class="ProtectV2SmartDetection__InfoCell-sc-ukptnh-4 biA-dXM">UVC G4 Doorbell</td></tr></tbody></table></td></tr></tbody></table><a class="Link-sc-1b8f1q8-0 Link__LinkButton-sc-1b8f1q8-1 ProtectV2SmartDetection__StyledLinkButton-sc-ukptnh-6 cyzlB jVQjdH bzdFmB" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Funifi.ui.com%2Fconsoles%2F245A4C80E0AF0000000005DB428800000000061F8EF60000000060DAEAB3%3A859006075%2Fprotect%2Fevents%2Fevent%2F67fb07c002647403e4094ab1&amp;data=05%7C02%7Cl%40lcs.ai%7C804fd0700c8048af9e2108dd7a23a85b%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801015767207485%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=HTuU2z%2BOlnmlMMryafrzfcaRXCs0GYzRewiIMun%2FuRk%3D&amp;reserved=0" originalsrc="https://unifi.ui.com/consoles/245A4C80E0AF0000000005DB428800000000061F8EF60000000060DAEAB3:859006075/protect/events/event/67fb07c002647403e4094ab1" rel="noreferrer" target="_blank">View Detection</a></td></tr></tbody></table></td></tr></tbody></table></div><div class="Email__Container-sc-1tyks3s-0 opooD"><table align="center" border="0" style="border-spacing:0px; margin:0px" width="100%"><tbody><tr><td align="center" class="Footer__FooterContainer-sc-1sqcetw-3 BCYER"><table align="center" border="0" style="border-spacing:0px; margin:24px 0px 32px" width="100%"><tbody><tr><td align="center" class="Footer__Pill-sc-1sqcetw-1 bYXydw"><table class="Footer__HelpContent-sc-1sqcetw-2 egVrQy"><tbody><tr><td class="icon" width="60"><img alt="Ubiquiti" src="cid:b7054ed25ddf6464e6183f1122634e34.png"/></td><td align="left" class="text" style="padding:19px 0px 19px 24px">If you need further assistance, please <a class="Link-sc-1b8f1q8-0 cyzlB" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Faccount.ui.com%2Frequests&amp;data=05%7C02%7Cl%40lcs.ai%7C804fd0700c8048af9e2108dd7a23a85b%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801015767226786%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=isxwGwQraVenPhDx2eKGYraHv7JS9tUkBUUGoKfJDgw%3D&amp;reserved=0" originalsrc="https://account.ui.com/requests" rel="noreferrer" target="_blank">contact Ubiquiti support</a>.</td></tr></tbody></table></td></tr></tbody></table><div class="Text__Paragraph-sc-r7gvvb-2 iXAkUH center">© 2025 Ubiquiti Inc. All Rights Reserved.<br/>685 Third Ave. New York, NY 10017</div></td></tr></tbody></table></div></div></div></body></html>

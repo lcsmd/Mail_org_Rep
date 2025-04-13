@@ -1,0 +1,578 @@
+<html style=""><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><style>
+<!--
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.typography .markup table.image-wrapper img, .typography.editor .markup table.image-wrapper img, .typography .markup table.kindle-wrapper img, .typography.editor .markup table.kindle-wrapper img
+	{max-width:550px}
+
+	}
+@media (max-width: 1024px) {
+.typography .image2-align-left.image2-align-left.image2-align-left, .typography.editor .image2-align-left.image2-align-left.image2-align-left, .typography .image2-align-right.image2-align-right.image2-align-right, .typography.editor .image2-align-right.image2-align-right.image2-align-right
+	{float:none;
+	margin:1em auto;
+	max-width:100%;
+	width:100%;
+	padding:0}
+.typography .image2-align-right.image2-align-right.image2-align-right .image2-inset, .typography.editor .image2-align-right.image2-align-right.image2-align-right .image2-inset, .typography .image2-align-left.image2-align-left.image2-align-left .image2-inset, .typography.editor .image2-align-left.image2-align-left.image2-align-left .image2-inset
+	{display:flex;
+	justify-content:center}
+.typography .image2-align-left.image2-align-left.image2-align-left.thefp, .typography.editor .image2-align-left.image2-align-left.image2-align-left.thefp, .typography .image2-align-right.image2-align-right.image2-align-right.thefp, .typography.editor .image2-align-right.image2-align-right.image2-align-right.thefp
+	{margin:0}
+
+	}
+@media screen and (max-width: 650px) {
+.typography .markup div.youtube-overlay, .typography.editor .markup div.youtube-overlay, .typography .markup div.vimeo-overlay, .typography.editor .markup div.vimeo-overlay
+	{display:none!important}
+
+	}
+@media screen and (max-width: 370px) {
+
+	}
+@media screen and (max-width: 650px) {
+.typography .markup div.embedded-publication-wrap .embedded-publication.show-subscribe, .typography.editor .markup div.embedded-publication-wrap .embedded-publication.show-subscribe
+	{padding:24px}
+
+	}
+@media screen and (max-width: 650px) {
+.typography .markup div.subscription-widget-wrap .subscription-widget.show-subscribe, .typography.editor .markup div.subscription-widget-wrap .subscription-widget.show-subscribe, .typography .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe, .typography.editor .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe, .typography .markup div.captioned-button-wrap .subscription-widget.show-subscribe, .typography.editor .markup div.captioned-button-wrap .subscription-widget.show-subscribe
+	{padding:0px 24px}
+
+	}
+@media screen and (max-width: 650px) {
+.typography .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button, .typography.editor .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button, .typography .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button, .typography.editor .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button, .typography .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button, .typography.editor .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button
+	{padding:10px 12px;
+	min-width:110px}
+
+	}
+@media (max-width: 650px) {
+.typography .markup .tweet, .typography.editor .markup .tweet
+	{padding:12px}
+
+	}
+@media (max-width: 650px) {
+.typography .markup .tweet .tweet-text, .typography.editor .markup .tweet .tweet-text
+	{font-size:14px;
+	line-height:20px}
+
+	}
+@media (max-width: 650px) {
+.typography .markup .tweet .tweet-photos-container.two, .typography.editor .markup .tweet .tweet-photos-container.two, .typography .markup .tweet .tweet-photos-container.three, .typography.editor .markup .tweet .tweet-photos-container.three, .typography .markup .tweet .tweet-photos-container.four, .typography.editor .markup .tweet .tweet-photos-container.four
+	{height:200px}
+
+	}
+@media (max-width: 650px) {
+.typography .markup .tweet a.expanded-link .expanded-link-img, .typography.editor .markup .tweet a.expanded-link .expanded-link-img
+	{max-height:180px}
+
+	}
+@media (max-width: 650px) {
+.typography .markup .tweet a.expanded-link .expanded-link-description, .typography.editor .markup .tweet a.expanded-link .expanded-link-description
+	{display:none}
+
+	}
+@media screen and (max-width: 650px) {
+.typography .markup .apple-podcast-container, .typography.editor .markup .apple-podcast-container
+	{width:unset}
+
+	}
+@media (max-width: 420px) {
+.typography .markup .install-substack-app-embed img.install-substack-app-embed-img, .typography.editor .markup .install-substack-app-embed img.install-substack-app-embed-img
+	{margin:0 auto 16px auto}
+
+	}
+@media (max-width: 420px) {
+.typography .markup .install-substack-app-embed .install-substack-app-embed-text, .typography.editor .markup .install-substack-app-embed .install-substack-app-embed-text
+	{margin:0 0 12px 0;
+	max-width:100%;
+	width:auto;
+	text-align:center}
+
+	}
+@media (max-width: 420px) {
+.typography .markup .install-substack-app-embed .install-substack-app-embed-link, .typography.editor .markup .install-substack-app-embed .install-substack-app-embed-link
+	{display:flex;
+	justify-content:center}
+
+	}
+@media screen and (min-width: 481px) {
+.share-button-container
+	{height:38px}
+
+	}
+@media screen and (min-width: 481px) {
+.share-button-container a.comment
+	{height:38px;
+	line-height:38px;
+	padding-right:10px}
+
+	}
+@media screen and (max-width: 480px) {
+.share-button-container .separator
+	{display:block;
+	margin:0;
+	height:8px;
+	border-left:none}
+
+	}
+@media screen and (max-width: 480px) {
+.share-button-container a.share.first img
+	{padding-left:0}
+
+	}
+@media screen and (min-width: 481px) {
+.share-button-container a.mobile
+	{display:none!important}
+
+	}
+@media screen and (min-width: 541px) {
+.settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-container
+	{padding:36px;
+	height:680px}
+
+	}
+@media screen and (min-width: 541px) {
+.settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-container .footer
+	{bottom:36px;
+	margin:0px}
+
+	}
+@media screen and (max-width: 650px) {
+.header-anchor-parent
+	{display:none}
+
+	}
+@media screen and (max-width: 768px) {
+.post
+	{padding:16px 0 0 0}
+
+	}
+@media screen and (max-width: 650px) {
+.post .post-header .post-label
+	{margin-top:8px}
+
+	}
+@media screen and (max-width: 650px) {
+.post .post-header .meta-author-wrap.alternative-meta .meta-right-column .post-meta
+	{margin-top:6px}
+
+	}
+@media screen and (max-width: 650px) {
+.post .footer-facepile-container
+	{height:64px;
+	padding:0 16px;
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	width:100%}
+
+	}
+@media screen and (max-width: 650px) {
+.post .post-footer.use-separators
+	{justify-content:center}
+
+	}
+@media screen and (max-width: 650px) {
+.post .post-footer.next-prev
+	{height:64px;
+	justify-content:space-between;
+	box-sizing:border-box}
+
+	}
+@media screen and (max-width: 650px) {
+.post-contributor-footer .post-contributor-bio-table
+	{display:block}
+.post-contributor-footer .post-contributor-bio-table-row
+	{display:flex;
+	flex-direction:row}
+.post-contributor-footer .post-contributor-bio-userhead-cell, .post-contributor-footer .post-contributor-bio-body-cell
+	{display:block}
+.post-contributor-footer .post-contributor-bio-body-cell
+	{flex-grow:1}
+.post-contributor-footer .post-contributor-bio-body-table
+	{display:block}
+.post-contributor-footer .post-contributor-bio-body-table-row
+	{display:block}
+.post-contributor-footer .post-contributor-bio-copy-cell, .post-contributor-footer .post-contributor-bio-controls-cell
+	{display:block}
+.post-contributor-footer .post-contributor-bio-copy-cell
+	{margin:0 0 16px 0}
+.post-contributor-footer .post-contributor-bio-controls-cell
+	{width:auto}
+.post-contributor-footer .post-contributor-bio-controls
+	{margin:auto}
+.post-contributor-footer .post-contributor-bio-controls .button.primary
+	{width:100%}
+.post-contributor-footer .post-contributor-bio-text
+	{font-size:14px}
+
+	}
+@media screen and (min-width: 768px) {
+.post-silhouette
+	{padding:32px 0}
+
+	}
+@media screen and (max-width: 650px) {
+.post-silhouette .post-silhouette-title
+	{margin-top:10.44225025px;
+	height:120px}
+
+	}
+@media screen and (max-width: 650px) {
+.post-silhouette .post-silhouette-meta
+	{width:75%}
+
+	}
+@media screen and (max-width: 650px) {
+.post-silhouette .post-silhouette-meta.with-byline-image
+	{margin:20px 0}
+
+	}
+@media screen and (max-width: 650px) {
+.use-theme-bg .post-meta.alternative-meta .post-meta-item, .post-meta.alternative-meta .post-meta-item
+	{padding-right:16px}
+
+	}
+@media screen and (max-width: 370px) {
+.use-theme-bg .post-meta.alternative-meta .post-meta-item, .post-meta.alternative-meta .post-meta-item
+	{font-size:14px}
+
+	}
+@media screen and (max-width: 650px) {
+.use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-publication, .post-meta.alternative-meta .post-meta-item.guest-author-publication
+	{display:none}
+
+	}
+@media screen and (max-width: 370px) {
+.post-meta .post-meta-item .post-meta-button
+	{height:36px!important}
+.post-meta .post-meta-item .post-meta-button .meta-button-label
+	{display:none}
+.post-meta .post-meta-item .post-meta-button > svg
+	{margin-right:0}
+
+	}
+@media screen and (max-width: 370px) {
+.post-meta .post-meta-item
+	{font-size:12px}
+
+	}
+@media screen and (max-width: 650px) {
+.post .floating-subscribe-button
+	{bottom:20px;
+	right:20px}
+
+	}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+body .markup table.image-wrapper img, body .markup table.kindle-wrapper img
+	{max-width:550px}
+
+	}
+@media (max-width: 1024px) {
+body .image2-align-left.image2-align-left.image2-align-left, body .image2-align-right.image2-align-right.image2-align-right
+	{float:none;
+	margin:1em auto;
+	max-width:100%;
+	width:100%;
+	padding:0}
+body .image2-align-right.image2-align-right.image2-align-right .image2-inset, body .image2-align-left.image2-align-left.image2-align-left .image2-inset
+	{display:flex;
+	justify-content:center}
+body .image2-align-left.image2-align-left.image2-align-left.thefp, body .image2-align-right.image2-align-right.image2-align-right.thefp
+	{margin:0}
+
+	}
+@media screen and (max-width: 650px) {
+body .markup div.youtube-overlay, body .markup div.vimeo-overlay
+	{display:none!important}
+
+	}
+@media screen and (max-width: 370px) {
+
+	}
+@media screen and (max-width: 650px) {
+body .markup div.embedded-publication-wrap .embedded-publication.show-subscribe
+	{padding:24px}
+
+	}
+@media screen and (max-width: 650px) {
+body .markup div.subscription-widget-wrap .subscription-widget.show-subscribe, body .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe, body .markup div.captioned-button-wrap .subscription-widget.show-subscribe
+	{padding:0px 24px}
+
+	}
+@media screen and (max-width: 650px) {
+body .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button, body .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button, body .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button
+	{padding:10px 12px;
+	min-width:110px}
+
+	}
+@media (max-width: 650px) {
+body .markup .tweet
+	{padding:12px}
+
+	}
+@media (max-width: 650px) {
+body .markup .tweet .tweet-text
+	{font-size:14px;
+	line-height:20px}
+
+	}
+@media (max-width: 650px) {
+body .markup .tweet .tweet-photos-container.two, body .markup .tweet .tweet-photos-container.three, body .markup .tweet .tweet-photos-container.four
+	{height:200px}
+
+	}
+@media (max-width: 650px) {
+body .markup .tweet a.expanded-link .expanded-link-img
+	{max-height:180px}
+
+	}
+@media (max-width: 650px) {
+body .markup .tweet a.expanded-link .expanded-link-description
+	{display:none}
+
+	}
+@media screen and (max-width: 650px) {
+body .markup .apple-podcast-container
+	{width:unset}
+
+	}
+@media (max-width: 420px) {
+body .markup .install-substack-app-embed img.install-substack-app-embed-img
+	{margin:0 auto 16px auto}
+
+	}
+@media (max-width: 420px) {
+body .markup .install-substack-app-embed .install-substack-app-embed-text
+	{margin:0 0 12px 0;
+	max-width:100%;
+	width:auto;
+	text-align:center}
+
+	}
+@media (max-width: 420px) {
+body .markup .install-substack-app-embed .install-substack-app-embed-link
+	{display:flex;
+	justify-content:center}
+
+	}
+@media screen and (min-width: 500px) {
+body .header a.logo
+	{width:42px;
+	height:42px;
+	border-radius:12px}
+
+	}
+@media screen and (max-width: 420px) {
+body .subscription-receipt table:first-of-type .subscription-amount .subscription-discount
+	{width:72px!important}
+
+	}
+@media screen and (min-width: 481px) {
+body .share-button-container
+	{height:auto}
+
+	}
+@media screen and (max-width: 480px) {
+body .share-button-container .separator
+	{display:block!important;
+	margin:0!important;
+	height:8px!important;
+	border-left:none!important}
+
+	}
+@media screen and (max-width: 650px) {
+.digest .item .post-meta-item.audience
+	{display:none}
+
+	}
+@media screen and (min-width: 500px) {
+.digest-publication .logo img
+	{width:42px;
+	height:42px;
+	border-radius:8px}
+
+	}
+@media screen and (max-width: 650px) {
+
+	}
+@media screen and (max-width: 650px) {
+.comment > .comment-list
+	{padding-left:24px}
+
+	}
+@media screen and (max-width: 650px) {
+.finish-magic-login-modal .modal-content .container
+	{padding:24px 0}
+
+	}
+@media (max-width: 650px) {
+.reader2-text-b3
+	{line-height:24px}
+
+	}
+@media screen and (max-width: 650px) {
+.reader2-text-h4
+	{line-height:24px}
+
+	}
+@media screen and (min-width: 541px) {
+.user-profile-modal
+	{padding-left:12px;
+	padding-right:12px}
+
+	}
+@media screen and (max-width: 650px) {
+.subscribe-widget form.form .sideBySideWrap button.rightButton
+	{padding:10px 12px}
+
+	}
+@media screen and (min-width: 541px) {
+
+	}
+@media screen and (max-width: 650px) {
+.post-ufi.single-full-width-button .post-ufi-button-wrapper
+	{width:100%;
+	padding:16px}
+.post-ufi.single-full-width-button .post-ufi-button
+	{width:100%;
+	justify-content:center}
+
+	}
+@media screen and (max-width: 768px) {
+.file-embed-wrapper
+	{padding:0}
+
+	}
+@media screen and (max-width: 768px) {
+.file-embed-wrapper-editor
+	{padding:0}
+
+	}
+@media screen and (max-width: 768px) {
+
+	}
+@media only screen and (max-width: 650px) {
+.file-embed-button.wide, .file-embed-error-button.wide
+	{display:none}
+
+	}
+@media only screen and (min-width: 630px) {
+.file-embed-button.narrow, .file-embed-error-button.narrow
+	{display:none}
+
+	}
+@media screen and (min-width: 541px) {
+.audio-player-wrapper .audio-player
+	{min-width:500px}
+
+	}
+@media screen and (max-width: 650px) {
+.audio-player-wrapper .audio-player .audio-player-progress
+	{border-left-width:16px;
+	border-right-width:16px}
+
+	}
+@media screen and (max-width: 650px) {
+.audio-player-wrapper .audio-player .audio-player-progress .audio-player-progress-bar .audio-player-progress-bar-popup
+	{top:-54px}
+
+	}
+@media screen and (max-width: 650px) {
+.audio-player-wrapper-fancy .audio-player .audio-player-progress
+	{border-left-width:16px;
+	border-right-width:16px}
+
+	}
+@media screen and (max-width: 650px) {
+.audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-player-progress-bar .audio-player-progress-bar-popup
+	{top:-54px}
+
+	}
+@media (min-width: 250px) {
+.audio-player-wrapper-fancy .audio-player
+	{padding:32px}
+.audio-player-wrapper-fancy .audio-player .btn-group
+	{display:flex}
+
+	}
+@media (min-width: 300px) {
+.audio-player-wrapper-fancy .audio-player .btn-group
+	{display:block}
+
+	}
+@media (min-width: 350px) {
+.audio-player-wrapper-fancy .audio-player .audio-player-substack-logo
+	{display:block}
+.audio-player-wrapper-fancy .audio-player .audio-player-title
+	{margin-top:16px}
+.audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container
+	{padding-top:15%;
+	width:15%;
+	display:block}
+.audio-player-wrapper-fancy .audio-player .audio-player-substack-logo
+	{display:block}
+
+	}
+@media (min-width: 350px) {
+.audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container
+	{padding-top:25%;
+	width:25%;
+	display:block}
+.audio-player-wrapper-fancy .audio-player .btn-group
+	{display:flex}
+
+	}
+@media (min-width: 400px) {
+.audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container
+	{padding-top:40%;
+	width:40%}
+
+	}
+@media (max-width: 400px) {
+.audio-player-wrapper-fancy .audio-player .btn-group
+	{margin-top:12px}
+.audio-player-wrapper-fancy .audio-player .btn-group .button
+	{font-size:13px;
+	padding:6px 12px;
+	height:auto;
+	margin-top:10px}
+
+	}
+@media (min-width: 600px) {
+.audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container
+	{padding-top:55%;
+	width:55%}
+
+	}
+@media (max-width: 650px) {
+
+	}
+@media (max-width: 750px) {
+.poll-embed .poll-anchor-target .poll-anchor-copy-button
+	{left:8px;
+	top:45px}
+
+	}
+@media screen and (min-width: 541px) {
+.poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .modal-content > .container
+	{width:552px;
+	padding:26px 24px}
+
+	}
+@media screen and (max-width: 650px) {
+.poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .modal-content > .container
+	{padding:40px 0}
+
+	}
+@media screen and (max-width: 650px) {
+.poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .modal-exit-btn
+	{}
+
+	}
+@media not all and (min-resolution: 0.001dpcm) {
+
+	}
+-->
+</style></head><body class="email-body" style="font-kerning:auto"><img alt="" border="0" height="1" src="https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjUwNDEzMDAzMDI1LjMuZDM2NjVlY2U3ZGFhNjVmYUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjA5MDA2ODkwLCJyIjoibEBsY3MubnljIiwiZCI6Im1nLWQwLnN1YnN0YWNrLmNvbSIsInAiOjE2MDI1Mjc4NSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoyMTUxNzg3LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.YItcMehYovaDMOMmf1yl1cL3EBazYKZtzG_mgVVskOI" style="height:1px!important; width:1px!important; border-width:0!important; margin-top:0!important; margin-bottom:0!important; margin-right:0!important; margin-left:0!important; padding-top:0!important; padding-bottom:0!important; padding-right:0!important; padding-left:0!important" width="1"/><div class="preview" style="display:none; font-size:1px; color:#333333; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden">Retrieval Augmented Generation is still the best option, even with 10 million tokens context. Because Garbage In, Garbage Out. The PoorGPU guy weekly Newsletter.</div><div class="preview" style="display:none; font-size:1px; color:#333333; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden">͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­</div><table border="0" cellpadding="0" cellspacing="0" class="email-body-container" role="presentation" width="100%"><tbody><tr><td></td><td class="content" width="550"></td><td></td></tr><tr><td></td><td align="left" class="content" width="550"><div style="font-size:16px; line-height:26px; max-width:550px; width:100%; margin:0 auto"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="right" style="height:20px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td style="vertical-align:middle"><span class="pencraft pc-reset reset-IxiVJZ tw-font-body tw-text-ssm tw-text-substack-secondary" style="font-family:SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; font-size:13px; color:unset; list-style:none; text-decoration:unset; margin:0"><div class="pencraft pc-reset align-right-VJbKw5 size-12-mmZ61m reset-IxiVJZ" style="list-style:none; color:unset; text-align:right; font-size:12px; line-height:16px; text-decoration:unset; margin:0"><span class="pencraft pc-reset reset-IxiVJZ" style="list-style:none; color:unset; text-decoration:unset; margin:0">Forwarded this email? <a class="pencraft pc-reset decoration-underline-ClTkYc reset-IxiVJZ" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9M2dmcXF5Jm5leHQ9aHR0cHMlM0ElMkYlMkZ0aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbSUyRnAlMkZhaS1pcy1vbmx5LWFzLWdvb2QtYXMtaXRzLWRpZXQtYXdha2VuZWQiLCJwIjoxNjAyNTI3ODUsInMiOjIxNTE3ODcsImYiOnRydWUsInUiOjIwOTAwNjg5MCwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.VrAkSlGpQPuVlAYaUcNxy2lVvK4DTrBgZ1x4cZ0kpyU%3F&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381759709%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=4ru%2BThhtMcggF84iptcdh522tc%2FleGjjiGgvp11qSbY%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9M2dmcXF5Jm5leHQ9aHR0cHMlM0ElMkYlMkZ0aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbSUyRnAlMkZhaS1pcy1vbmx5LWFzLWdvb2QtYXMtaXRzLWRpZXQtYXdha2VuZWQiLCJwIjoxNjAyNTI3ODUsInMiOjIxNTE3ODcsImYiOnRydWUsInUiOjIwOTAwNjg5MCwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.VrAkSlGpQPuVlAYaUcNxy2lVvK4DTrBgZ1x4cZ0kpyU?" style="list-style:none; color:unset; text-decoration:unset; margin:0; text-decoration-line:underline">Subscribe here</a> for more</span></div></span></td></tr></tbody></table></td></tr></tbody></table><table class="header graphic-header" role="presentation" style="border-spacing:0; padding:16px 0 32px"><tbody><tr><td align="center" style="text-align:center; padding:0"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9wL2FpLWlzLW9ubHktYXMtZ29vZC1hcy1pdHMtZGlldC1hd2FrZW5lZD91dG1fY2FtcGFpZ249ZW1haWwtaGFsZi1wb3N0JnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbkJ2YzNSZmFXUWlPakUyTURJMU1qYzROU3dpYVdGMElqb3hOelEwTlRBME1qSTRMQ0psZUhBaU9qRTNORGN3T1RZeU1qZ3NJbWx6Y3lJNkluQjFZaTB5TVRVeE56ZzNJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS4wMDJrMEh2U0p2SDFDcGVfZkk1TU05UUJHM3dQb1N6MG5KZk8wSEkzc2k0IiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.uApWABb7Vhi8fUCbhO9iqM8MOuk9zeTkUaacEwLCyVE%3F&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381780748%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=TuFnRynyQyyT%2Fg7GJHhAbrG%2BfCKf5w4%2FJNQAEo6LGMc%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9wL2FpLWlzLW9ubHktYXMtZ29vZC1hcy1pdHMtZGlldC1hd2FrZW5lZD91dG1fY2FtcGFpZ249ZW1haWwtaGFsZi1wb3N0JnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbkJ2YzNSZmFXUWlPakUyTURJMU1qYzROU3dpYVdGMElqb3hOelEwTlRBME1qSTRMQ0psZUhBaU9qRTNORGN3T1RZeU1qZ3NJbWx6Y3lJNkluQjFZaTB5TVRVeE56ZzNJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS4wMDJrMEh2U0p2SDFDcGVfZkk1TU05UUJHM3dQb1N6MG5KZk8wSEkzc2k0IiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.uApWABb7Vhi8fUCbhO9iqM8MOuk9zeTkUaacEwLCyVE?"><img class="header-image" height="105" role="presentation" src="https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dab8ae9-b0e9-4c30-8b1f-284c1efb899d_1344x256.png" style="border:none!important; vertical-align:middle; max-width:550px; display:block; margin:0 auto; height:auto; width:100%" width="550"/></a></td></tr></tbody></table><div class="post typography" dir="auto" style="padding:32px 0 0 0; font-size:16px; line-height:26px"><div class="post-header" style="font-size:16px; line-height:26px"><h1 class="post-title published" style="color:rgb(54,55,55); font-family:'SF Pro Display',-apple-system,system-ui,BlinkMacSystemFont,'Inter','Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:900; margin:0; line-height:36px; font-size:32px"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fapp-link%2Fpost%3Fpublication_id%3D2151787%26post_id%3D160252785%26utm_source%3Dpost-email-title%26utm_campaign%3Demail-post-title%26isFreemail%3Dtrue%26r%3D3gfqqy%26token%3DeyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381796764%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=uti3utfMdwNmmA9fivcjUsKYAtn%2BqBlWiG1p7uyAcUw%3D&amp;reserved=0" originalsrc="https://substack.com/app-link/post?publication_id=2151787&amp;post_id=160252785&amp;utm_source=post-email-title&amp;utm_campaign=email-post-title&amp;isFreemail=true&amp;r=3gfqqy&amp;token=eyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4" style="color:rgb(54,55,55); text-decoration:none">AI is only as good as its diet - Awakened Intelligence 2025#013</a></h1><h3 class="subtitle" style="font-family:'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:normal; margin:4px 0 0; color:#777777; line-height:24px; font-size:18px; margin-top:12px">Retrieval Augmented Generation is still the best option, even with 10 million tokens context. Because Garbage In, Garbage Out. The PoorGPU guy weekly Newsletter.</h3><table border="0" cellpadding="0" cellspacing="0" class="post-meta" role="presentation" style="margin:1em 0; height:20px; align-items:center" width="100%"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td style="vertical-align:middle"><div class="pencraft pc-reset color-primary-zABazT line-height-20-t4M0El font-meta-MWBumP size-11-NuY2Zx weight-medium-fw81nC transform-uppercase-yKDgcq reset-IxiVJZ meta-EgzBVA custom-css-email-post-author" style="list-style:none; font-size:11px; line-height:20px; text-decoration:unset; color:rgb(54,55,55); margin:0; font-family:'SF Compact',-apple-system,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:500; text-transform:uppercase; letter-spacing:.2px"><a class="pencraft pc-reset color-primary-zABazT line-height-20-t4M0El font-meta-MWBumP size-11-NuY2Zx weight-medium-fw81nC transform-uppercase-yKDgcq reset-IxiVJZ meta-EgzBVA" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2F%40thepoorgpuguy&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381812399%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=6IA4%2FnBISeldGm78FoglYQzdgBF6eTt9HhpeGJII4sg%3D&amp;reserved=0" originalsrc="https://substack.com/@thepoorgpuguy" style="list-style:none; color:rgb(54,55,55); margin:0; font-size:11px; line-height:20px; font-family:'SF Compact',-apple-system,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:500; text-transform:uppercase; letter-spacing:.2px; text-decoration:none">Fabio</a></div></td></tr></tbody></table></td></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td style="vertical-align:middle"><div class="pencraft pc-reset color-secondary-ls1g8s line-height-20-t4M0El font-meta-MWBumP size-11-NuY2Zx weight-medium-fw81nC transform-uppercase-yKDgcq reset-IxiVJZ meta-EgzBVA" style="list-style:none; font-size:11px; line-height:20px; text-decoration:unset; color:rgb(119,119,119); margin:0; font-family:'SF Compact',-apple-system,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:500; text-transform:uppercase; letter-spacing:.2px"><time datetime="2025-04-13T00:30:27.999Z">Apr 13</time></div></td></tr></tbody></table></td></tr></tbody></table></td><td align="right"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td style="vertical-align:middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2F%40thepoorgpuguy&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381829377%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=te%2FFoSs1yVWHpo4xSaHN%2BBZLjbbqVxzFxN1Z4HyShGI%3D&amp;reserved=0" originalsrc="https://substack.com/@thepoorgpuguy"><img class="custom-css-email-avatar avatar-QIQ5yR" height="40" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16082203-d2de-4d99-b41f-01fb4f3e6b9b_800x1200.jpeg" style="box-sizing:border-box; border-radius:500000px; max-width:550px; border:none; vertical-align:middle; width:40px; height:40px; min-width:40px; min-height:40px; object-fit:cover; margin:0px; display:inline" width="40"/></a></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" class="email-ufi-2-top" role="presentation" style="border-top:1px solid rgb(0,0,0,.1); border-bottom:1px solid rgb(0,0,0,.1); min-width:100%" width="100%"><tbody><tr height="16"><td height="16" style="font-size:0px; line-height:0"> </td></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="38"><tbody><tr><td align="center"><a class="email-icon-button" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fapp-link%2Fpost%3Fpublication_id%3D2151787%26post_id%3D160252785%26utm_source%3Dsubstack%26isFreemail%3Dtrue%26submitLike%3Dtrue%26token%3DeyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3NDQ1MDQyMjgsImV4cCI6MTc0NzA5NjIyOCwiaXNzIjoicHViLTIxNTE3ODciLCJzdWIiOiJyZWFjdGlvbiJ9.EeauWNI3N5_-ECW48524jygEOdyAf26SVFV0aWVb40o%26utm_medium%3Demail%26utm_campaign%3Demail-reaction%26r%3D3gfqqy&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381846272%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=aeLEmiWYddc0r%2Fuv4PgAVtMj1o1bQ%2Fd3GnLFmbbqHqU%3D&amp;reserved=0" originalsrc="https://substack.com/app-link/post?publication_id=2151787&amp;post_id=160252785&amp;utm_source=substack&amp;isFreemail=true&amp;submitLike=true&amp;token=eyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3NDQ1MDQyMjgsImV4cCI6MTc0NzA5NjIyOCwiaXNzIjoicHViLTIxNTE3ODciLCJzdWIiOiJyZWFjdGlvbiJ9.EeauWNI3N5_-ECW48524jygEOdyAf26SVFV0aWVb40o&amp;utm_medium=email&amp;utm_campaign=email-reaction&amp;r=3gfqqy" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:1; padding:9px 0; text-decoration:none; color:rgb(119,119,119); min-width:38px; box-sizing:border-box; width:38px"><img alt="" class="icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="border:none; vertical-align:middle; max-width:18px" width="18"/></a></td></tr></tbody></table></td><td style="min-width:8px" width="8"></td><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="38"><tbody><tr><td align="center"><a class="email-icon-button" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fapp-link%2Fpost%3Fpublication_id%3D2151787%26post_id%3D160252785%26utm_source%3Dsubstack%26utm_medium%3Demail%26isFreemail%3Dtrue%26comments%3Dtrue%26token%3DeyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4%26r%3D3gfqqy%26utm_campaign%3Demail-half-magic-comments%26action%3Dpost-comment%26utm_source%3Dsubstack%26utm_medium%3Demail&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381861750%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=5G3mQX2oHbPNzPn9%2FAprtjGy5nji5IkkrUX7WaMuut0%3D&amp;reserved=0" originalsrc="https://substack.com/app-link/post?publication_id=2151787&amp;post_id=160252785&amp;utm_source=substack&amp;utm_medium=email&amp;isFreemail=true&amp;comments=true&amp;token=eyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4&amp;r=3gfqqy&amp;utm_campaign=email-half-magic-comments&amp;action=post-comment&amp;utm_source=substack&amp;utm_medium=email" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:1; padding:9px 0; text-decoration:none; color:rgb(119,119,119); min-width:38px; box-sizing:border-box; width:38px"><img alt="" class="icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="border:none; vertical-align:middle; max-width:18px" width="18"/></a></td></tr></tbody></table></td><td style="min-width:8px" width="8"></td><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="38"><tbody><tr><td align="center"><a class="email-icon-button" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fapp-link%2Fpost%3Fpublication_id%3D2151787%26post_id%3D160252785%26utm_source%3Dsubstack%26utm_medium%3Demail%26utm_content%3Dshare%26utm_campaign%3Demail-share%26action%3Dshare%26triggerShare%3Dtrue%26isFreemail%3Dtrue%26r%3D3gfqqy%26token%3DeyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381877464%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=CB6YTvUK5%2F5qI4AAMDjyVBYS1oYOziWPHZEASNP0zCA%3D&amp;reserved=0" originalsrc="https://substack.com/app-link/post?publication_id=2151787&amp;post_id=160252785&amp;utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;utm_campaign=email-share&amp;action=share&amp;triggerShare=true&amp;isFreemail=true&amp;r=3gfqqy&amp;token=eyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:1; padding:9px 0; text-decoration:none; color:rgb(119,119,119); min-width:38px; box-sizing:border-box; width:38px"><img alt="" class="icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare2%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="border:none; vertical-align:middle; max-width:18px" width="18"/></a></td></tr></tbody></table></td><td style="min-width:8px" width="8"></td><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="38"><tbody><tr><td align="center"><a class="email-icon-button" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvdGhlcG9vcmdwdWd1eS9wL2FpLWlzLW9ubHktYXMtZ29vZC1hcy1pdHMtZGlldC1hd2FrZW5lZD91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXJlc3RhY2stY29tbWVudCZhY3Rpb249cmVzdGFjay1jb21tZW50JnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbkJ2YzNSZmFXUWlPakUyTURJMU1qYzROU3dpYVdGMElqb3hOelEwTlRBME1qSTRMQ0psZUhBaU9qRTNORGN3T1RZeU1qZ3NJbWx6Y3lJNkluQjFZaTB5TVRVeE56ZzNJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS4wMDJrMEh2U0p2SDFDcGVfZkk1TU05UUJHM3dQb1N6MG5KZk8wSEkzc2k0IiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Of6MlBRb_iE4tKt9-dbpbakc9EE7f2WP3yXiGgA982k%3F%26utm_source%3Dsubstack%26utm_medium%3Demail&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381892922%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=xUAMJiuCBeRPFZhWqCRu4ZsjI29Mgz23A7j2D35V3cs%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvdGhlcG9vcmdwdWd1eS9wL2FpLWlzLW9ubHktYXMtZ29vZC1hcy1pdHMtZGlldC1hd2FrZW5lZD91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXJlc3RhY2stY29tbWVudCZhY3Rpb249cmVzdGFjay1jb21tZW50JnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbkJ2YzNSZmFXUWlPakUyTURJMU1qYzROU3dpYVdGMElqb3hOelEwTlRBME1qSTRMQ0psZUhBaU9qRTNORGN3T1RZeU1qZ3NJbWx6Y3lJNkluQjFZaTB5TVRVeE56ZzNJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS4wMDJrMEh2U0p2SDFDcGVfZkk1TU05UUJHM3dQb1N6MG5KZk8wSEkzc2k0IiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Of6MlBRb_iE4tKt9-dbpbakc9EE7f2WP3yXiGgA982k?&amp;utm_source=substack&amp;utm_medium=email" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:1; padding:9px 0; text-decoration:none; color:rgb(119,119,119); min-width:38px; box-sizing:border-box; width:38px"><img alt="" class="icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FNoteForwardIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="border:none; vertical-align:middle; max-width:18px" width="18"/></a></td></tr></tbody></table></td></tr></tbody></table></td><td align="right"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td align="center"><a class="email-button-outline" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fopen.substack.com%2Fpub%2Fthepoorgpuguy%2Fp%2Fai-is-only-as-good-as-its-diet-awakened%3Futm_source%3Demail%26redirect%3Dapp-store%26utm_campaign%3Demail-read-in-app&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381908737%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=ScMW%2FEbEv1qIhRnPos6ZUXwboWgk8V6PybqvQbQk4uM%3D&amp;reserved=0" originalsrc="https://open.substack.com/pub/thepoorgpuguy/p/ai-is-only-as-good-as-its-diet-awakened?utm_source=email&amp;redirect=app-store&amp;utm_campaign=email-read-in-app" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:12px; padding:9px 14px; text-decoration:none; color:rgb(119,119,119)"><div class="email-button-spacer" style="font-size:16px; line-height:26px; display:inline-block; vertical-align:middle; max-width:0; min-height:18px"></div><span class="email-button-text" style="vertical-align:middle; margin-right:4px">READ IN APP</span><img alt="" class="icon text-icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideArrowUpRight%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="min-width:18px; min-height:18px; border:none; vertical-align:middle; margin-right:0; margin-left:0; max-width:18px" width="18"/></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr height="16"><td height="16" style="font-size:0px; line-height:0"> </td></tr></tbody></table></div></div><div class="post typography" dir="auto" style="padding:32px 0 0 0; font-size:16px; line-height:26px"><div class="body markup" dir="auto" style="text-align:initial; font-size:16px; line-height:26px; width:100%; word-break:break-word; margin-bottom:16px; font-family:'Roboto Slab',sans-serif; font-weight:400"><div class="captioned-image-container-static" style="font-size:16px; line-height:26px; margin:32px auto; margin-top:0"><a class="image-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F8d28596c-f9af-4267-8e76-4b014c52ae42%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381923840%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=AtTOAB7CNb24wY6Kjr4iwNF6Zi5Jx40rCy3d3E9yITc%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/8d28596c-f9af-4267-8e76-4b014c52ae42?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="flex-direction:column; align-items:center; padding:0; margin:0 auto; width:auto; height:auto; border:none; text-decoration:none; display:block; margin-top:0; margin-bottom:0" target="_blank"><img alt="" data-attrs='{"src":"https://substack-post-media.s3.amazonaws.com/public/images/b142817d-9e4b-49fa-8236-b79411d71cc1_2165x1325.png","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":null,"width":null,"resizeWidth":727,"bytes":4117569,"alt":null,"title":null,"type":"image/png","href":null,"belowTheFold":false,"topImage":true,"internalRedirect":"https://thepoorgpuguy.substack.com/i/160252785?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb142817d-9e4b-49fa-8236-b79411d71cc1_2165x1325.png","isProcessing":false,"align":null}' height="NaN" src="https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb142817d-9e4b-49fa-8236-b79411d71cc1_2165x1325.png" style="border:none!important; vertical-align:middle; display:block; height:auto; margin-bottom:0; max-width:100%!important; margin:0 auto; width:100%" width="727"/></a></div><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"></p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Our AI's only as good as its diet.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Seriously, think about Retrieval Augmented Generation like little digital plants. You wouldn't try to grow prize-winning roses in toxic sludge, right? </p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Same deal here. If we feed any Generative AI models clean, well-organized, and relevant info, they can generate text that’s actually useful, insightful, and maybe even interesting to read. </p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Good data is the rich soil that lets RAG bloom.</p><div class="captioned-image-container-static" style="font-size:16px; line-height:26px; margin:32px auto"><table border="0" cellpadding="0" cellspacing="0" class="image-wrapper" data-component-name="Image2ToDOMStatic" style="" width="100%"><tbody><tr><td style="text-align:center"></td><td align="left" class="content" style="text-align:center" width="1024"><a class="image-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2Fac075a32-48d1-46e5-8b66-127d48e8a23d%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381938999%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3X2o%2BNR%2BgmfV58DJ5JyPDQU0lxPCCp3IrFxsCb7lqqs%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/ac075a32-48d1-46e5-8b66-127d48e8a23d?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="flex-direction:column; align-items:center; padding:0; width:auto; height:auto; border:none; text-decoration:none; display:block; margin:0" target="_blank"><img alt="" class="wide-image" data-attrs='{"src":"https://substack-post-media.s3.amazonaws.com/public/images/c177c5e9-ead1-4255-a4da-43b09ce66e64_1024x704.webp","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":704,"width":1024,"resizeWidth":null,"bytes":50330,"alt":null,"title":null,"type":"image/webp","href":null,"belowTheFold":false,"topImage":false,"internalRedirect":"https://thepoorgpuguy.substack.com/i/160252785?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc177c5e9-ead1-4255-a4da-43b09ce66e64_1024x704.webp","isProcessing":false,"align":null}' height="378.125" src="https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc177c5e9-ead1-4255-a4da-43b09ce66e64_1024x704.webp" style="border:none!important; vertical-align:middle; display:block; height:auto; margin-bottom:0; width:auto!important; max-width:100%!important; margin:0 auto" width="550"/></a></td><td style="text-align:center"></td></tr></tbody></table></div><h3 class="header-anchor-post" style="font-family:'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:bold; margin:1em 0 0.625em 0; color:rgb(54,55,55); line-height:1.16em; font-size:1.375em">But what the hell is RAG?</h3><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">So, what’s Retrieval Augmented Generation (from now on let’s call with the famous acronym RAG)? </p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">It's a smart technique we use in natural language processing (NLP) to give Large Language Models (LLMs) a boost.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">You know how sometimes LLMs just make stuff up? They sound super confident, but the 'facts' are totally wrong. </p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">That’s what people call 'hallucination'. We can tackle this by feeding the LLM relevant context right when it needs to answer something.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">But here’s the catch: RAG only works well if the data you feed it is top-notch. You gotta be just as careful picking data for your AI.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Because "garbage in, garbage out" isn't just a saying, it's the painful truth with RAG.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">If the info you give the LLM prompt is messy, wrong, or only plain irrelevant, what do you expect? Low-quality data pumps biases, mistakes, and weird inconsistencies into the model. </p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">It warps how the AI understands language and the world.</p><div class="captioned-image-container-static" style="font-size:16px; line-height:26px; margin:32px auto"><table border="0" cellpadding="0" cellspacing="0" class="image-wrapper" data-component-name="Image2ToDOMStatic" style="" width="100%"><tbody><tr><td style="text-align:center"></td><td align="left" class="content" style="text-align:center" width="1456"><a class="image-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F65bba0b3-dc40-4620-b956-1a64541cf577%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381954304%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=ujaKFYvSjenDGjLwPhZOP1Q6pEy7kMLlnhjGhDu9rfw%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/65bba0b3-dc40-4620-b956-1a64541cf577?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="flex-direction:column; align-items:center; padding:0; width:auto; height:auto; border:none; text-decoration:none; display:block; margin:0" target="_blank"><img alt="" class="wide-image" data-attrs='{"src":"https://substack-post-media.s3.amazonaws.com/public/images/573327a1-8a7a-428f-979c-eb8badbe3400_1748x1044.png","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":870,"width":1456,"resizeWidth":null,"bytes":1136858,"alt":null,"title":null,"type":"image/png","href":null,"belowTheFold":true,"topImage":false,"internalRedirect":"https://thepoorgpuguy.substack.com/i/160252785?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F573327a1-8a7a-428f-979c-eb8badbe3400_1748x1044.png","isProcessing":false,"align":null}' height="328.6401098901099" src="https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F573327a1-8a7a-428f-979c-eb8badbe3400_1748x1044.png" style="border:none!important; vertical-align:middle; display:block; height:auto; margin-bottom:0; width:auto!important; max-width:100%!important; margin:0 auto" width="550"/></a></td><td style="text-align:center"></td></tr></tbody></table></div><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"></p><h2 class="header-anchor-post" style="font-family:'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:bold; margin:1em 0 0.625em 0; color:rgb(54,55,55); line-height:1.16em; font-size:1.625em">What we already know… is it good?</h2><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"><span>It’s like how </span><em>we</em><span> learn, really. Our understanding is built on what we already know. If an LLM is trained on junk data full of biases or toxic ideas, guess what? It spits out biased, toxic junk. It just repeats the problems baked into its training food.</span></p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">So, how do we grow that good data for RAG? We need to be picky about our text sources.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Look for these signs of quality:</p><ul style="margin-top:0; padding:0"><li style="margin:8px 0 0 32px"><p style="color:rgb(54,55,55); line-height:26px; margin-bottom:0; box-sizing:border-box; padding-left:4px; font-size:16px; margin:0"><strong>Accuracy:</strong><span> The info should be factually correct and match the real world. No fake news!</span></p></li><li style="margin:8px 0 0 32px"><p style="color:rgb(54,55,55); line-height:26px; margin-bottom:0; box-sizing:border-box; padding-left:4px; font-size:16px; margin:0"><strong>Structure:</strong><span> It needs organization so the LLM can understand and use it. Think neat rows, not a tangled mess.</span></p></li><li style="margin:8px 0 0 32px"><p style="color:rgb(54,55,55); line-height:26px; margin-bottom:0; box-sizing:border-box; padding-left:4px; font-size:16px; margin:0"><strong>Relevance:</strong><span> The data must fit the job, whether that's writing summaries or answering questions.</span></p></li><li style="margin:8px 0 0 32px"><p style="color:rgb(54,55,55); line-height:26px; margin-bottom:0; box-sizing:border-box; padding-left:4px; font-size:16px; margin:0"><strong>Diversity:</strong><span> Include a wide mix of viewpoints and experiences to avoid baking in biases.</span></p></li></ul><blockquote style="border-left:4px solid #2563eb; margin:20px 0; padding:0"><p style="margin:0 0 20px 0; color:rgb(54,55,55); margin-left:20px; line-height:26px; font-size:16px"><span>And consider, always, that </span><strong>we also have biases</strong><span>! So we cannot expect an utopian politically correct answer… and honestly it is better like this.</span></p></blockquote><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">If you don’t believe me, check some of the responses of any LLM. All AI models avoid strong claims and are constantly on the edge. Some of the most used words are:</p><pre style="background:#eeeeee; padding:16px; margin:32px 0; border-radius:8px; box-sizing:border-box"><code style="white-space:pre-wrap; font-size:16px; line-height:20px; font-weight:500"><code style="white-space:pre-wrap; font-size:16px; line-height:20px; font-weight:500">may, might, could
+potentially, arguably
+seems to, appears to</code></code></pre><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Did you see? A bias to not have biases! 😅</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"></p><h2 class="header-anchor-post" style="font-family:'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:bold; margin:1em 0 0.625em 0; color:rgb(54,55,55); line-height:1.16em; font-size:1.625em">The MCP hype and web search illusion</h2><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Giving the task to an AI agent or plug in dozen MCP black box is not going to help. If you are new to MCP (the world moves always with all these fantasy 3 letters acronyms…) here is a quick note.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Anthropic cooked up this thing called MCP, the Model Context Protocol. An universal adapter for AI, the USB of LLMs.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">It's an open standard, meaning anyone can use it. It creates a common way for large language model (LLM) applications to easily grab data or use tools from the outside world. No more building complicated custom connections for every little thing – MCP makes hooking things up much simpler.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">But… just grabbing some off-the-shelf data solution usually won't cut it for serious business needs. That stuff often gets dumped in raw, full of repetition, useless fluff, and zero structure. You need a plan.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Good data is step one, but we can do more to make RAG even better. We can teach the model to think for itself, sort of. </p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Train it to spot and fix inconsistencies in the data it sees. That helps it generate text that makes more sense.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">And teach the model some humility!</p><div class="captioned-image-container-static" style="font-size:16px; line-height:26px; margin:32px auto"><table border="0" cellpadding="0" cellspacing="0" class="image-wrapper" data-component-name="Image2ToDOMStatic" style="" width="100%"><tbody><tr><td style="text-align:center"></td><td align="left" class="content" style="text-align:center" width="1024"><a class="image-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F10453a72-1258-4068-90c3-ff9d529108ed%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381969439%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=G1KkClMHAno4DiGjXyUlidAIGCc%2FgYVuQeB74VPz%2FYM%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/10453a72-1258-4068-90c3-ff9d529108ed?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="flex-direction:column; align-items:center; padding:0; width:auto; height:auto; border:none; text-decoration:none; display:block; margin:0" target="_blank"><img alt="" class="wide-image" data-attrs='{"src":"https://substack-post-media.s3.amazonaws.com/public/images/253c535e-799f-4ebe-8ef4-cce6ba61c559_1024x704.webp","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":704,"width":1024,"resizeWidth":null,"bytes":93990,"alt":null,"title":null,"type":"image/webp","href":null,"belowTheFold":true,"topImage":false,"internalRedirect":"https://thepoorgpuguy.substack.com/i/160252785?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F253c535e-799f-4ebe-8ef4-cce6ba61c559_1024x704.webp","isProcessing":false,"align":null}' height="378.125" src="https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F253c535e-799f-4ebe-8ef4-cce6ba61c559_1024x704.webp" style="border:none!important; vertical-align:middle; display:block; height:auto; margin-bottom:0; width:auto!important; max-width:100%!important; margin:0 auto" width="550"/></a></td><td style="text-align:center"></td></tr></tbody></table></div><h2 class="header-anchor-post" style="font-family:'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:bold; margin:1em 0 0.625em 0; color:rgb(54,55,55); line-height:1.16em; font-size:1.625em">If an AI cannot say 'I Don't Know' it is not a good one</h2><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">It needs to learn to say "I don't know" when the information it has just isn't enough to give a good answer. This stops the AI from guessing wildly and spewing garbage. Honestly, it makes the whole thing more trustworthy.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Plenty of research backs this up. As a practical tip, smaller models (under 2 billion parameters) often stink at recognizing their own limits. That alone is a solid reason to consider bigger models if you're putting this into production.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">You can look again at the results of Gemma 3 1b I showed in the past article about chatting with your PDFs…</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Get the data right, add some self-checking, and teach it to admit when it's clueless. That’s how we get the most out of RAG.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">The goal is LLMs that produce text that isn’t just accurate and smart, but also transparent and dependable.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"></p><h3 class="header-anchor-post" style="font-family:'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:bold; margin:1em 0 0.625em 0; color:rgb(54,55,55); line-height:1.16em; font-size:1.375em">Agnostic LLM</h3><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"><span>Like </span><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2Ff4edd25c-74b2-42ce-8e21-0fe50daee023%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010381986523%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=L%2BZgpTc97Rg7EvkjiGxnIoCAi5Jd%2FtGLIgn1j6o4SWs%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/f4edd25c-74b2-42ce-8e21-0fe50daee023?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="color:#2563eb; text-decoration:none">Cobus Greyling</a><span> often points out, it's better to treat the LLM as tool-agnostic. For him, we should think of the LLM as just a utility for handling general questions, managing dialogue, and writing responses. All the </span><em>real</em><span> knowledge should live outside that LLM black box.</span></p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">RAG is a cool step forward for NLP. It helps LLMs create text that sounds more human and is more trustworthy. If we focus on data quality and build in checks like self-reasoning and "I don't know," we can push AI beyond just being fast and accurate. </p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">We can make it transparent and reliable, too.</p><div style="font-size:16px; line-height:26px"><hr style="margin:32px 0; padding:0; height:1px; background:#e6e6e6; border:none"/></div><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"><span>As usual, </span><strong>every week I give free links to my paid articles on Medium.</strong></p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Here is the one, about how to better implement a pre-processing strategy for a successful RAG result.</p><div class="captioned-image-container-static" style="font-size:16px; line-height:26px; margin:32px auto"><table border="0" cellpadding="0" cellspacing="0" class="image-wrapper" data-component-name="Image2ToDOMStatic" style="" width="100%"><tbody><tr><td style="text-align:center"></td><td align="left" class="content" style="text-align:center" width="976"><a class="image-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2Fe78766f3-331a-4a21-b36d-ae179525bfba%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382002458%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=uav704q%2Fh8n9vlxXO3YvCK1%2B5aA%2BFNva3bOEig6BtoU%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/e78766f3-331a-4a21-b36d-ae179525bfba?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="flex-direction:column; align-items:center; padding:0; width:auto; height:auto; border:none; text-decoration:none; display:block; margin:0" target="_blank"><img alt="fabio matricardi on Medium - advanced RAG strategies" class="wide-image" data-attrs='{"src":"https://substack-post-media.s3.amazonaws.com/public/images/06aee8db-8338-4946-85c4-f1ad7386a561_976x228.png","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":228,"width":976,"resizeWidth":null,"bytes":184187,"alt":"fabio matricardi on Medium - advanced RAG strategies","title":"fabio matricardi on Medium - advanced RAG strategies","type":"image/png","href":"https://medium.com/mlearning-ai/metadata-metamorphosis-from-plain-data-to-enhanced-insights-with-retrieval-augmented-generation-8d1a8d5a6061?sk=70e8abf76409be379bce7509d35afe05","belowTheFold":true,"topImage":false,"internalRedirect":null,"isProcessing":false,"align":null}' height="128.48360655737704" src="https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06aee8db-8338-4946-85c4-f1ad7386a561_976x228.png" style="border:none!important; vertical-align:middle; display:block; height:auto; margin-bottom:0; width:auto!important; max-width:100%!important; margin:0 auto" title="fabio matricardi on Medium - advanced RAG strategies" width="550"/></a></td><td style="text-align:center"></td></tr></tbody></table><span>Read the article </span><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2Fe78766f3-331a-4a21-b36d-ae179525bfba%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382017943%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=StIagvg%2BJUqi6zjsalF2jYZdEDmNT6xeGCPneWncZXY%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/e78766f3-331a-4a21-b36d-ae179525bfba?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="text-decoration:underline">for free on Medium</a></div><div style="font-size:16px; line-height:26px"><hr style="margin:32px 0; padding:0; height:1px; background:#e6e6e6; border:none"/></div><h2 class="header-anchor-post" style="font-family:'SF Pro Display',-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; font-weight:bold; margin:1em 0 0.625em 0; color:rgb(54,55,55); line-height:1.16em; font-size:1.625em"><strong>Do you want more?</strong></h2><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Hope you will find all this useful. Feel free to contact me with a Note.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px"><strong>I am happy you are reading my Substack newsletter, and find value in it. </strong></p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">For this reason…</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">I recently published an ebook for everyone who wants to start using Python and AI. It contains two full ready to use applications: one for text generation and analysis, and one for Image generation.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">If you are interested, here is a link with a promo code discount.</p><div class="captioned-image-container-static" style="font-size:16px; line-height:26px; margin:32px auto"><table border="0" cellpadding="0" cellspacing="0" class="image-wrapper" data-component-name="Image2ToDOMStatic" style="" width="100%"><tbody><tr><td style="text-align:center"></td><td align="left" class="content" style="text-align:center" width="1000"><a class="image-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F497ef584-3c2d-4213-b35b-ec4027acbfaf%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382033359%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=pv%2FyzTcnd5ku7vk8C6DMa0b9dPFcZCWB0z4zhEhyVyI%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/497ef584-3c2d-4213-b35b-ec4027acbfaf?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="flex-direction:column; align-items:center; padding:0; width:auto; height:auto; border:none; text-decoration:none; display:block; margin:0" target="_blank"><img alt="" class="wide-image" data-attrs='{"src":"https://substack-post-media.s3.amazonaws.com/public/images/4a1008cf-2493-44d4-8ed7-bedb4a9089ec_1000x611.png","srcNoWatermark":null,"fullscreen":null,"imageSize":null,"height":611,"width":1000,"resizeWidth":null,"bytes":381767,"alt":"","title":null,"type":"image/png","href":"https://build-your-own-ai.kit.com/products/zero-to-ai?promo=TPGG001","belowTheFold":true,"topImage":false,"internalRedirect":"https://thepoorgpuguy.substack.com/i/160683018?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1008cf-2493-44d4-8ed7-bedb4a9089ec_1000x611.png","isProcessing":false,"align":null}' height="336.05" src="https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1008cf-2493-44d4-8ed7-bedb4a9089ec_1000x611.png" style="border:none!important; vertical-align:middle; display:block; height:auto; margin-bottom:0; width:auto!important; max-width:100%!important; margin:0 auto" title="" width="550"/></a></td><td style="text-align:center"></td></tr></tbody></table><span>click on the image to </span><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F497ef584-3c2d-4213-b35b-ec4027acbfaf%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382048610%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=Vjsk6N4Jz7DzFcoA6%2FYkIu71w53vk%2B7fo7UCnJjDV18%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/497ef584-3c2d-4213-b35b-ec4027acbfaf?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" rel="" style="text-decoration:underline">get it saving 55%</a></div><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">Till next week.</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px">ThePoorGPU Guy</p><p style="margin:0 0 20px 0; color:rgb(54,55,55); line-height:26px; font-size:16px; margin-bottom:0"></p></div></div><div class="container-border" style="margin:32px 0 0; width:100%; box-sizing:border-box; border-top:1px solid #e6e6e6; font-size:16px; line-height:26px"></div><div class="post-cta typography markup" style="font-family:'Roboto Slab',sans-serif; font-weight:400; text-align:initial; word-break:break-word; margin-bottom:32px; margin:32px 0; font-size:16px; line-height:26px"><p style="color:rgb(54,55,55); margin:0 auto 20px; text-align:center; width:90%; line-height:26px; font-size:16px; margin-top:0"><span class="pencraft pc-reset reset-IxiVJZ" style="list-style:none; color:unset; text-decoration:unset; margin:0">You're currently a free subscriber to <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2Faeb8702d-a0ab-4866-a7cb-220c79df5ec9%3Fj%3DeyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382063788%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=LS4OiItcSigqANi5KpD%2F6RO%2BkNMqI60a%2F0CSuUjxZMo%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/aeb8702d-a0ab-4866-a7cb-220c79df5ec9?j=eyJ1IjoiM2dmcXF5In0.WL2E_AlVRCg2wBKjE52sW3ypkQ4o0VSLP7VVA1yMW6o" style="color:#2563eb; text-decoration:none">The Poor GPU Guy's Substack</a>. For the full experience, <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGdGhlcG9vcmdwdWd1eS5zdWJzdGFjay5jb20lMkZwJTJGYWktaXMtb25seS1hcy1nb29kLWFzLWl0cy1kaWV0LWF3YWtlbmVkJnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbWxoZENJNk1UYzBORFV3TkRJeU9Dd2laWGh3SWpveE56UTNNRGsyTWpJNExDSnBjM01pT2lKd2RXSXRNakUxTVRjNE55SXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC5iMTRzSUkxVVBEQ0NEeDl5UU5KcnRKNzVCQXo1RjhvWThVdE81SU1fTFlNIiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.jMo-oU_l0Ps1VG6zK9rNURod53LOP5-EH_f8XRE8V9w%3F%26utm_source%3Dsubstack%26utm_medium%3Demail%26utm_content%3Dpostcta&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382078904%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=V1F1L9LPB%2BZoMXdkyS3LrnpFIRyr%2BzuwLXTfWu0OPK8%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGdGhlcG9vcmdwdWd1eS5zdWJzdGFjay5jb20lMkZwJTJGYWktaXMtb25seS1hcy1nb29kLWFzLWl0cy1kaWV0LWF3YWtlbmVkJnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbWxoZENJNk1UYzBORFV3TkRJeU9Dd2laWGh3SWpveE56UTNNRGsyTWpJNExDSnBjM01pT2lKd2RXSXRNakUxTVRjNE55SXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC5iMTRzSUkxVVBEQ0NEeDl5UU5KcnRKNzVCQXo1RjhvWThVdE81SU1fTFlNIiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.jMo-oU_l0Ps1VG6zK9rNURod53LOP5-EH_f8XRE8V9w?&amp;utm_source=substack&amp;utm_medium=email&amp;utm_content=postcta" style="color:#2563eb; text-decoration:none">upgrade your subscription.</a></span></p><p class="cta-box" style="color:rgb(54,55,55); margin:0 auto 20px; width:90%; line-height:26px; font-size:16px; margin-bottom:0; text-align:center; margin-left:auto; margin-right:auto"><a class="button primary" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGdGhlcG9vcmdwdWd1eS5zdWJzdGFjay5jb20lMkZwJTJGYWktaXMtb25seS1hcy1nb29kLWFzLWl0cy1kaWV0LWF3YWtlbmVkJnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbWxoZENJNk1UYzBORFV3TkRJeU9Dd2laWGh3SWpveE56UTNNRGsyTWpJNExDSnBjM01pT2lKd2RXSXRNakUxTVRjNE55SXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC5iMTRzSUkxVVBEQ0NEeDl5UU5KcnRKNzVCQXo1RjhvWThVdE81SU1fTFlNIiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.jMo-oU_l0Ps1VG6zK9rNURod53LOP5-EH_f8XRE8V9w%3F%26utm_source%3Dsubstack%26utm_medium%3Demail%26utm_content%3Dpostcta&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382094646%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=gL%2FPi7EFQ0saZZsy0NjEIidW2sVtA2sSS5Ri1oFksRg%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGdGhlcG9vcmdwdWd1eS5zdWJzdGFjay5jb20lMkZwJTJGYWktaXMtb25seS1hcy1nb29kLWFzLWl0cy1kaWV0LWF3YWtlbmVkJnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbWxoZENJNk1UYzBORFV3TkRJeU9Dd2laWGh3SWpveE56UTNNRGsyTWpJNExDSnBjM01pT2lKd2RXSXRNakUxTVRjNE55SXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC5iMTRzSUkxVVBEQ0NEeDl5UU5KcnRKNzVCQXo1RjhvWThVdE81SU1fTFlNIiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.jMo-oU_l0Ps1VG6zK9rNURod53LOP5-EH_f8XRE8V9w?&amp;utm_source=substack&amp;utm_medium=email&amp;utm_content=postcta" role="button" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; box-sizing:border-box; border:none; height:40px; border-radius:8px; font-size:14px; line-height:20px; font-weight:600; text-align:center; padding:10px 20px; margin:0; opacity:1; outline:none; white-space:nowrap; color:#ffffff!important; text-decoration:none!important; background-color:#2563eb">Upgrade to paid</a></p></div><table border="0" cellpadding="0" cellspacing="0" class="email-ufi-2-bottom" role="presentation" style="border-top:1px solid rgb(0,0,0,.1); border-bottom:1px solid rgb(0,0,0,.1); min-width:100%" width="100%"><tbody><tr height="16"><td height="16" style="font-size:0px; line-height:0"> </td></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto" width="auto"><tbody><tr><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td align="center"><a class="email-button-outline" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fapp-link%2Fpost%3Fpublication_id%3D2151787%26post_id%3D160252785%26utm_source%3Dsubstack%26isFreemail%3Dtrue%26submitLike%3Dtrue%26token%3DeyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3NDQ1MDQyMjgsImV4cCI6MTc0NzA5NjIyOCwiaXNzIjoicHViLTIxNTE3ODciLCJzdWIiOiJyZWFjdGlvbiJ9.EeauWNI3N5_-ECW48524jygEOdyAf26SVFV0aWVb40o%26utm_medium%3Demail%26utm_campaign%3Demail-reaction%26r%3D3gfqqy&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382110273%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=EFqht3GzMKcjDYr268jfDhX5cBSVIg6VYCgF3ZGT7ng%3D&amp;reserved=0" originalsrc="https://substack.com/app-link/post?publication_id=2151787&amp;post_id=160252785&amp;utm_source=substack&amp;isFreemail=true&amp;submitLike=true&amp;token=eyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3NDQ1MDQyMjgsImV4cCI6MTc0NzA5NjIyOCwiaXNzIjoicHViLTIxNTE3ODciLCJzdWIiOiJyZWFjdGlvbiJ9.EeauWNI3N5_-ECW48524jygEOdyAf26SVFV0aWVb40o&amp;utm_medium=email&amp;utm_campaign=email-reaction&amp;r=3gfqqy" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:12px; padding:9px 14px; text-decoration:none; color:rgb(119,119,119)"><img alt="" class="icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="margin-right:8px; min-width:18px; min-height:18px; border:none; vertical-align:middle; max-width:18px" width="18"/><span class="email-button-text" style="vertical-align:middle">Like</span></a></td></tr></tbody></table></td><td style="min-width:8px" width="8"></td><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td align="center"><a class="email-button-outline" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fapp-link%2Fpost%3Fpublication_id%3D2151787%26post_id%3D160252785%26utm_source%3Dsubstack%26utm_medium%3Demail%26isFreemail%3Dtrue%26comments%3Dtrue%26token%3DeyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4%26r%3D3gfqqy%26utm_campaign%3Demail-half-magic-comments%26action%3Dpost-comment%26utm_source%3Dsubstack%26utm_medium%3Demail&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382125660%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=AXoUVe2yJVXbXjt%2BjqEYmKaw46R8a0jO1rAsrjjhGBk%3D&amp;reserved=0" originalsrc="https://substack.com/app-link/post?publication_id=2151787&amp;post_id=160252785&amp;utm_source=substack&amp;utm_medium=email&amp;isFreemail=true&amp;comments=true&amp;token=eyJ1c2VyX2lkIjoyMDkwMDY4OTAsInBvc3RfaWQiOjE2MDI1Mjc4NSwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0yMTUxNzg3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.002k0HvSJvH1Cpe_fI5MM9QBG3wPoSz0nJfO0HI3si4&amp;r=3gfqqy&amp;utm_campaign=email-half-magic-comments&amp;action=post-comment&amp;utm_source=substack&amp;utm_medium=email" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:12px; padding:9px 14px; text-decoration:none; color:rgb(119,119,119)"><img alt="" class="icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="margin-right:8px; min-width:18px; min-height:18px; border:none; vertical-align:middle; max-width:18px" width="18"/><span class="email-button-text" style="vertical-align:middle">Comment</span></a></td></tr></tbody></table></td><td style="min-width:8px" width="8"></td><td style="vertical-align:middle"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr><td align="center"><a class="email-button-outline" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvdGhlcG9vcmdwdWd1eS9wL2FpLWlzLW9ubHktYXMtZ29vZC1hcy1pdHMtZGlldC1hd2FrZW5lZD91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXJlc3RhY2stY29tbWVudCZhY3Rpb249cmVzdGFjay1jb21tZW50JnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbkJ2YzNSZmFXUWlPakUyTURJMU1qYzROU3dpYVdGMElqb3hOelEwTlRBME1qSTRMQ0psZUhBaU9qRTNORGN3T1RZeU1qZ3NJbWx6Y3lJNkluQjFZaTB5TVRVeE56ZzNJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS4wMDJrMEh2U0p2SDFDcGVfZkk1TU05UUJHM3dQb1N6MG5KZk8wSEkzc2k0IiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Of6MlBRb_iE4tKt9-dbpbakc9EE7f2WP3yXiGgA982k%3F%26utm_source%3Dsubstack%26utm_medium%3Demail&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382142854%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=E%2B7bKZ%2Bk2zk0hOeZlr%2BkEFJjvUh4oeLykd0qJhA68TQ%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvdGhlcG9vcmdwdWd1eS9wL2FpLWlzLW9ubHktYXMtZ29vZC1hcy1pdHMtZGlldC1hd2FrZW5lZD91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXJlc3RhY2stY29tbWVudCZhY3Rpb249cmVzdGFjay1jb21tZW50JnI9M2dmcXF5JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lNRGt3TURZNE9UQXNJbkJ2YzNSZmFXUWlPakUyTURJMU1qYzROU3dpYVdGMElqb3hOelEwTlRBME1qSTRMQ0psZUhBaU9qRTNORGN3T1RZeU1qZ3NJbWx6Y3lJNkluQjFZaTB5TVRVeE56ZzNJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS4wMDJrMEh2U0p2SDFDcGVfZkk1TU05UUJHM3dQb1N6MG5KZk8wSEkzc2k0IiwicCI6MTYwMjUyNzg1LCJzIjoyMTUxNzg3LCJmIjp0cnVlLCJ1IjoyMDkwMDY4OTAsImlhdCI6MTc0NDUwNDIyOCwiZXhwIjoxNzQ3MDk2MjI4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Of6MlBRb_iE4tKt9-dbpbakc9EE7f2WP3yXiGgA982k?&amp;utm_source=substack&amp;utm_medium=email" style="font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; display:inline-block; font-weight:500; border:1px solid rgb(0,0,0,.1); border-radius:9999px; text-transform:uppercase; font-size:12px; line-height:12px; padding:9px 14px; text-decoration:none; color:rgb(119,119,119)"><img alt="" class="icon" height="18" src="https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FNoteForwardIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" style="margin-right:8px; min-width:18px; min-height:18px; border:none; vertical-align:middle; max-width:18px" width="18"/><span class="email-button-text" style="vertical-align:middle">Restack</span></a></td></tr></tbody></table></td></tr></tbody></table></td><td align="right"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="auto"><tbody><tr></tr></tbody></table></td></tr></tbody></table></td></tr><tr height="16"><td height="16" style="font-size:0px; line-height:0"> </td></tr></tbody></table><div class="footer footer-ZM59BM" style="color:rgb(119,119,119); text-align:center; font-size:16px; line-height:26px; padding:24px0"><div style="font-size:16px; line-height:26px; padding-bottom:24px"><p class="pencraft pc-reset color-secondary-ls1g8s size-12-mmZ61m reset-IxiVJZ small meta-B2bqa5" style="list-style:none; font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; padding-bottom:0; font-size:12px; line-height:16px; margin:0; color:rgb(119,119,119); text-decoration:unset">© 2025 <span>Fabio</span><br/>fabio.matricardi@gmail.com <br/><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9hY3Rpb24vZGlzYWJsZV9lbWFpbD90b2tlbj1leUoxYzJWeVgybGtJam95TURrd01EWTRPVEFzSW5CdmMzUmZhV1FpT2pFMk1ESTFNamM0TlN3aWFXRjBJam94TnpRME5UQTBNakk0TENKbGVIQWlPakUzTnpZd05EQXlNamdzSW1semN5STZJbkIxWWkweU1UVXhOemczSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuOUoySjRxWVV6ZzctLXVVRG83NWRPRjBvZXpIWk9OSmhURTYzSmNBTk9HNCIsInAiOjE2MDI1Mjc4NSwicyI6MjE1MTc4NywiZiI6dHJ1ZSwidSI6MjA5MDA2ODkwLCJpYXQiOjE3NDQ1MDQyMjgsImV4cCI6MTc0NzA5NjIyOCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.IG_ZhTM_qkGHM9gZfLikec1-ZMS7XIcAvXLC-4dvDUo%3F&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382161188%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=KYNZJ8DF1HutwZM5kU2qc6vFIyQqKd%2FIBZUpAVoWySU%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwb29yZ3B1Z3V5LnN1YnN0YWNrLmNvbS9hY3Rpb24vZGlzYWJsZV9lbWFpbD90b2tlbj1leUoxYzJWeVgybGtJam95TURrd01EWTRPVEFzSW5CdmMzUmZhV1FpT2pFMk1ESTFNamM0TlN3aWFXRjBJam94TnpRME5UQTBNakk0TENKbGVIQWlPakUzTnpZd05EQXlNamdzSW1semN5STZJbkIxWWkweU1UVXhOemczSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuOUoySjRxWVV6ZzctLXVVRG83NWRPRjBvZXpIWk9OSmhURTYzSmNBTk9HNCIsInAiOjE2MDI1Mjc4NSwicyI6MjE1MTc4NywiZiI6dHJ1ZSwidSI6MjA5MDA2ODkwLCJpYXQiOjE3NDQ1MDQyMjgsImV4cCI6MTc0NzA5NjIyOCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.IG_ZhTM_qkGHM9gZfLikec1-ZMS7XIcAvXLC-4dvDUo?" style="color:#2563eb; text-decoration:none"><span style="color:rgb(119,119,119); text-decoration:underline">Unsubscribe</span></a></p></div><p class="footerSection-EHR0jG small powered-by-substack" style="padding:0 24px; font-size:12px; line-height:20px; margin:0; color:rgb(119,119,119); font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; padding-bottom:0; margin-top:0"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubstack.com%2Fredirect%2F2%2FeyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9vdGVyJmZyZWVTaWdudXBFbWFpbD1sQGxjcy5ueWMmcj0zZ2ZxcXkiLCJwIjoxNjAyNTI3ODUsInMiOjIxNTE3ODcsImYiOnRydWUsInUiOjIwOTAwNjg5MCwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.hRuoMkkZPqdR3GmyuEKthhDdVbxiKiYmaYePP5CwFkQ%3F&amp;data=05%7C02%7Cl%40lcs.nyc%7C65c5c9a888e449c471fd08dd7a2266a1%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801010382176789%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=Kgmzd13wbWO1SD6854duTrgOysk%2BnK9cGqWeUq2rvKs%3D&amp;reserved=0" originalsrc="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9vdGVyJmZyZWVTaWdudXBFbWFpbD1sQGxjcy5ueWMmcj0zZ2ZxcXkiLCJwIjoxNjAyNTI3ODUsInMiOjIxNTE3ODcsImYiOnRydWUsInUiOjIwOTAwNjg5MCwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.hRuoMkkZPqdR3GmyuEKthhDdVbxiKiYmaYePP5CwFkQ?" style="color:#2563eb; text-decoration:none; display:inline-block; margin:0 4px"><img alt="Start writing" height="40" src="https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" style="max-width:550px; border:none!important; vertical-align:middle" width="135"/></a></p></div></div></td><td></td></tr></tbody></table><img alt="" border="0" height="1" src="https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjUwNDEzMDAzMDI1LjMuZDM2NjVlY2U3ZGFhNjVmYUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjA5MDA2ODkwLCJyIjoibEBsY3MubnljIiwiZCI6Im1nLWQwLnN1YnN0YWNrLmNvbSIsInAiOjE2MDI1Mjc4NSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoyMTUxNzg3LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoiYm90dG9tIiwiaWF0IjoxNzQ0NTA0MjI4LCJleHAiOjE3NDcwOTYyMjgsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.rudwtLvu3iOfvEI6M9m1PpNtrEADNAIBY5gNPfQtEAo" style="height:1px!important; width:1px!important; border-width:0!important; margin-top:0!important; margin-bottom:0!important; margin-right:0!important; margin-left:0!important; padding-top:0!important; padding-bottom:0!important; padding-right:0!important; padding-left:0!important" width="1"/><img alt="" height="1" src="https://email.mg-d0.substack.com/o/eJw8kEmOwyAQRU8Tdm0VYDwsOIvF8O2gtsFiSMu3b2VQtq9UT0_fmYot5UufqVTm9SDNqjyD5mPfK-qF5AyHCfuyISKbCr-Y-r2KaZbE7tryaeaehFOOuLCzksA6cwfuViUmsKAFCUU9l0SShOpk5-UwKDiM3phBrebW07H9eOpKs6Ua99u5dLBQljXjlaBrbmDP0MU0HxAdNB7IV4ofHLzmAwklxkm9Sb1O6Ii_sqNWZHY2u7h0HC2Gei2Ixu7wH3Gze3CmhhSfIsEVH6eRZb3fetpd6eLlWGnWp8OEqOsdZ0p5O9vWLlbfA7aC_HqmmWiYZmIPLf4DAAD__w-rdfo" width="1"/> </body></html>

@@ -1,0 +1,223 @@
+<html><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="IE=edge"/><meta content="width=device-width, initial-scale=1" name="viewport"/><style>
+<!--
+a:link
+	{color:#0F4CAD;
+	text-decoration:underline}
+a:visited
+	{color:#0F4CAD;
+	text-decoration:underline}
+a:active
+	{color:#0F4CAD;
+	text-decoration:underline}
+a:hover
+	{color:#0F4CAD;
+	text-decoration:underline}
+-->
+</style><style>
+<!--
+#outlook a
+	{padding:0}
+body
+	{margin:0;
+	padding:0}
+table, td
+	{border-collapse:collapse}
+img
+	{border:0;
+	line-height:100%;
+	outline:none;
+	text-decoration:none}
+p
+	{display:block;
+	margin:13px 0}
+@media only screen and (min-width: 480px) {
+.mj-column-per-100
+	{width:100%!important;
+	max-width:100%}
+
+	}
+.moz-text-html .mj-column-per-100
+	{width:100%!important;
+	max-width:100%}
+@media only screen and (max-width: 480px) {
+div.kl-row.colstack div.kl-column
+	{display:block!important;
+	width:100%!important}
+
+	}
+@media only screen and (max-width: 480px) {
+.component-wrapper .mob-no-spc
+	{padding-left:0!important;
+	padding-right:0!important}
+
+	}
+@media only screen and (max-width: 480px) {
+td.kl-img-base-auto-width
+	{width:100%!important}
+
+	}
+.kl-button a
+	{display:block!important}
+@media screen and (max-width: 480px) {
+.kl-sl-stk
+	{display:block!important;
+	width:100%!important;
+	padding:0 0 9px!important;
+	text-align:center!important}
+.kl-sl-stk.lbls
+	{padding:0!important}
+.kl-sl-stk.spcblk
+	{display:none!important}
+
+	}
+img
+	{border:0;
+	height:auto;
+	line-height:100%;
+	outline:none;
+	text-decoration:none;
+	max-width:100%}
+.root-container
+	{background-repeat:repeat!important;
+	background-size:auto!important;
+	background-position:left top!important}
+.root-container-spacing
+	{padding-top:50px!important;
+	padding-bottom:20px!important;
+	font-size:0!important}
+.content-padding
+	{padding-left:0!important;
+	padding-right:0!important}
+.content-padding.first
+	{padding-top:0!important}
+.content-padding.last
+	{padding-bottom:0!important}
+@media only screen and (max-width: 480px) {
+td.mobile-only
+	{display:table-cell!important}
+div.mobile-only
+	{display:block!important}
+table.mobile-only
+	{display:table!important}
+.desktop-only
+	{display:none!important}
+
+	}
+@media only screen and (max-width: 480px) {
+.table-mobile-only
+	{display:table-cell!important;
+	max-height:none!important}
+.table-mobile-only.block
+	{display:block!important}
+.table-mobile-only.inline-block
+	{display:inline-block!important}
+.table-desktop-only
+	{max-height:0!important;
+	display:none!important;
+	overflow:hidden!important}
+
+	}
+p
+	{margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	margin-bottom:0;
+	padding-bottom:1em}
+@media only screen and (max-width: 480px) {
+body.mce-content-body, .kl-text > div, .kl-table-subblock div, .kl-split-subblock > div
+	{font-size:14px!important;
+	line-height:1.3!important}
+
+	}
+h1
+	{color:#222;
+	font-family:"Helvetica Neue",Arial;
+	font-size:40px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.1;
+	letter-spacing:0;
+	margin:0;
+	margin-bottom:20px;
+	text-align:left}
+@media only screen and (max-width: 480px) {
+h1
+	{font-size:40px!important;
+	line-height:1.1!important}
+
+	}
+h2
+	{color:#222;
+	font-family:"Helvetica Neue",Arial;
+	font-size:32px;
+	font-style:normal;
+	font-weight:bold;
+	line-height:1.1;
+	letter-spacing:0;
+	margin:0;
+	margin-bottom:16px;
+	text-align:left}
+@media only screen and (max-width: 480px) {
+h2
+	{font-size:32px!important;
+	line-height:1.1!important}
+
+	}
+h3
+	{color:#222;
+	font-family:"Helvetica Neue",Arial;
+	font-size:24px;
+	font-style:normal;
+	font-weight:bold;
+	line-height:1.1;
+	letter-spacing:0;
+	margin:0;
+	margin-bottom:12px;
+	text-align:left}
+@media only screen and (max-width: 480px) {
+h3
+	{font-size:24px!important;
+	line-height:1.1!important}
+
+	}
+h4
+	{color:#222;
+	font-family:"Helvetica Neue",Arial;
+	font-size:18px;
+	font-style:normal;
+	font-weight:400;
+	line-height:1.1;
+	letter-spacing:0;
+	margin:0;
+	margin-bottom:9px;
+	text-align:left}
+@media only screen and (max-width: 480px) {
+h4
+	{font-size:18px!important;
+	line-height:1.1!important}
+
+	}
+@media only screen and (max-width: 480px) {
+.root-container
+	{width:100%!important}
+.root-container-spacing
+	{padding:10px!important}
+.content-padding
+	{padding-left:0!important;
+	padding-right:0!important}
+.content-padding.first
+	{padding-top:0!important}
+.content-padding.last
+	{padding-bottom:0!important}
+.kl-column > .component-wrapper
+	{padding-left:0!important;
+	padding-right:0!important;
+	width:unset!important}
+.kl-text
+	{padding-right:18px!important;
+	padding-left:18px!important}
+
+	}
+-->
+</style></head><body style="word-spacing:normal; background-color:#f7f7f7"><div style="display:none; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden">Leaving your child with someone else can be stressful ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ </div><img alt="" border="0" height="1" src="https://ctrk.klclick.com/o/01JRP9QGCJWHEJF2KNJTXAFRK3" style="height:1px!important; width:1px!important; border-width:0!important; margin-top:0!important; margin-bottom:0!important; margin-right:0!important; margin-left:0!important; padding-top:0!important; padding-bottom:0!important; padding-right:0!important; padding-left:0!important" width="1"/> <div class="root-container" id="bodyTable" style="background-color:#f7f7f7"><div class="root-container-spacing"><table align="center" border="0" cellpadding="0" cellspacing="0" class="kl-section" role="presentation" style="width:100%"><tbody><tr><td><div style="margin:0px auto; max-width:600px"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%"><tbody><tr><td style="direction:ltr; font-size:0px; padding:0px; text-align:center"><div style="background:#ffffff; background-color:#ffffff; margin:0px auto; border-radius:0px 0px 0px 0px; max-width:600px"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff; background-color:#ffffff; width:100%; border-radius:0px 0px 0px 0px"><tbody><tr><td style="direction:ltr; font-size:0px; padding:20px 0; padding-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px; text-align:center"><div class="content-padding first"><div class="kl-row colstack" style="display:table; table-layout:fixed; width:100%"><div class="kl-column" style="display:table-cell; vertical-align:top; width:100%"><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="vertical-align:top; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-image" style="font-size:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-spacing:0px"><tbody><tr><td class="kl-img-base-auto-width" style="border:0; padding:0px 0px 0px 0px; width:600px" valign="top"><a class="kl-img-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_0&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153276005%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=9hYKYaKeC5syuXGhLWZ3NBHQrRbSQuVDp1tk2mbjCFk%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_0" style="color:#0F4CAD; text-decoration:underline; display:block"><img alt="Zetronix" src="https://d3k81ch9hvuctc.cloudfront.net/company/NZpz96/images/a023a032-8e9e-4e22-95a3-cc8787ebce84.png" style="display:block; outline:none; text-decoration:none; height:auto; font-size:13px; width:100%" title="Zetronix" width="600"/> </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div></div></div></div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="kl-section" role="presentation" style="width:100%"><tbody><tr><td><div style="margin:0px auto; max-width:600px"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%"><tbody><tr><td style="direction:ltr; font-size:0px; padding:0px; text-align:center"><div style="background:#ffffff; background-color:#ffffff; margin:0px auto; border-radius:0px 0px 0px 0px; max-width:600px"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff; background-color:#ffffff; width:100%; border-radius:0px 0px 0px 0px"><tbody><tr><td style="direction:ltr; font-size:0px; padding:20px 0; padding-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px; text-align:center"><div class="content-padding"><div class="kl-row colstack" style="display:table; table-layout:fixed; width:100%"><div class="kl-column" style="display:table-cell; vertical-align:top; width:100%"><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:15px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="font-weight:bold; font-size:30px; font-family:Poppins,'Helvetica Neue',Helvetica,Arial,sans-serif; color:rgb(15,76,173)">Always Know What’s Happening<br/></span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:30px; padding-bottom:0px; padding-left:30px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="font-family:Poppins,'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:400; font-style:normal; font-size:16px"><div>Leaving your child with a sitter can be stressful—you can’t always be there to see what’s really happening.</div></span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:20px; padding-right:18px; padding-bottom:20px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-button" style="font-size:0px; padding:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate; width:100%; line-height:100%"><tbody><tr><td align="center" bgcolor="#0F4CAD" role="presentation" style="border:none; border-radius:30px; font-style:normal; background:#0F4CAD" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_1&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153296545%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=ZGAv%2BgKWOlNHJXLL7BgoG8SS8Z40%2FxvlSwxu6JzRj6M%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_1" style='color:#FFF; text-decoration:none; display:inline-block; background:#0F4CAD; font-family:"Montserrat",Arial,"Helvetica Neue",Helvetica,sans-serif; font-size:16px; font-style:normal; font-weight:600; line-height:100%; letter-spacing:0; margin:0; text-transform:none; padding:15px 0 15px 0; border-radius:30px' target="_blank">EXPLORE THE SITTER COLLECTION </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-image" style="font-size:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-spacing:0px"><tbody><tr><td class="kl-img-base-auto-width" style="border:0; padding:0px 0px 0px 0px; width:540px" valign="top"><a class="kl-img-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_2&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153313523%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=2Iw7Pj6bL65Uh2IvlQ7m6MxBNqjCwqOG6QNfih7Mric%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_2" style="color:#0F4CAD; text-decoration:underline; display:block"><img alt="Zetronix - Watching the Sitter" src="https://d3k81ch9hvuctc.cloudfront.net/company/NZpz96/images/5cf5b10b-6e53-4f55-9307-cedf66b53f4f.png" style="display:block; outline:none; text-decoration:none; height:auto; font-size:13px; width:100%" title="Zetronix - Watching the Sitter" width="540"/> </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="color:#0f4cad; font-family:Poppins,Helvetica Neue,Helvetica,Arial,sans-serif"><span style="font-size:30px"><strong>Discreet Cameras, <br/>Peace of Mind<br/></strong></span></span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:30px; padding-bottom:0px; padding-left:30px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="font-family:Poppins,'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:400; font-style:normal; font-size:16px">Our discreet nanny cams give you real-time insight, so you’re always aware of what’s going on at home.</span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-image" style="font-size:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-spacing:0px"><tbody><tr><td class="kl-img-base-auto-width" style="border:0; padding:0px 0px 0px 0px; width:540px" valign="top"><a class="kl-img-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_3&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153330054%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=hPvRugKJgsgvRA5gZ%2BzkbXJlJiA3lCutJdB7nKkMH6w%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_3" style="color:#0F4CAD; text-decoration:underline; display:block"><img alt="Zetronix - Watching the Sitter" src="https://d3k81ch9hvuctc.cloudfront.net/company/NZpz96/images/8a6bf2e5-b09d-4355-abd0-2394ed5c7a19.png" style="display:block; outline:none; text-decoration:none; height:auto; font-size:13px; width:100%" title="Zetronix - Watching the Sitter" width="540"/> </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="color:#0f4cad; font-family:Poppins,Helvetica Neue,Helvetica,Arial,sans-serif"><span style="font-size:30px"><strong>Watch Anytime, Anywhere<br/></strong></span></span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:30px; padding-bottom:0px; padding-left:30px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="font-family:Poppins,'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:400; font-style:normal; font-size:16px"> Unlike standard cameras, these are hidden in everyday objects, providing reliable monitoring without disrupting your home’s look.</span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-image" style="font-size:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-spacing:0px"><tbody><tr><td class="kl-img-base-auto-width" style="border:0; padding:0px 0px 0px 0px; width:540px" valign="top"><a class="kl-img-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_4&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153345125%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=e6ZR7C2XfRL8QAZ%2Bmq6SIVaOkNz4h0Ell5nz2uWF7KU%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_4" style="color:#0F4CAD; text-decoration:underline; display:block"><img alt="Zetronix - Watching the Sitter" src="https://d3k81ch9hvuctc.cloudfront.net/company/NZpz96/images/26dab915-05e9-4ab5-b847-5b31b336bec2.png" style="display:block; outline:none; text-decoration:none; height:auto; font-size:13px; width:100%" title="Zetronix - Watching the Sitter" width="540"/> </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="color:#0f4cad; font-family:Poppins,Helvetica Neue,Helvetica,Arial,sans-serif"><span style="font-size:30px"><strong>Peace of Mind<br/></strong></span></span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:30px; padding-bottom:0px; padding-left:30px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="font-family:Poppins,'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:400; font-style:normal; font-size:16px">Get peace of mind without invasive setups—because protecting your loved ones shouldn’t be complicated.</span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:15px; padding-right:30px; padding-bottom:15px; padding-left:30px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-image" style="font-size:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-spacing:0px"><tbody><tr><td class="kl-img-base-auto-width" style="border:0; padding:0px 0px 0px 0px; width:540px" valign="top"><a class="kl-img-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_5&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153360232%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=ym7pLkWI2P0bJkDQljKFL2axWaUK%2Fh8cAkVAtQZa4Pc%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_5" style="color:#0F4CAD; text-decoration:underline; display:block"><img alt="Zetronix - Watching the Sitter" src="https://d3k81ch9hvuctc.cloudfront.net/company/NZpz96/images/1188e61c-5d43-4ebf-aa16-821689be7284.png" style="display:block; outline:none; text-decoration:none; height:auto; font-size:13px; width:100%" title="Zetronix - Watching the Sitter" width="540"/> </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:20px; padding-right:18px; padding-bottom:20px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-button" style="font-size:0px; padding:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate; width:100%; line-height:100%"><tbody><tr><td align="center" bgcolor="#0F4CAD" role="presentation" style="border:none; border-radius:30px; font-style:normal; background:#0F4CAD" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_6&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153376415%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=iWtMmlgi2E6%2BWxbp2cBEEw6Zdscd4IACHh4l6fq8fGU%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_6" style='color:#FFF; text-decoration:none; display:inline-block; background:#0F4CAD; font-family:"Montserrat",Arial,"Helvetica Neue",Helvetica,sans-serif; font-size:16px; font-style:normal; font-weight:600; line-height:100%; letter-spacing:0; margin:0; text-transform:none; padding:15px 0 15px 0; border-radius:30px' target="_blank">SHOP NOW </a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div></div></div></div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr></tbody></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="kl-section" role="presentation" style="width:100%"><tbody><tr><td><div style="margin:0px auto; max-width:600px"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%"><tbody><tr><td style="direction:ltr; font-size:0px; padding:0px; text-align:center"><div style="background:#ffffff; background-color:#ffffff; margin:0px auto; border-radius:0px 0px 0px 0px; max-width:600px"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff; background-color:#ffffff; width:100%; border-radius:0px 0px 0px 0px"><tbody><tr><td style="direction:ltr; font-size:0px; padding:20px 0; padding-bottom:0px; padding-left:0px; padding-right:0px; padding-top:0px; text-align:center"><div class="content-padding last"><div class="kl-row colstack" style="display:table; table-layout:fixed; width:100%"><div class="kl-column" style="display:table-cell; vertical-align:top; width:100%"><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#F2F2F2; vertical-align:top; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-image" style="font-size:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-spacing:0px"><tbody><tr><td class="kl-img-base-auto-width" style="border:0; padding:0px 0px 0px 0px; width:600px" valign="top"><img src="https://d3k81ch9hvuctc.cloudfront.net/company/NZpz96/images/2b79a5a8-2961-4e41-b23a-6b5f7f661aa6.png" style="display:block; outline:none; text-decoration:none; height:auto; font-size:13px; width:100%" width="600"/> </td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#232323; vertical-align:top; padding-top:9px; padding-right:9px; padding-bottom:9px; padding-left:9px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td><div style="width:100%; text-align:center"><div class="" style="display:inline-block; padding-right:10px"><div style="text-align:center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_7&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153391639%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=kv7LwdmChwo9NHImIJD%2Ftu4yanDRxKfrLSI1pCq1dSw%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_7" style="color:#0F4CAD; text-decoration:underline" target="_blank"><img alt="Facebook" src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtleinverse/facebook_96.png" style="width:48px" width="48"/> </a></div></div><div class="" style="display:inline-block; padding-right:10px"><div style="text-align:center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_8&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153407254%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=TV0LSFMSMTWxcNAck7gOP%2BuwZkHj%2Fl%2FnjPYtZPkUbeU%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_8" style="color:#0F4CAD; text-decoration:underline" target="_blank"><img alt="Twitter" src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtleinverse/x_twitter_96.png" style="width:48px" width="48"/> </a></div></div><div class="" style="display:inline-block"><div style="text-align:center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_9&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153422138%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=VNc2fkdN3Aa5nw2DOgNLkADDTsGvnzwXkXT4qU0FKJM%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_9" style="color:#0F4CAD; text-decoration:underline" target="_blank"><img alt="LinkedIn" src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtleinverse/linkedin_96.png" style="width:48px" width="48"/> </a></div></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#232323; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="font-size:13px; color:rgb(255,114,9)"><strong>Quality, Support, and a Satisfaction Guarantee </strong></span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#232323; vertical-align:top; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-image" style="font-size:0px; word-break:break-word"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border-spacing:0px"><tbody><tr><td class="kl-img-base-auto-width" style="border:0; padding:0px 0px 0px 0px; width:436px" valign="top"><img src="https://d3k81ch9hvuctc.cloudfront.net/company/NZpz96/images/015351f4-b757-41d0-821e-84370734ebcc.png" style="display:block; outline:none; text-decoration:none; height:auto; font-size:13px; width:100%" width="436"/> </td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#232323; vertical-align:top; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:25px; padding-bottom:10px; padding-left:25px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><span style="color:rgb(255,255,255)"><span style="font-size:12px">Lifetime phone, live and email support. Full-year warranty on all products. 30-day money-back guarantee. </span><span style="font-size:12px">Fast delivery options. </span><span style="font-size:12px">Registered and certified products. US brand over 10 years in business.</span></span></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#232323; vertical-align:top; padding-top:0px; padding-right:18px; padding-bottom:0px; padding-left:18px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="left" class="kl-text" style="font-size:0px; padding:0px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:14px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:left; color:#222222"><div style="text-align:center"><h4 style="text-align:center"><span style="color:rgb(255,255,255)"><span style="font-size:12px">119 Braintree St Ste 701 Boston MA 02134. </span><span style="font-size:12px"><span style="font-family:Helvetica,Arial,sans-serif">© 2022 Zetronix, All Rights Reserved </span></span></span></h4></div></div></td></tr></tbody></table></td></tr></tbody></table></div><div class="mj-column-per-100 mj-outlook-group-fix component-wrapper kl-text-table-layout" style="font-size:0px; text-align:left; direction:ltr; vertical-align:top; width:100%"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%" width="100%"><tbody><tr><td class="" style="background-color:#232323; vertical-align:top; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%"><tbody><tr><td align="center" class="kl-text" style="font-size:0px; padding:0px; padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:18px; word-break:break-word"><div style="font-family:'Helvetica Neue',Arial; font-size:12px; font-style:normal; font-weight:400; letter-spacing:0px; line-height:1.3; text-align:center; color:#727272"><h4 style="text-align:center"><span style="font-size:11px; font-family:Helvetica,Arial,sans-serif; color:rgb(255,255,255)"><a class="unsubscribe-link" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_10&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153437128%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=0u0DiLmG3OJOodi%2BGcxKjhtWYxVW%2BvzQq6hMHXQRn%2Fo%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_10" style="color:#0F4CAD; font-weight:normal; text-decoration:underline">Unsubscribe</a>  |  <a class="manage-preferences" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_11&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153452728%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=4kt1dNXg0mZmH9eUXL3Nys%2F3Saq%2BagCMjJqJiath4K0%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_11" style="color:#0F4CAD; font-weight:normal; text-decoration:underline">Update Email Preference</a>  |  <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fctrk.klclick.com%2Fl%2F01JRP9QGCJWHEJF2KNJTXAFRK3_12&amp;data=05%7C02%7Clcs%40lawr.cc%7C0150e7ccaae647ea162b08dd7a26c680%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801029153469083%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=Z7ayzCEaNv8c%2FZfTIMHgj09hi0LNwg3UrBm8acZpoLQ%3D&amp;reserved=0" originalsrc="https://ctrk.klclick.com/l/01JRP9QGCJWHEJF2KNJTXAFRK3_12" style="color:rgb(255,255,255); text-decoration:underline">Privacy Policy</a></span></h4></div></td></tr></tbody></table></td></tr></tbody></table></div></div></div></div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr></tbody></table></div></div></body></html>

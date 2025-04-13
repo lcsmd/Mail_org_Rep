@@ -1,0 +1,284 @@
+<html lang="en"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta name="x-apple-disable-message-reformatting"/><meta content="IE=edge"/><style type="text/css">
+<!--
+[class="x_foo"]
+	{display:block!important;
+	font-size:12px!important;
+	line-height:100%!important;
+	color:#000000!important;
+	background-color:#fafafa!important;
+	border:2px grey solid!important;
+	padding-top:4px!important;
+	padding-bottom:4px!important;
+	margin-bottom:10px!important;
+	font-family:Verdana,Geneva,sans-serif!important;
+	width:650px!important;
+	max-width:100%!important;
+	color:#000000!important;
+	max-height:300px!important;
+	overflow:auto!important}
+-->
+</style><style type="text/css">
+<!--
+body, table, td, a
+	{}
+table, td
+	{}
+img
+	{}
+img
+	{border:0;
+	height:auto;
+	line-height:100%;
+	outline:none;
+	text-decoration:none}
+body
+	{height:100%!important;
+	margin:0!important;
+	padding:0!important;
+	width:100%!important}
+a[x-apple-data-detectors]
+	{color:inherit!important;
+	text-decoration:none!important;
+	font-size:inherit!important;
+	font-family:inherit!important;
+	font-weight:inherit!important;
+	line-height:inherit!important}
+.gmail-show
+	{height:auto!important;
+	width:auto!important;
+	max-width:none!important;
+	max-height:none!important;
+	overflow:auto!important;
+	visibility:visible!important;
+	display:block!important}
+@media screen and (max-width: 1200px) {
+u ~ div .responsive-topbox-item-600
+	{width:100%!important;
+	min-width:100%!important}
+u ~ div .mobile-hide-topbox-item-600
+	{display:none!important}
+u ~ div .mobile-topbox-padding-0-600
+	{padding:0px!important}
+u ~ div .mobile-topbox-padding-5-600
+	{padding:5px!important}
+u ~ div .mobile-topbox-padding-10-600
+	{padding:10px!important}
+u ~ div .mobile-topbox-padding-15-600
+	{padding:15px!important}
+u ~ div .mobile-topbox-padding-20-600
+	{padding:20px!important}
+u ~ div .mobile-topbox-padding-5-top-item-600
+	{padding:5px 5px 3px 5px!important}
+u ~ div .mobile-topbox-padding-10-top-item-600
+	{padding:10px 10px 5px 10px!important}
+u ~ div .mobile-topbox-padding-15-top-item-600
+	{padding:15px 15px 8px 15px!important}
+u ~ div .mobile-topbox-padding-20-top-item-600
+	{padding:20px 20px 10px 20px!important}
+u ~ div .mobile-topbox-padding-5-bottom-item-600
+	{padding:3px 5px 5px 5px!important}
+u ~ div .mobile-topbox-padding-10-bottom-item-600
+	{padding:5px 10px 10px 10px!important}
+u ~ div .mobile-topbox-padding-15-bottom-item-600
+	{padding:8px 15px 15px 15px!important}
+u ~ div .mobile-topbox-padding-20-bottom-item-600
+	{padding:10px 20px 20px 20px!important}
+u ~ div .responsive-topbox-item-480
+	{width:100%!important;
+	min-width:100%!important}
+u ~ div .mobile-hide-topbox-item-480
+	{display:none!important}
+u ~ div .mobile-topbox-padding-0-480
+	{padding:0px!important}
+u ~ div .mobile-topbox-padding-5-480
+	{padding:5px!important}
+u ~ div .mobile-topbox-padding-10-480
+	{padding:10px!important}
+u ~ div .mobile-topbox-padding-15-480
+	{padding:15px!important}
+u ~ div .mobile-topbox-padding-20-480
+	{padding:20px!important}
+u ~ div .mobile-topbox-padding-5-top-item-480
+	{padding:5px 5px 3px 5px!important}
+u ~ div .mobile-topbox-padding-10-top-item-480
+	{padding:10px 10px 5px 10px!important}
+u ~ div .mobile-topbox-padding-15-top-item-480
+	{padding:15px 15px 8px 15px!important}
+u ~ div .mobile-topbox-padding-20-top-item-480
+	{padding:20px 20px 10px 20px!important}
+u ~ div .mobile-topbox-padding-5-bottom-item-480
+	{padding:3px 5px 5px 5px!important}
+u ~ div .mobile-topbox-padding-10-bottom-item-480
+	{padding:5px 10px 10px 10px!important}
+u ~ div .mobile-topbox-padding-15-bottom-item-480
+	{padding:8px 15px 15px 15px!important}
+u ~ div .mobile-topbox-padding-20-bottom-item-480
+	{padding:10px 20px 20px 20px!important}
+
+	}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+.webkit-show
+	{height:auto!important;
+	width:auto!important;
+	max-width:none!important;
+	max-height:none!important;
+	overflow:auto!important;
+	visibility:visible!important;
+	display:block!important}
+.webkit-hide
+	{display:none!important}
+.ptop50
+	{padding-top:50px!important}
+#font-weight-normal
+	{font-weight:normal!important}
+
+	}
+@media screen and (max-width: 800px) {
+.img-max
+	{width:100%!important;
+	max-width:100%!important;
+	height:auto!important}
+.full-width
+	{max-width:100%!important}
+
+	}
+@media screen and (max-width: 600px) {
+.responsive-topbox-item-600
+	{width:100%!important;
+	min-width:100%!important}
+.mobile-hide-topbox-item-600
+	{display:none!important}
+.mobile-topbox-padding-0-600
+	{padding:0px!important}
+.mobile-topbox-padding-5-600
+	{padding:5px!important}
+.mobile-topbox-padding-10-600
+	{padding:10px!important}
+.mobile-topbox-padding-15-600
+	{padding:15px!important}
+.mobile-topbox-padding-20-600
+	{padding:20px!important}
+.mobile-topbox-padding-5-top-item-600
+	{padding:5px 5px 3px 5px!important}
+.mobile-topbox-padding-10-top-item-600
+	{padding:10px 10px 5px 10px!important}
+.mobile-topbox-padding-15-top-item-600
+	{padding:15px 15px 8px 15px!important}
+.mobile-topbox-padding-20-top-item-600
+	{padding:20px 20px 10px 20px!important}
+.mobile-topbox-padding-5-bottom-item-600
+	{padding:3px 5px 5px 5px!important}
+.mobile-topbox-padding-10-bottom-item-600
+	{padding:5px 10px 10px 10px!important}
+.mobile-topbox-padding-15-bottom-item-600
+	{padding:8px 15px 15px 15px!important}
+.mobile-topbox-padding-20-bottom-item-600
+	{padding:10px 20px 20px 20px!important}
+.responsive-table
+	{width:100%!important}
+.responsive-table-button
+	{width:100%!important;
+	min-width:100%!important;
+	max-width:100%!important}
+.mobile-text
+	{font-size:24px!important;
+	line-height:26px!important}
+.mobile-font-14
+	{font-size:14px!important;
+	line-height:14px!important}
+.mobile-font-16
+	{font-size:16px!important;
+	line-height:16px!important}
+.mobile-font-18
+	{font-size:18px!important;
+	line-height:18px!important}
+.mobile-font-20
+	{font-size:20px!important;
+	line-height:20px!important}
+.mobile-font-22
+	{font-size:22px!important;
+	line-height:22px!important}
+.mobile-font-25
+	{font-size:25px!important;
+	line-height:25px!important}
+.mobile-font-30
+	{font-size:30px!important;
+	line-height:30px!important}
+.mobile-font-35
+	{font-size:35px!important;
+	line-height:35px!important}
+.mobile-font-40
+	{font-size:40px!important;
+	line-height:40px!important}
+#mobile
+	{font-size:13px!important;
+	letter-spacing:0px;
+	padding:10px!important}
+.mobile-footer-logo
+	{max-width:50%!important}
+.mobile
+	{font-size:13px!important;
+	letter-spacing:0px;
+	padding:10px!important}
+.responsive-rating-table
+	{width:inherit!important}
+
+	}
+.responsive-rating-btn
+	{display:inline}
+@media screen and (max-width: 480px) {
+.responsive-rating-btn
+	{display:table-row}
+.responsive-topbox-item-480
+	{width:100%!important;
+	min-width:100%!important}
+.mobile-hide-topbox-item-480
+	{display:none!important}
+.mobile-topbox-padding-0-480
+	{padding:0px!important}
+.mobile-topbox-padding-5-480
+	{padding:5px!important}
+.mobile-topbox-padding-10-480
+	{padding:10px!important}
+.mobile-topbox-padding-15-480
+	{padding:15px!important}
+.mobile-topbox-padding-20-480
+	{padding:20px!important}
+.mobile-topbox-padding-5-top-item-480
+	{padding:5px 5px 3px 5px!important}
+.mobile-topbox-padding-10-top-item-480
+	{padding:10px 10px 5px 10px!important}
+.mobile-topbox-padding-15-top-item-480
+	{padding:15px 15px 8px 15px!important}
+.mobile-topbox-padding-20-top-item-480
+	{padding:20px 20px 10px 20px!important}
+.mobile-topbox-padding-5-bottom-item-480
+	{padding:3px 5px 5px 5px!important}
+.mobile-topbox-padding-10-bottom-item-480
+	{padding:5px 10px 10px 10px!important}
+.mobile-topbox-padding-15-bottom-item-480
+	{padding:8px 15px 15px 15px!important}
+.mobile-topbox-padding-20-bottom-item-480
+	{padding:10px 20px 20px 20px!important}
+.mobile-hide
+	{display:none!important}
+#mobile-hide
+	{display:none!important}
+.headline
+	{font-size:30px!important;
+	line-height:36px!important}
+.sup
+	{font-size:18px!important;
+	line-height:18px!important}
+.logo
+	{width:85px!important;
+	height:auto!important}
+.bg
+	{padding-top:30px!important}
+.responsive-rating-table
+	{width:100%!important}
+
+	}
+-->
+</style></head><body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1231.0" data-new-gr-c-s-loaded="14.1231.0" style="padding:0"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="center" bgcolor="#ffffff" style="padding:0px 5% 15px 5%"><table border="0" cellpadding="0" cellspacing="0" style="max-width:650px" width="100%"><tbody><tr><td><div style="display:none; max-height:0px; overflow:hidden">this is our most urgent petition to save Social Security yet ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  ͏ ͏ ‌  </div><div style="display:none; max-height:0px; overflow:hidden">͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ </div></td></tr><tr><td align="left" style="color:#000000; font-family:Tahoma,Arial,Sans-Serif; font-size:16px; line-height:22px; padding:0px 0 0 0"><center><table border="0" cellpadding="0" cellspacing="0" style="max-width:650px" width="100%"><tbody><tr><td align="center" style="font-size:12px; line-height:100%; color:#000000; padding-top:0px; padding-bottom:4px; font-family:Tahoma,Arial,Sans-Serif; width:650px; max-width:100%; color:#999999" valign="middle" width="650"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fact.turnoutpac.org%2Funsubscribe%3Fm%3D4842398%26r%3DMzY0NjI0NzI5NTkS1%26j%3DMTcyMDI5MDczOQS2%26l%3D3682511%26e%3Dl%40lcs.nyc&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366064757%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=SRuGy5Bb3QEN8dIBoYS9BJw5h4uKqfDfXzs7Y8joj7U%3D&amp;reserved=0" name="unsubscribe" originalsrc="https://act.turnoutpac.org/unsubscribe?m=4842398&amp;r=MzY0NjI0NzI5NTkS1&amp;j=MTcyMDI5MDczOQS2&amp;l=3682511&amp;e=l@lcs.nyc" style="color:#224c9a"><span style="font-weight:400">Click here to unsubscribe.</span></a></td></tr><tr><td><table border="0" cellpadding="5" cellspacing="0" style="max-width:650px" width="100%"><tbody><tr><td align="center" class="foo" style="width:0; max-height:0px; display:none; font-size:12px; color:#ffffff; overflow:hidden; padding-top:0px; padding-bottom:0px; margin-bottom:0px" valign="middle">Progressive Turnout Project is a 100% grassroots-funded organization with a single mission: rallying Democrats to exercise their right to vote to and win competitive elections.<br/><br/><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fact.turnoutpac.org%2Funsubscribe%3Fm%3D4842398%26r%3DMzY0NjI0NzI5NTkS1%26j%3DMTcyMDI5MDczOQS2%26l%3D3682511%26e%3Dl%40lcs.nyc&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366085917%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=iep8Uu7bZXQ%2F%2BQxIsAQgv7hE9EDH1rlmklLkrniDX6g%3D&amp;reserved=0" name="Unsubscribe" originalsrc="https://act.turnoutpac.org/unsubscribe?m=4842398&amp;r=MzY0NjI0NzI5NTkS1&amp;j=MTcyMDI5MDczOQS2&amp;l=3682511&amp;e=l@lcs.nyc" style="color:#224c9a"><span style="font-weight:600">Look, we hope to have you on our team, but if you'd like to unsubscribe from our emails, please click here.</span></a></td></tr></tbody></table></td></tr></tbody></table></center><center><table bgcolor="#f3f3f3" cellpadding="0" cellspacing="0" style="max-width:700px; border-collapse:collapse; width:100%; overflow:hidden"><tbody><tr><td align="left" style="padding:10px 10px 10px 10px"><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%">04.12.2025: This is our most urgent petition to save Social Security yet. Elon Musk and Donald Trump are taking a chainsaw to benefits for thousands of seniors. Experts are predicting these cuts could bankrupt seniors. </span></td></tr><tr><td align="left" style="padding:10px 10px 10px 10px"><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%"><strong>We need 100,000 signatures before midnight to demand immediate protections for Social Security. </strong></span></td></tr><tr><td align="left" style="padding:10px 10px 10px 10px"><span align="center" style="font-family:Tahoma,Geneva,sans-serif; color:#000000; font-size:18px"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2FrjqvSNyeXGf~%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366115760%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=I95kgWHieOfz0kNF7mJZKMop2ZgvtfOIb0QYy%2F1gHhU%3D&amp;reserved=0" name="act_turnoutpac_org_pet_save_social_" originalsrc="https://links.e.turnoutpac.org/els/v2/rjqvSNyeXGf~/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" style="text-decoration:none; color:#000000" target="_blank"><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#0000ff; line-height:135%"><strong><u>BEFORE MIDNIGHT: If you do nothing, Elon Musk &amp; Trump could cancel hard earned Social Security benefits for thousands of seniors without any opposition. But if you sign now, we’ll build ironclad support for protecting Social Security &gt;&gt; </u></strong></span></a></span></td></tr><tr><td align="left" style="padding:10px 10px 10px 10px"><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%"><strong>NAME: </strong><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2FwdWXSj_p~ET6%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366130902%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=BEkzl%2B2YVxM6xxGcOEESupJWfKoFyoYeNYkvJ5tQWJo%3D&amp;reserved=0" name="act_turnoutpac_org_pet_save_social__2" originalsrc="https://links.e.turnoutpac.org/els/v2/wdWXSj_p~ET6/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" style="text-decoration:none; color:#000000" target="_blank">l@lcs.nyc</a></span></td></tr><tr><td align="left" style="padding:10px 10px 10px 10px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" height="50" style="max-width:100%" width="280"><tbody><tr><td align="center" bgcolor="#E51E25" class="responsive-table-button" height="50" style="-webkit-border-radius:0px; border-radius:0px; border:0px solid #9E1B28; border-bottom:3px solid #9E1B28; min-width:280px; max-width:280px" width="280"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2F~8p4h7PqmRcE%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366146464%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=9ibpu7VulyBmpB9KfYhssAOMxJWGG7u%2FaYEg%2FZjTen0%3D&amp;reserved=0" name="act_turnoutpac_org_pet_save_social__3" originalsrc="https://links.e.turnoutpac.org/els/v2/~8p4h7PqmRcE/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" style="padding:6px; display:block; font-size:21px; font-family:Avenir,Arial,sans-serif; font-weight:700; font-style:normal; color:#ffffff; letter-spacing:0em; text-decoration:none; line-height:29px" target="_blank">SIGN THE PETITION &gt;&gt;</a></td></tr></tbody></table></td></tr></tbody></table></center><p><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%">Elon Musk and Donald Trump are inches from privatizing Social Security. </span></p><p><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%"><strong>We must stop them. </strong></span></p><p><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%">That’s why we’re sending this emergency petition. We need powerful opposition against Elon Musk and Trump to PROTECT hard earned Social Security benefits. </span></p><p><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%">Seniors who have paid into Social Security their whole lives deserve to retire with dignity. Period. </span></p><p><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#0000ff; line-height:135%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2Fa9NpMjqV3vTG%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366161514%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=FzHCnf%2B4F5M9ZSoWwAYZmnSAoT9mNYxssx5uYiNS2Yc%3D&amp;reserved=0" name="act_turnoutpac_org_pet_save_social__4" originalsrc="https://links.e.turnoutpac.org/els/v2/a9NpMjqV3vTG/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" style="text-decoration:none; color:#0000ff" target="_blank"><strong><u>If you seriously don’t care about protecting Social Security, then close this email and walk away. But if you DO care, then you must sign before midnight &gt;&gt;</u></strong></a></span></p><center><table cellpadding="0" cellspacing="0" style="max-width:700px; border-collapse:collapse; width:100%; overflow:hidden"><tbody><tr><td align="left" style="padding:10px 10px 10px 0px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" height="50" style="max-width:100%" width="280"><tbody><tr><td align="center" bgcolor="#E51E25" class="responsive-table-button" height="50" style="-webkit-border-radius:0px; border-radius:0px; border:0px solid #9E1B28; border-bottom:3px solid #9E1B28; min-width:280px; max-width:280px" width="280"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2Fjbw0hEYrpXcZ%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366178421%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=vH1%2FnmZobd5%2B8zWko9g49ZQvrswY7uhjLZC4oSYpejQ%3D&amp;reserved=0" name="act_turnoutpac_org_pet_save_social__5" originalsrc="https://links.e.turnoutpac.org/els/v2/jbw0hEYrpXcZ/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" style="padding:6px; display:block; font-size:21px; font-family:Avenir,Arial,sans-serif; font-weight:700; font-style:normal; color:#ffffff; letter-spacing:0em; text-decoration:none; line-height:29px" target="_blank">SIGN THE PETITION &gt;&gt;</a></td></tr></tbody></table></td></tr></tbody></table></center><p><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%">Thank you for taking action, </span></p><p><span style="font-family:Tahoma,Arial,Sans-Serif; font-size:18px; color:#000000; line-height:135%">Progressive Turnout Project </span></p></td></tr></tbody></table></td></tr><tr><td align="center"><center><table border="0" cellpadding="0" cellspacing="0" style="max-width:650px" width="100%"><tbody><tr><td align="center" style="font-size:12px; line-height:18px; color:#000000; padding-top:25px; padding-bottom:30px; font-family:Tahoma,Arial,Sans-Serif; width:650px; max-width:100%" valign="middle" width="650"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fact.turnoutpac.org%2Fless-emails%3Fm%3D4842398%26r%3DMzY0NjI0NzI5NTkS1%26j%3DMTcyMDI5MDczOQS2%26l%3D3682511%26e%3Dl%40lcs.nyc&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366193606%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=VrDQ%2B7F5aZAIwhVgmTNO0LSyKvZEUeA4fvc2JHOxDMM%3D&amp;reserved=0" name="LessEmail" originalsrc="https://act.turnoutpac.org/less-emails?m=4842398&amp;r=MzY0NjI0NzI5NTkS1&amp;j=MTcyMDI5MDczOQS2&amp;l=3682511&amp;e=l@lcs.nyc" style="color:#224c9a">Click here to receive fewer emails</a> | <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fact.turnoutpac.org%2Funsubscribe%3Fm%3D4842398%26r%3DMzY0NjI0NzI5NTkS1%26j%3DMTcyMDI5MDczOQS2%26l%3D3682511%26e%3Dl%40lcs.nyc&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366208536%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=fS%2BNUw9hmzB7Eo4SVqHiTtspPg%2BfbZqbgokO%2FBg1EG4%3D&amp;reserved=0" name="Unsubscribe" originalsrc="https://act.turnoutpac.org/unsubscribe?m=4842398&amp;r=MzY0NjI0NzI5NTkS1&amp;j=MTcyMDI5MDczOQS2&amp;l=3682511&amp;e=l@lcs.nyc" style="color:#224c9a">Click here to unsubscribe</a></td></tr></tbody></table></center></td></tr><tr><td align="center" bgcolor="#fafcfe" style="padding:20px 5% 70px 5%; border-top:solid 2px #e4e9ee"><table border="0" cellpadding="0" cellspacing="0" style="max-width:650px" width="100%"><tbody><tr><td align="center" style="font-size:14px; line-height:18px; color:#000000; padding-top:20px; padding-bottom:20px; font-family:avenir,helvetica,sans-serif" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2FR3vpM6kbAyha%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366223266%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=s3%2FMYqXm3EkYrt5e709rKoaF%2BBn44yl2s%2FCdRbEbHqw%3D&amp;reserved=0" name="__2" originalsrc="https://links.e.turnoutpac.org/els/v2/R3vpM6kbAyha/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" rel="noopener"><img alt="Progressive Turnout Project" class="mobile-footer-logo" src="https://act.turnoutpac.org/PTP_Logo_Footer.png" style="max-width:100%" width="200"/> </a></td></tr><tr><td align="center" style="font-size:14px; line-height:18px; color:#000000; padding-top:4px; font-family:Avenir,Arial,sans-serif"><div style="width:100%; max-width:650px" width="650">Thank you for supporting the Progressive Turnout Project. We’re a 100% grassroots-funded organization with a single mission: rallying Democrats to exercise their right to vote.<br/><br/><strong>Our Mission: Rally Democrats to Vote.</strong></div></td></tr><tr><td align="center" style="font-size:14px; line-height:18px; color:#000000; padding-top:20px; padding-bottom:0px; font-family:avenir,helvetica,sans-serif" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2FR3vpM6kbAyha%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366238250%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=JgQ1H266zCMggC0ZhHrTkcqueySyt2KxPBtkm8bttac%3D&amp;reserved=0" name="__2" originalsrc="https://links.e.turnoutpac.org/els/v2/R3vpM6kbAyha/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" rel="noopener" target="_blank"><img alt="" class="mobile-footer-logo" src="https://act.turnoutpac.org/PTP-Icons2.png" style="max-width:100%" width="350"/> </a></td></tr><tr><td align="center" style="padding-top:15px"><center><table align="center" border="0" cellpadding="0" cellspacing="0" class="responsive-table" style="max-width:100%" width="600"><tbody><tr><td align="center" class="responsive-table" style="padding:5px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" height="35" width="300"><tbody><tr><td align="center" bgcolor="#0000ff" class="responsive-table-button teal-btn" height="35" style="-webkit-border-radius:0px; border-radius:2px; border:1px solid #12274b; border-bottom:4px solid #12274b; min-width:300px; max-width:300px" width="290"><a class="mobile-font-16 teal-btn" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2FG4wgJmjA8bsw%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366253240%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=cIVfDpz3P9dgE8yd%2F8Gr9qdp4qBsZwq6ZlqByKAD7Tk%3D&amp;reserved=0" name="secure_actblue_com_donate_ms_ecu_fr_2" originalsrc="https://links.e.turnoutpac.org/els/v2/G4wgJmjA8bsw/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" style="padding:9px 9px 9px 9px; display:block; font-size:17px; font-family:AvenirNextCondensed-Bold,Helvetica,Arial,sans-serif; font-weight:700; font-style:normal; color:#ffffff; letter-spacing:0em; text-decoration:none; line-height:20px" target="_blank">DONATE TO BOOST DEMOCRATIC VOTER TURNOUT ➞</a></td></tr></tbody></table></td></tr></tbody></table></center></td></tr><tr><td align="center" style="font-size:14px; line-height:18px; color:#000000; padding-top:20px; font-family:Avenir,Arial,sans-serif"><div style="width:100%; max-width:650px" width="650"><span style="font-family:Avenir,Arial,sans-serif; font-size:14px">The best way to turn out voters is with one-on-one conversations.<br/><br/>Progressive Turnout Project is built around this truth, proven time and time again by researchers — including us. On average, <strong>our field work boosts voter turnout by more than 10 percent.</strong><br/><br/><span style="font-size:20px; font-weight:bold; color:#1f4f9b">How are we different from everyone else sending you emails?</span><br/><br/>Our Turnout Teams talk to inconsistent voters who are likely Democrats, so they don’t need persuading on who to vote for. They just need a nudge, some information, and to hear from a real person. That means every eligible non-voter we’re able to reach brings Democrats closer to success on Election Day.<br/><br/>Compared to expensive TV ads, research has proven we have a much larger impact for our investment. Look, that's why we send you so many emails. The success of our work can make or break an election. And we're entirely funded by grassroots donors.<br/><br/>If you want to unsubscribe, <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fact.turnoutpac.org%2Funsubscribe%3Fm%3D4842398%26r%3DMzY0NjI0NzI5NTkS1%26j%3DMTcyMDI5MDczOQS2%26l%3D3682511%26e%3Dl%40lcs.nyc&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366268433%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=QhdPDzPIQR%2BlRR2G6QZpGpKIrBsOyTZmTqTHMptHbxY%3D&amp;reserved=0" name="Unsubscribe" originalsrc="https://act.turnoutpac.org/unsubscribe?m=4842398&amp;r=MzY0NjI0NzI5NTkS1&amp;j=MTcyMDI5MDczOQS2&amp;l=3682511&amp;e=l@lcs.nyc" style="color:#224c9a; font-weight:bold">click here.</a> If you want to receive fewer emails, <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fact.turnoutpac.org%2Fless-emails%3Fm%3D4842398%26r%3DMzY0NjI0NzI5NTkS1%26j%3DMTcyMDI5MDczOQS2%26l%3D3682511%26e%3Dl%40lcs.nyc&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366283322%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=A0HuYZNckltTureuuXA%2FT54CcIHkBE0UOLmJVzP%2FxF0%3D&amp;reserved=0" name="LessEmail" originalsrc="https://act.turnoutpac.org/less-emails?m=4842398&amp;r=MzY0NjI0NzI5NTkS1&amp;j=MTcyMDI5MDczOQS2&amp;l=3682511&amp;e=l@lcs.nyc" style="color:#224c9a; font-weight:bold">click here.</a> If you'd like to donate, please <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsecure.actblue.com%2Fdonate%2Fms_ptp_footer_2025&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366298293%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=kx926T7bFcxM5nNKflbc5HPmp%2FYvQd53O2S4bDag6YA%3D&amp;reserved=0" name="DonateFooter" originalsrc="https://secure.actblue.com/donate/ms_ptp_footer_2025" style="color:#224c9a; font-weight:bold">click here.</a><br/><br/><em>From the entire Progressive Turnout Team, thank you for your support!</em></span><br/>  <hr style="max-width:25%"/></div></td></tr><tr><td align="center" style="font-size:14px; line-height:18px; color:#000000; padding-top:15px; padding-bottom:25px; font-family:Tahoma,Arial,Sans-Serif" valign="middle"><div style="width:100%; max-width:650px" width="650"><span style="font-family:Avenir,Arial,sans-serif">Progressive Turnout Project</span><br/><span style="font-family:Avenir,Arial,sans-serif">P.O. Box 5327</span><br/><span style="font-family:Avenir,Arial,sans-serif">Evanston, IL 60204</span></div></td></tr><tr><td align="center" style="padding-top:0px"><div style="font-family:Tahoma,Arial,Sans-Serif; border-color:#e4e9ee; border-style:solid; border-width:1px; padding:7px; width:90%; max-width:650px; font-size:14px; line-height:18px; color:#000000; font-family:Tahoma,Arial,Sans-Serif"><span style="font-family:Avenir,Arial,sans-serif; font-size:14px">Paid for by Progressive Turnout Project and not authorized by any candidate or candidate's committee.</span></div></td></tr><tr><td align="center" style="padding-top:10px"><center><table align="center" border="0" cellpadding="0" cellspacing="0" class="responsive-table" style="max-width:100%" width="600"><tbody><tr><td align="center" class="responsive-table" style="padding:5px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" height="35" width="300"><tbody><tr><td align="center" bgcolor="#0000ff" class="responsive-table-button teal-btn" height="35" style="-webkit-border-radius:0px; border-radius:2px; border:1px solid #12274b; border-bottom:4px solid #12274b; min-width:300px; max-width:300px" width="290"><a class="mobile-font-16 teal-btn" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinks.e.turnoutpac.org%2Fels%2Fv2%2FG4wgJmjA8bsw%2FcGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0%2FWUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1&amp;data=05%7C02%7Cl%40lcs.nyc%7C9fde3980431f4475834208dd7a247edf%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801019366312877%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=MKYlgvshvWoM0WDR5T8MQkcdohCA3t2a%2B5pWYIOPQwk%3D&amp;reserved=0" name="secure_actblue_com_donate_ms_ecu_fr_2" originalsrc="https://links.e.turnoutpac.org/els/v2/G4wgJmjA8bsw/cGpMWDJrb1Q3YlVJSGxVYUZyVnZkcUJRS05KTEMybVdMUkJuU1kxeU1oayswWURVWi9LMFMyckFaRXh4MjY0NUNSK2JZMTFQem5zclI0dTFBWHQ3UWJGRkdYaGphZ1RoYzhSTWg5em1udVE9S0/WUdGbFM2ay90N2V4TmM3SlM4WnFET1FYM3lLZzFGZGU0NEJNMGJWTnRvWEVEZ0dKaGthMngzYVZVZU12ZmtaU0Y4TlJuZjhYNTBPNURDVUdTKzZzYnZ4RzZoaXB4bFRuMjlVYVIxcVpwSnJDN2xSOWN3bUxPWVBQeXlaMGVodW9OUGRzUlZiT3JlRT0S1" style="padding:9px 9px 9px 9px; display:block; font-size:17px; font-family:AvenirNextCondensed-Bold,Helvetica,Arial,sans-serif; font-weight:700; font-style:normal; color:#ffffff; letter-spacing:0em; text-decoration:none; line-height:20px" target="_blank">DONATE TO BOOST DEMOCRATIC VOTER TURNOUT ➞</a></td></tr></tbody></table></td></tr></tbody></table></center></td></tr></tbody></table></td></tr></tbody></table><img src="https://links.e.turnoutpac.org/eos/v1/TWxyUENMbDFXTno4dGhqMVh4N2lwenZSRC9HL3pLaTlCQnI1WXl1L2luRi9LbmQ3TXlLK1Q1RzhraEJqVm5PTkNCSkxLZkNTV3E2Z3BsdmFNcWhHUk9VK1luWFZLK0g5SHRGblMxb3hML3BzUWl1U0Z3QWJTTE1iWTlhQzBnNzBhRlp2YzFaeThXbTYyZStPdTRyenUvQWwveEh5SUFYNE1JUE5lcm9kOFpZPQS2"/> </body></html>

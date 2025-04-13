@@ -1,0 +1,202 @@
+<html lang="en"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta name="x-apple-disable-message-reformatting"/><meta content="width=device-width, initial-scale=1" name="viewport"/><style type="text/css">
+<!--
+.mobile-tilte
+	{font-size:20px}
+.med-logo
+	{padding:20px 20px 10px 30px!important;
+	text-align:right!important}
+table, td, div, h1, p
+	{font-family:Arial,sans-serif}
+ReadMsgBody
+	{width:100%}
+.ExternalClass
+	{width:100%}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div
+	{line-height:100%}
+body
+	{margin:0!important}
+p
+	{margin:1em 0}
+table td
+	{border-collapse:collapse}
+img
+	{outline:0}
+a img
+	{border:none}
+span.yshortcuts
+	{color:#06486e!important;
+	background-color:none!important;
+	border:none!important}
+.ExternalClass
+	{width:100%}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div
+	{line-height:100%}
+.applelinks a
+	{text-decoration:none;
+	color:#333333!important}
+.applelinks span
+	{text-decoration:none;
+	color:#333333!important}
+.desktop-hidden
+	{display:none!important}
+.italicbold
+	{font-weight:bold;
+	font-style:italic,bold}
+td.border-bottom
+	{border-bottom:1px solid gainsboro}
+span.MsoHyperlink
+	{color:inherit}
+table.max-table.desktop-only
+	{width:73%;
+	display:table!important}
+table.max-table.mobile-only
+	{width:auto;
+	display:none!important}
+span.MsoHyperlinkFollowed
+	{color:inherit}
+media align:left #outlook a
+	{padding:0}
+.ReadMsgBody
+	{width:100%}
+.ExternalClass
+	{width:100%}
+hr.new1
+	{border-top:1px solid gray}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div
+	{line-height:100%}
+body
+	{margin:0;
+	padding:0}
+img
+	{border:0;
+	height:auto;
+	line-height:100%;
+	outline:none;
+	text-decoration:none}
+table
+	{border-collapse:collapse!important}
+body, #bodyTable, #bodyCell
+	{height:100%!important;
+	margin:0;
+	padding:0;
+	width:100%!important}
+#templateContainer
+	{width:650px;
+	color:#f4f5f7!important}
+body, #bodyTable
+	{font-family:'Arial',"Helvetica",sans-serif;
+	font-size:16px}
+h1, h2, h3, h4
+	{color:#355177;
+	display:block;
+	font-family:'Arial',"Helvetica",sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	line-height:100%;
+	letter-spacing:normal;
+	margin-top:0;
+	margin-right:0;
+	margin-bottom:10px;
+	margin-left:0}
+h1
+	{font-size:22px!important}
+h2
+	{font-size:26px}
+h3
+	{font-size:24px}
+h4
+	{font-size:18px}
+p
+	{margin-top:0;
+	margin-bottom:15px;
+	font-size:16px}
+li
+	{font-size:14px}
+hr
+	{margin:0}
+#templatePreheader
+	{background-color:#ECEBEB}
+.preheaderContent
+	{color:#808080;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:10px;
+	line-height:125%;
+	text-align:center}
+.preheaderContent a:link, .preheaderContent a:visited, .preheaderContent a .yshortcuts
+	{color:#606060;
+	font-weight:normal;
+	text-decoration:underline}
+#templateHeader
+	{background-color:white}
+.headerContent
+	{color:#505050;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	line-height:100%;
+	padding-top:0;
+	padding-right:0;
+	padding-bottom:0;
+	padding-left:0;
+	text-align:left;
+	vertical-align:middle;
+	background-color:#ECEBEB}
+.headerContent a:link, .headerContent a:visited, .headerContent a .yshortcuts
+	{color:#FD0F17;
+	font-weight:normal;
+	text-decoration:underline}
+#templateBody
+	{background-color:#f4f5f7}
+.bodyContent
+	{color:#000;
+	font-family:'Helvetica',sans-serif;
+	font-size:14px;
+	line-height:150%;
+	padding-top:30px;
+	padding-right:15px;
+	padding-bottom:10px;
+	padding-left:15px;
+	background-color:#f4f5f7!important}
+.bodyContent a, .bodyContent a:link, .bodyContent a:visited, .bodyContent a:focus .bodyContent a .yshortcuts
+	{color:#007bff;
+	font-weight:normal;
+	text-decoration:none;
+	outline:none;
+	border:none}
+.bodyContent img
+	{display:inline;
+	height:auto;
+	max-width:560px}
+#templateFooter
+	{background-color:#ECEBEB}
+.footerContent
+	{color:#808080;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:10px;
+	line-height:150%;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	text-align:left}
+.footerContent a:link, .footerContent a:visited, .footerContent a .yshortcuts, .footerContent a span
+	{color:#000000;
+	font-weight:bold;
+	text-decoration:none}
+.text-center
+	{text-align:center}
+.show-mobile-only
+	{display:none;
+	visibility:hidden;
+	width:0}
+.img-full-width
+	{height:auto;
+	max-width:auto}
+.font-0
+	{font-size:0}
+-->
+</style></head><body bgcolor="#ffffff" class="body" leftmargin="0" marginheight="0" marginwidth="0" style="width:100%!important; background:#ffffff; padding:0px; margin:0px" topmargin="0"><strong><div><font color="#000000" face="Tahoma" size="2"> </font></div></strong><hr style="display:inline-block; width:98%" tabindex="-1"/><font face="Tahoma" size="2"><b>From:</b> Medscape Topic Alert &lt;topic_alert@email.medscape.com&gt;<br/><b>Sent:</b> Saturday, April 12, 2025 3:36:35 PM (UTC-05:00) Eastern Time (US &amp; Canada)<br/><b>To:</b> Lawrence Sullivan &lt;Lawrence.Sullivan@whitecaps.gc.edu&gt;<br/><b>Subject:</b> Apr 11 2025 This Week in Cardiology<br/></font><br/><div></div><div><table align="center" border="0" cellpadding="0" cellspacing="0" class="container" width="650"><tbody><tr><td><table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; width:0px; opacity:0; overflow:hidden">Dr Lawrence Sullivan - April 12, 2025 - Articles published today from the topics and columnists you're following </div><table align="center" border="0" cellpadding="0" cellspacing="0" class="container" width="650"><tbody><tr><td align="center" bgcolor="#B2B2B2"><table align="center" border="0" cellpadding="0" cellspacing="0" class="table container" width="650"><tbody><tr><td bgcolor="#0B486C"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="padding" width="25">  </td><td align="right" height="22" style="font-family:Arial,Helvetica,sans-serif; font-size:10px; color:#FFFFFF"><b>April 12, 2025 </b></td><td class="padding" width="25">  </td></tr></tbody></table></td></tr><tr><td align="left" bgcolor="#FFFFFF" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="padding" width="25">  </td></tr></tbody></table><table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif; color:#000000; font-size:14px" width="100%"><tbody><tr><td height="20"><img alt="" border="0" height="1" src="http://img.medscapestatic.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td><table align="left" border="0" cellpadding="0" cellspacing="0" class="table2" width="100%"><tbody><tr><td align="left" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead12036a776ebc6c3536c27f961f50b9dedcde4898aa9f88d8ad01068b1caf58a37e6a0816116c01e74b01412e176a06f870f5f5fcc7ab55102&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804726506%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=NHVAizaIzjsSOWJJFmiaYBfW5lbNPygUBbDB93lbn9Y%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead12036a776ebc6c3536c27f961f50b9dedcde4898aa9f88d8ad01068b1caf58a37e6a0816116c01e74b01412e176a06f870f5f5fcc7ab55102"><img alt="Medscape" border="0" class="logo" height="45" src="http://img.medscapestatic.com/pi/features/newsletters/specialreports/2016/medscape_retina.gif" style="display:block" width="154"/></a> </td><td align="right" valign="middle"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead197d4fe9dd6e36301e62ad87de188367cfc1892d4b7d82a1cd75e712d0bcf467669cf696f6dbc9804af71a9fde0cc8b99&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804747076%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=OlNyYIZpEcnYwUdNhLU%2Bg2BHOW4frYgAPk4VBaG3rmY%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead197d4fe9dd6e36301e62ad87de188367cfc1892d4b7d82a1cd75e712d0bcf467669cf696f6dbc9804af71a9fde0cc8b99"><img alt="My Alert" border="0" class="logo" height="36" src="http://img.medscape.com/pi/features/newsletters/topicalert/myalert_retina_v2.gif" style="display:block" width="120"/></a> </td></tr></tbody></table></td></tr><tr><td height="10" style="font-size:1px; line-height:10px"><img alt="" border="0" height="1" src="http://img.medscapestatic.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td bgcolor="#E8E8E8" height="5" style="font-size:1px; line-height:5px"><img alt="" border="0" height="1" src="http://images.medscape.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td height="20"><img alt="" border="0" height="1" src="http://img.medscapestatic.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td align="left" style="font-family:Arial,Helvetica,sans-serif; color:#000000; font-size:14px"><font class="headertext" style="font-size:15px">Customized Alert for <b>Dr Lawrence Sullivan</b> – <em>April 12, 2025</em> <br/>Articles published today from the topics and columnists you're following: <br/><br/></font><font class="headertext" style="font-size:14px; font-weight:bold">News &amp; Perspectives: </font><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="15" style="font-size:1px; line-height:10px"><img alt="" border="0" height="1" src="http://images.medscape.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td align="left" style="font-size:10px"><a class="linktitle" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead187371f7c0aee2f8f71077f68c2d871e42a26fa9368c72cbf0abf8929e2fa46d2d2fa3426ddb29cbc6ab8e5c3abf10d821433c417cdc5de27&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804761912%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=NqVJtzTXjiVnOgpYfCFhW100lO2VT1FBHjDmb37j%2Bks%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead187371f7c0aee2f8f71077f68c2d871e42a26fa9368c72cbf0abf8929e2fa46d2d2fa3426ddb29cbc6ab8e5c3abf10d821433c417cdc5de27" style="font-size:14px; font-weight:bold; text-decoration:none; color:#006699"><font color="#006699" face="Arial, sans-serif" size="2" style="font-size:14px">Apr 11 2025 This Week in Cardiology</font></a> <br/><br/></td></tr></tbody></table></td></tr><tr><td height="10" style="font-size:1px; line-height:10px"><img alt="" border="0" height="1" src="http://img.medscapestatic.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td bgcolor="#E8E8E8" height="5" style="font-size:1px; line-height:5px"><img alt="" border="0" height="1" src="http://images.medscape.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td height="10" style="font-size:1px; line-height:10px"><img alt="" border="0" height="1" src="http://img.medscapestatic.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td bgcolor="#FFFFFF" height="15" style="font-size:1px; line-height:15px"><img alt="" border="0" height="1" src="http://images.medscape.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif; color:#000000; font-size:14px" width="100%"><tbody><tr><td align="left" style="font-size:10px"><span style="font-family:Arial,sans-serif; font-size:14px; color:#000000"><b>You are currently following: </b>Candidiasis; Depression; Pain Management; Peripheral Artery Disease; Revenue And Practice Management; Schizophrenia; Urinary Tract Infection </span><table border="0" cellpadding="0" cellspacing="0" width="10"><tbody><tr><td height="9" style="font-size:1px; line-height:8px"><img alt="" border="0" height="1" src="http://images.medscape.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/> </td></tr></tbody></table><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead1cbc7c9e3e57fe30f4c20944916ac552799dda7dc0c02ea5b6429fdfb5a01611ad553f961d6e195895aa82ca015790394&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804776602%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=alqBcYcEbOs0ziuwubDtmrBDcLhv9%2BiX2tXLVvTKmao%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead1cbc7c9e3e57fe30f4c20944916ac552799dda7dc0c02ea5b6429fdfb5a01611ad553f961d6e195895aa82ca015790394" style="font-family:Arial,sans-serif; font-size:12px; font-weight:bold; color:#006699; text-decoration:none">Update your Medscape Topic Alert selections ›</a> <br/><br/></td></tr></tbody></table><table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><style>
+<!--
+-->
+</style><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead19b2821eeaad35cc2bb20b3af897cb52794f7e980de8ed0b973062778652398ed0af8e8cbd842ffa388e8b4aafb0ca5e1&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804791274%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=R1rRwpvtb3K05riq9KZDwUnBys4%2BNuiJZFGoLfHMjAU%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead19b2821eeaad35cc2bb20b3af897cb52794f7e980de8ed0b973062778652398ed0af8e8cbd842ffa388e8b4aafb0ca5e1"><img alt="Medscape Free Point-of-Care Medical Reference App" border="0" src="https://images.medscape.com/pi/features/newsletters/dne/2023/033123_MedscapeApp_withCTA_bnr_300x250.jpg" width="300"/></a></td></tr><tr><td height="10"><img alt="" border="0" height="1" src="http://images.medscape.com/pi/global/ornaments/spacer.gif" style="display:block" width="1"/></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><img alt="" height="1" src="https://click.mail.medscape.com/open.aspx?ffcb10-fe8813737063067572-fe2213747d64067d721c79-fe92137075640c787c-ff6e157075-fe3215737365027d731270-ff331770756d&amp;d=60245&amp;bmt=0" width="1"/> </td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" border="0" cellpadding="0" cellspacing="0" class="container" style="padding:2px 0 0 0" width="650"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0" class="container" width="650"><tbody><tr><td class="mobile-pad-left-10" style="padding:30px 34px 10px 34px" width="100"><table align="left" border="0" cellpadding="0" cellspacing="0" class="container footertext mobile-pad-left-0" style="display:inline-block" width="580"><tbody><tr><td align="left" class="drop footertext" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif" valign="top" width="150"><table border="0" cellpadding="0" cellspacing="0" width="150"><tbody><tr><td colspan="1" style="padding:0 4px 10px 0; line-height:0px; font-size:0px" width="32"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead19df132921f58febeb06e4ed3ba897cf8cb888e296e74dd02f0de7e3897b4d3bb965d66ffda01f8e8872f5240604fc1bb&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804806027%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=9m8zJF3iz8OFpnmO5mjBGwBhj13%2F6R84CzWLz%2B9Vuew%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead19df132921f58febeb06e4ed3ba897cf8cb888e296e74dd02f0de7e3897b4d3bb965d66ffda01f8e8872f5240604fc1bb"><img alt="Facebook" border="0" height="32" src="https://img.medscapestatic.com/pi/features/newsletters/social/20150112/facebook.png" style="display:block" width="32"/> </a></td><td colspan="1" style="padding:0 0 10px 0; font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif" width="32"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead14e0259ada19c728a280d6a7578b102265f6f5059630d1e7047939b7a86413dae0d5d03f0cdb85ed0f66f54e437f3b341&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804820806%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=YRofdlnfhkenMLwjmUXmIxaIPsAWU4DlsSJXQKcXOBs%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead14e0259ada19c728a280d6a7578b102265f6f5059630d1e7047939b7a86413dae0d5d03f0cdb85ed0f66f54e437f3b341"><img alt="Twitter" border="0" height="32" src="https://img.medscapestatic.com/pi/features/newsletters/social/20150112/twitter.png" style="display:block" width="32"/> </a></td><td colspan="1" style="padding:0 5px 0 5px; font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif" width="100%"></td></tr><tr><td class="container" colspan="3" style="padding:0 0 0 0" width="150"><a class="footertext" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead14d2c187d5fcc2a46229c8353ad9cd519394a54d0d86b328cb93b513bd347cf4c75f7e94fe8b4fc4c81eb902565f3f448&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804838309%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=QoS2LYk8GFhDqXh660U5ZOLEXC3yiLo5JsY5w9K5Cn4%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead14d2c187d5fcc2a46229c8353ad9cd519394a54d0d86b328cb93b513bd347cf4c75f7e94fe8b4fc4c81eb902565f3f448" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif">Forgot my Password</a> </td></tr><tr><td class="container" colspan="3" style="padding:4px 0 0 0"><a class="footertext" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead1b04f2a045379967b23dafb555499cda591c3760eea053301131c1fb44b7390a1a532f2cd860379f1409beca00755d690&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804853301%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=fwm96P7FLzMB7ssNUTDqs3Pd%2BfAK1koAS0Cc0OtO7M4%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead1b04f2a045379967b23dafb555499cda591c3760eea053301131c1fb44b7390a1a532f2cd860379f1409beca00755d690" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif">Change my email address</a> </td></tr><tr><td class="container" colspan="3" style="padding:4px 0 0 0"><a class="footertext" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead11c036cf445cca3c512f46854ce5e3d342e6e6b087bc15726c5d5b7a88a2c9341a8c1b4c28adb7ba69202b520992ae810&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804868348%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=Nse35ZOcBTpB%2FR7T8ahajzlQUdqvdtxfRv8uW10jyJ0%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead11c036cf445cca3c512f46854ce5e3d342e6e6b087bc15726c5d5b7a88a2c9341a8c1b4c28adb7ba69202b520992ae810" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif">Update my account</a> </td></tr><tr><td class="container" colspan="3" style="padding:4px 0 0 0" width="150"><a class="footertext" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead1f8ee148fa64a7c884d97ccc761828e0912f9727588ac2b7ca4177944616b7870c29795b2d532146de4a07e696c3f0fc1&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804883296%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=qdhujIiBCQuVQ%2F2rt6Jr29sEBXnZV24d5bERwvbF6iY%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead1f8ee148fa64a7c884d97ccc761828e0912f9727588ac2b7ca4177944616b7870c29795b2d532146de4a07e696c3f0fc1" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif">Help Center</a> </td></tr><tr><td class="container" colspan="3" style="padding:4px 0 10px 0" width="150"><a class="footertext" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead14c23f3007051a9a577e4fc579af95e86ea0d8bff378777e7b8740e32cd6c3718582b147cdad06ce4bdae4c48c7cbd800&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804898177%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=j9fsDfrYX29KyeYIpoUvoQnbMvzAan2D3hKZzugE9LU%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead14c23f3007051a9a577e4fc579af95e86ea0d8bff378777e7b8740e32cd6c3718582b147cdad06ce4bdae4c48c7cbd800" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif">Privacy Policy</a> </td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100"><tbody><tr><td><table cellpadding="0" cellspacing="0" width="80"><tbody><tr><td height="1" style="border-top:1px solid #666666; font-size:1px; height:1px; line-height:1px">  </td></tr></tbody></table></td></tr><tr><td align="left" class="footertext" colspan="3" style="padding:10px 0 15px 0; font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif" valign="top"><a class="footertext" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead1de219ecdbae850fc18c2246fdb0448e9dbf569df1f15ba8f94ff655b10c98ac715b59b54463bd600ae122f00c03bf620&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962804912970%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=pEoeRKe1oIk4FnX8Tv%2BdK6XxWwLlqpY%2FkfBedYyemTY%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead1de219ecdbae850fc18c2246fdb0448e9dbf569df1f15ba8f94ff655b10c98ac715b59b54463bd600ae122f00c03bf620" style="color:#333333; text-decoration:none">Mobile Apps</a> </td></tr></tbody></table></td><td align="left" class="drop footertext" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif" valign="top" width="480"><table align="right" border="0" cellpadding="0" cellspacing="0" class="container" style="display:inline-block" width="430"><tbody><tr><td align="left" class="footertext" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif; padding:0 0 10px 0">You are receiving this communication because you are a registered member of Medscape. The email address associated with your membership is <a class="footertext" href="#" style="color:#333333; text-decoration:none"></a></td></tr><tr><td align="left" class="footertext" style="padding:0 0 10px 0; font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead1cbc7c9e3e57fe30f4c20944916ac552799dda7dc0c02ea5b6429fdfb5a01611ad553f961d6e195895aa82ca015790394&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962805064754%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=H9LjdsoHi%2FJ1P3YLvfOaZj6lL3X4MAeRcYQIg9PQi20%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead1cbc7c9e3e57fe30f4c20944916ac552799dda7dc0c02ea5b6429fdfb5a01611ad553f961d6e195895aa82ca015790394" style="color:#0b486c; text-decoration:none">Update your Medscape Topic Alert selections</a> </td></tr><tr><td align="left" class="footertext" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif"><b>WebMD, LLC </b><br/><span class="applelinks" style="color:#333333; text-decoration:none!important">283-299 Market Street<br/>2 Gateway Center <br/>4th Floor<br/>Newark, NJ 07102</span> <br/></td></tr><tr><td align="left" class="footertext" style="font-size:11px; text-decoration:none; color:#333333; font-family:Arial,Helvetica,sans-serif"><a class="footertext" href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclick.mail.medscape.com%2F%3Fqs%3D8279f8a73e71ead17de6b3750a03b5b97dd028a840c6e109e8a1132dc9e8071091d8425f8594f86f3e523785101bc6af32976ef20850ddfe&amp;data=05%7C02%7Clcs%40lcs.ai%7C818d67120985415e13d608dd7a17531f%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638800962805080558%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=u9J5PQW%2B1eIsQ260uJtGy7XRmXTLO91suPFbyi2VpAo%3D&amp;reserved=0" originalsrc="https://click.mail.medscape.com/?qs=8279f8a73e71ead17de6b3750a03b5b97dd028a840c6e109e8a1132dc9e8071091d8425f8594f86f3e523785101bc6af32976ef20850ddfe" style="color:#333333; text-decoration:none">www.medscape.com</a><br/><br/>Need additional assistance? <a href="mailto:medscapecustomersupport@webmd.net?subject=[Medscape Assistance]" style="color:#0b486c; text-decoration:none">medscapecustomersupport@webmd.net</a> </td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width:100%" width="100%"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><img alt="" height="1" src="https://click.mail.medscape.com/open.aspx?ffcb10-fe8813737063067572-fe2213747d64067d721c79-fe92137075640c787c-ff6e157075-fe3215737365027d731270-ff331770756d&amp;d=60245&amp;bmt=0" width="1"/> </div></body></html>

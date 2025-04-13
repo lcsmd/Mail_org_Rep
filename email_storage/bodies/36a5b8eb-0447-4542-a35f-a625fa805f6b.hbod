@@ -1,0 +1,214 @@
+<html><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="IE=edge"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Word.Document" name="ProgId"/><style>
+<!--
+body, table, td, a
+	{}
+table, td
+	{}
+img
+	{border:0;
+	height:auto;
+	line-height:100%;
+	outline:none;
+	text-decoration:none}
+table
+	{border-collapse:collapse!important}
+a[x-apple-data-detectors]
+	{color:inherit!important;
+	text-decoration:none!important;
+	font-size:inherit!important;
+	font-family:inherit!important;
+	font-weight:inherit!important;
+	line-height:inherit!important}
+body
+	{height:100%!important;
+	margin:0!important;
+	padding:0!important;
+	width:100%!important;
+	background:#E5E5E5}
+h1, h2, h3, h4, table, td, th, a, p, span, div, i, em, li, ul, .img-block, img, .comment
+	{font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif}
+td
+	{font-size:14px;
+	line-height:20px;
+	color:#212121}
+a
+	{text-decoration:none;
+	color:#0078D4}
+em
+	{font-style:normal;
+	color:#666}
+p
+	{margin:0}
+.img-block
+	{display:block;
+	color:#ccc;
+	font-size:10px;
+	max-width:100%}
+.img-padding
+	{padding:0 20px 0 0}
+.comment
+	{color:#333333;
+	font-size:14px;
+	border-radius:5px}
+.comment blockquote
+	{color:#666666;
+	border-left:3px solid #a6a6a6;
+	padding:1px 0 1px 15px;
+	margin:12px 0}
+.comment-gfx
+	{padding-top:20px}
+.note
+	{font-size:13px}
+.activity-table
+	{display:table}
+.active
+	{background:#CEF1DE;
+	font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif;
+	font-size:14px;
+	color:#333333;
+	padding:2px 4px;
+	display:inline-block}
+.inactive
+	{background:#eeeeee;
+	font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif;
+	font-size:14px;
+	text-decoration:line-through;
+	color:#666666;
+	padding:2px 4px;
+	display:inline-block}
+.row-label
+	{font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif;
+	font-size:14px;
+	color:#333;
+	padding:2px 4px;
+	line-height:16px;
+	text-align:left}
+.num
+	{background:#f2f2f2;
+	height:20px;
+	padding:0 7px;
+	font-size:14px}
+.code li
+	{font-family:Menlo,Monaco,Consolas,"Courier New",monospace!important;
+	font-size:14px;
+	text-align:left}
+span.monospaced
+	{font-family:Menlo,Monaco,Consolas,"Courier New",monospace!important}
+.list li
+	{padding:5px}
+.data
+	{word-break:break-all;
+	font-family:monospace}
+.red
+	{color:red}
+ul, ol
+	{padding:0 20px}
+ul
+	{list-style-type:circle}
+.anchors
+	{list-style-type:square}
+ul ul, ol ul
+	{padding:0 30px}
+.author
+	{font-size:13px;
+	color:#666;
+	font-style:italic;
+	padding:5px 0 0}
+.code
+	{padding:0;
+	list-style:none;
+	color:#666666}
+.code li
+	{font-family:Menlo,Monaco,Consolas,"Courier New",monospace!important}
+.container
+	{padding:0px}
+.content
+	{padding:20px 0px 20px 0px}
+.title a
+	{color:#212121!important;
+	text-decoration:none}
+.title a:hover
+	{text-decoration:underline}
+@media screen and (max-width: 525px) {
+.content
+	{padding:0px!important}
+.header
+	{padding:10px 30px!important}
+.mobile-sm-txt
+	{font-size:14px!important}
+.mobile-sm-txt span
+	{display:block}
+.wrapper
+	{width:100%!important;
+	max-width:100%!important}
+.logo img
+	{margin:0 auto!important}
+.mobile-hide
+	{display:none!important}
+.img-max
+	{max-width:100%!important;
+	width:100%!important;
+	height:auto!important}
+.responsive-table
+	{width:100%!important}
+.padding
+	{padding:10px 5% 15px 5%!important}
+.img-padding
+	{padding:0}
+.padding-meta
+	{padding:20px!important}
+.no-padding
+	{padding:0!important}
+.comment
+	{padding:16px 22px!important}
+.logo
+	{margin:0 auto;
+	padding:10px 0 10px 5%!important}
+.gfx-promo
+	{padding-bottom:20px;
+	width:40%!important}
+.gfx-promo img
+	{width:100%}
+.mobile-button-container
+	{margin:0 auto;
+	width:100%!important;
+	margin-bottom:10px!important}
+.mobile-button
+	{padding:4px!important;
+	display:block!important}
+.mobile-promos
+	{text-align:center!important;
+	padding:30px!important}
+.foot-logo
+	{padding:5px 0 25px!important}
+
+	}
+@media screen and (max-width: 413px) {
+body[class="body-padding"]
+	{padding:0!important}
+td[class="mobile-hide-xs"], td[class="mobile-hide-xs comment-gfx"]
+	{display:none}
+table[class="mobile-button-container"]
+	{margin:0 auto;
+	width:100%!important}
+
+	}
+.markdown-code
+	{background-color:#EAEAEA}
+.markdown-table
+	{border:1;
+	border-collapse:collapse;
+	border-style:solid;
+	border-width:thin;
+	border-color:#A6A6A6;
+	padding:8px 10px 10px 10px}
+.file-delete
+	{text-decoration:line-through}
+.message-line
+	{color:#201F1E;
+	font-size:16px;
+	font-weight:400;
+	margin-left:5px}
+-->
+</style></head><body style="background-color:E5E5E5"><div class="container" style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#E5E5E5"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="mobile-hide" style="background-color:E5E5E5; border-bottom:solid #E5E5E5 1px"></td><td class="content" style="padding:0px; max-width:640px; background-color:#E5E5E5; border-bottom:solid #E5E5E5 1px" width="640"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="hero" style="padding:0px 24px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" style="max-width:592px" width="100%"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><table><tbody><tr><td style="padding:0 0 24px 0"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td><td class="mobile-hide" style="background-color:#E5E5E5; border-bottom:solid #E5E5E5 1px"></td></tr><tr><td class="mobile-hide" style="background:#E5E5E5"></td><td class="content" style="padding:0px; max-width:800px; background:#E5E5E5" width="800"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="padding:24px 24px 8px 24px; max-width:592px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" style="vertical-align:middle; background-color:white; box-shadow:0px 4px 8px #eaeaea" width="100%"><tbody><tr><td style="padding:16px 24px 24px 24px"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="vertical-align:middle" valign="middle"><p id="Default"><a href="https://products.office.com"><img alt="Microsoft" border="0" src="https://NAM10.admin.protection.outlook.com/SpamDigestEsn/EsnDefaultLogoMS.png" style="padding-bottom:40px" width="200"/></a></p></td></tr><tr><td style="font-size:21px; line-height:25px; font-weight:600; letter-spacing:-0.04em; padding:0px; width:100%"><table><tbody><tr><td style="padding:0px 6px 0px 0px; vertical-align:middle; font-size:28px; line-height:25px; letter-spacing:-0.04em; font-size:28px; font-family:'Segoe UI'; font-weight:bold">Review These Messages</td></tr></tbody></table></td></tr><tr><td style="padding:12px 0px 0px 0px; line-height:20px; max-width:544px"><table border="0" cellpadding="0" cellspacing="0" class="" style="width:100%; border-collapse:collapse!important"><tbody><tr><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; width:99%; word-break:break-word"><span class="message-line"><b>3 messages</b> are being held for you to review as of <b>4/12/2025 9:20:08 PM (UTC)</b>. </span></td></tr><tr><td class="" style="vertical-align:top; padding:10px 4px; border-bottom:none; text-align:left; white-space:normal; width:99%; word-break:break-word"><span class="message-line">Review them within <b>15 days of the received date</b> by going to the <a href="https://security.microsoft.com/quarantine">Quarantine page</a> in the Security Center. </span></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style="padding:24px 24px 8px 24px; max-width:592px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" id="Flavor_Phish" style="vertical-align:middle; background-color:white; box-shadow:0px 4px 8px #eaeaea" width="100%"><tbody><tr><td style="padding:16px 24px 24px 24px"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="font-size:21px; line-height:25px; font-weight:600; letter-spacing:-0.04em; padding:10px 4px; width:100%; border-bottom:solid #eaeaea 1px; font-family:'Segoe UI'; font-weight:bold">Prevented phish messages </td></tr><tr><td style="padding:12px 0px 0px 0px; line-height:20px; max-width:544px"><table border="0" cellpadding="0" cellspacing="0" class="" style="width:100%; border-collapse:collapse!important"><tbody><tr id="DetailLine_Phish"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Sender: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">responses@getleanin12.com </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr id="DetailLine_Phish"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Subject: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">Quick Nerve Pain Relief: Stand on Your Left Leg and Do This </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr id="DetailLine_Phish"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Date: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">4/12/2025 10:03:01 AM </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr><td colspan="2"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" bgcolor="#007acc" id="ReviewButton" style="padding:8px 12px; border-radius:2px"><a class="mobile-button btn-primary" href="https://security.microsoft.com/quarantine?id=621a5304-0cbc-4aca-58b3-08dd79a935f4\6cd750b2-22be-2bd2-1097-2b40a9f2bc43&amp;recipientAddress=%40ENC%40nwxB%2BUg1%2B7OdvEW0Y%2F5rynSY%2BMMvP%2B2%2BouAc45WRPaaaLio1JvZ%2Bd1kBVcpQao34" originalsrc="" shash="" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff">Review Message </a></td><td class="" id="ButtonSpace_Review" style="vertical-align:top; padding:10px 4px; border-bottom:none; text-align:left; white-space:nowrap; color:#666666"></td><td align="center" bgcolor="#EAEAEA" id="ReleaseButton" style="padding:8px 12px; border-radius:2px"><a class="mobile-button btn-default" href="https://nam10-quarantine.dataservice.protection.outlook.com/spamdigestesn/spamdigest.svc/releasespam/orgs/9fb208c9-eb97-4381-9458-caf0dc0e4fe3/users/lcs@lcs.ai/mail/621a5304-0cbc-4aca-58b3-08dd79a935f4?token=eQnAVYVSAK2TxUHrKX%2fXVBB24%2b%2fg7HxTomhuam2Lb2Q%3d" originalsrc="" shash="" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#212121">Release </a></td><td class="" id="ButtonSpace_Release" style="vertical-align:top; padding:10px 4px; border-bottom:none; text-align:left; white-space:nowrap; color:#666666"></td></tr></tbody></table></td></tr><tr><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:left; white-space:nowrap; color:#666666"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr id="DetailLine_Phish"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Sender: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">responses@getleanin12.com </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr id="DetailLine_Phish"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Subject: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">Neuropathy candy 🍬 </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr id="DetailLine_Phish"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Date: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">4/12/2025 6:12:19 PM </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr><td colspan="2"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" bgcolor="#007acc" id="ReviewButton" style="padding:8px 12px; border-radius:2px"><a class="mobile-button btn-primary" href="https://security.microsoft.com/quarantine?id=0d7743e8-2388-497f-f246-08dd79ed90be\1f18c4f7-758f-3e87-e5fd-0e5697c81e42&amp;recipientAddress=%40ENC%40vOs9M%2FjOj%2B1HzBXpMVWDwYDmh5hDbzsvMzCeWbXyiiA8NY9OjsXD24u%2BzQS5M35A" originalsrc="" shash="" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff">Review Message </a></td><td class="" id="ButtonSpace_Review" style="vertical-align:top; padding:10px 4px; border-bottom:none; text-align:left; white-space:nowrap; color:#666666"></td><td align="center" bgcolor="#EAEAEA" id="ReleaseButton" style="padding:8px 12px; border-radius:2px"><a class="mobile-button btn-default" href="https://nam10-quarantine.dataservice.protection.outlook.com/spamdigestesn/spamdigest.svc/releasespam/orgs/9fb208c9-eb97-4381-9458-caf0dc0e4fe3/users/lcs@lcs.ai/mail/0d7743e8-2388-497f-f246-08dd79ed90be?token=xShFPOsBOcpFqM8MdIa2UefnXay2XnqS%2fB1MWl1ynYQ%3d" originalsrc="" shash="" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#212121">Release </a></td><td class="" id="ButtonSpace_Release" style="vertical-align:top; padding:10px 4px; border-bottom:none; text-align:left; white-space:nowrap; color:#666666"></td></tr></tbody></table></td></tr><tr><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:left; white-space:nowrap; color:#666666"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:left; white-space:nowrap; color:#666666"> </td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style="padding:24px 24px 8px 24px; max-width:592px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" id="Flavor_Spam" style="vertical-align:middle; background-color:white; box-shadow:0px 4px 8px #eaeaea" width="100%"><tbody><tr><td style="padding:16px 24px 24px 24px"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="font-size:21px; line-height:25px; font-weight:600; letter-spacing:-0.04em; padding:10px 4px; width:100%; border-bottom:solid #eaeaea 1px; font-family:'Segoe UI'; font-weight:bold">Prevented spam messages </td></tr><tr><td style="padding:12px 0px 0px 0px; line-height:20px; max-width:544px"><table border="0" cellpadding="0" cellspacing="0" class="" style="width:100%; border-collapse:collapse!important"><tbody><tr id="DetailLine_Spam"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Sender: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">theaireport@mail.beehiiv.com </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr id="DetailLine_Spam"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Subject: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">Scaling a newsletter from 0 to 150K subscribers </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr id="DetailLine_Spam"><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; height:21px; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#000000">Date: </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:normal; font-family:'Segoe UI'; font-size:16px; line-height:19px; color:#484644">4/12/2025 11:04:00 AM </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="vertical-align:top; padding:10px 4px; text-align:left; white-space:nowrap; color:#666666"> </td></tr><tr><td colspan="2"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td align="center" bgcolor="#007acc" id="ReviewButton" style="padding:8px 12px; border-radius:2px"><a class="mobile-button btn-primary" href="https://security.microsoft.com/quarantine?id=54b27092-6563-4868-7a22-08dd79b1bab0\f4a34314-d532-c77d-bcdf-2950c7081244&amp;recipientAddress=%40ENC%40N9RWZM6B%2FVbVkXDyLZYB2TYzfxg1ATxGvBKX1M2TKr6lBowHK5%2FZyilVbEUvyLHs" originalsrc="" shash="" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff">Review Message </a></td><td class="" id="ButtonSpace_Review" style="vertical-align:top; padding:10px 4px; border-bottom:none; text-align:left; white-space:nowrap; color:#666666"></td><td align="center" bgcolor="#EAEAEA" id="ReleaseButton" style="padding:8px 12px; border-radius:2px"><a class="mobile-button btn-default" href="https://nam10-quarantine.dataservice.protection.outlook.com/spamdigestesn/spamdigest.svc/releasespam/orgs/9fb208c9-eb97-4381-9458-caf0dc0e4fe3/users/lcs@lcs.ai/mail/54b27092-6563-4868-7a22-08dd79b1bab0?token=aqOYsif1ijZgGUyNYa24bh5cDmRPiu2AAIn2eA9gCNE%3d" originalsrc="" shash="" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#212121">Release </a></td><td class="" id="ButtonSpace_Release" style="vertical-align:top; padding:10px 4px; border-bottom:none; text-align:left; white-space:nowrap; color:#666666"></td></tr></tbody></table></td></tr><tr><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:left; white-space:nowrap; color:#666666"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:right; white-space:nowrap; min-width:0"> </td><td class="" style="border-bottom:solid #eaeaea 1px; vertical-align:top; text-align:left; white-space:nowrap; color:#666666"> </td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td style="padding:0 24px 24px 24px"><table border="0" cellpadding="0" cellspacing="0" class="responsive-table" width="100%"><tbody><tr><td style="color:#666666; font-size:12px; line-height:18px">© 2025 Microsoft Corporation. All rights reserved. </td></tr><tr><td style="padding-top:4px; color:#666666; font-size:12px; line-height:18px"><a href="https://go.microsoft.com/fwlink/p/?LinkID=138500" originalsrc="" shash="">Privacy Statement</a> </td></tr><tr><td style="padding-top:4px; color:#666666; font-size:12px; line-height:18px"><a href="https://go.microsoft.com/fwlink/p/?LinkID=79398" originalsrc="" shash="">Acceptable Use Policy</a> </td></tr></tbody></table></td></tr></tbody></table></td><td class="mobile-hide" style="background:#E5E5E5"></td></tr></tbody></table></div><meta content="http://schema.org/extensions" itemprop="@context"/><meta content="SignedAdaptiveCard" itemprop="@type"/><div itemprop="signedAdaptiveCard" style="display:none; max-height:0px; overflow:hidden">((SignedCardPayload))</div></body></html>
