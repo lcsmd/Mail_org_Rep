@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><title></title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/><!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !mso]><!-->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&amp;display=swap" rel="stylesheet" type="text/css"/><!--<![endif]-->
+<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: inherit
+		}
+
+		.desktop_hide,
+		.desktop_hide table {
+			mso-hide: all;
+			display: none;
+			max-height: 0px;
+			overflow: hidden;
+		}
+
+		.image_block img+div {
+			display: none;
+		}
+
+		sup,
+		sub {
+			font-size: 75%;
+			line-height: 0;
+		}
+
+		@media (max-width:655px) {
+			.image_block div.fullWidth {
+				max-width: 100% !important;
+			}
+
+			.mobile_hide {
+				display: none;
+			}
+
+			.row-content {
+				width: 100% !important;
+			}
+
+			.stack .column {
+				width: 100%;
+				display: block;
+			}
+
+			.mobile_hide {
+				min-height: 0;
+				max-height: 0;
+				max-width: 0;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
+			}
+
+			.row-3 .column-2 .block-1.text_block td.pad,
+			.row-5 .column-2 .block-1.text_block td.pad {
+				padding: 15px 5px 5px 0 !important;
+			}
+
+			.row-4 .column-1 .block-1.spacer_block,
+			.row-4 .column-1 .block-3.spacer_block {
+				height: 15px !important;
+			}
+
+			.row-3 .column-2 .block-2.text_block td.pad,
+			.row-5 .column-2 .block-2.text_block td.pad {
+				padding: 25px 5px 0 0 !important;
+			}
+
+			.row-3 .column-1,
+			.row-5 .column-1 {
+				padding: 5px 10px 5px 5px !important;
+			}
+		}
+	</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--><!--[if true]><style>.forceBgColor{background-color: white !important}</style><![endif]-->
+</head>
+<body class="body forceBgColor" style="background-color: transparent; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
+<table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: transparent;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border: 0px;" width="100%">
+<table border="0" cellpadding="10" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" class="alignment" style="line-height: 10px;">
+<div class="fullWidth" style="max-width: 615px;"><img height="auto" src="https://c1980.drhinternet.net/ga/campaign_images/18837/NNL.png" width="100%"/></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 2px; padding-top: 17px; vertical-align: top; border: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="html_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_130155 ow">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px;" width="600">
+<tbody>
+<tr>
+<td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349485-c8d1ecf26b-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583339587%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=RaTG3VXhnD%2BsrOfbVkGKQDm0uhVbgm3IuevgmUVHaIo%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349485-c8d1ecf26b-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130155&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; max-width: 600px;" width="600"/></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="spacer_block block-2" style="height: 15px; line-height: 15px; font-size: 1px;"> </div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border: 0px; padding: 5px 15px 5px 20px;" width="58.333333333333336%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad" style="width: 100%;">
+<div align="center" class="alignment" style="line-height: 10px;">
+<div style="max-width: 335.417px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349486-ae3e89c339-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583360776%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=pT8eh1sS%2BAg%2F%2FoY6YGHUH6HcuQJaweibPacM84Z6vQU%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349486-ae3e89c339-bnb96f5767" rel="noopener" style="outline: none;" tabindex="-1" target="_blank"><img alt="I'm an image" height="auto" src="https://c1980.drhinternet.net/ga/campaign_images/18862/RFK%20Jr's%20Decisions.jpg" style="display: block; height: auto; border: 0; width: 100%;" title="I'm an image" width="335.417"/></a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border: 0px;" width="41.666666666666664%">
+<table border="0" cellpadding="0" cellspacing="0" class="text_block block-1 mobile_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tbody>
+<tr>
+<td class="pad" style="padding-bottom: 5px; padding-right: 5px; padding-top: 45px;">
+<div style="font-family: Tahoma, Verdana, sans-serif;">
+<div class="" style="font-size: 12px; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 16.8px;"><strong><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349486-ae3e89c339-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583375862%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=arbeautwfpGrQWZCQ%2F%2FoQfUP4Xij7FVfvIDS%2B4AOfu8%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349486-ae3e89c339-bnb96f5767" rel="noopener" style="text-decoration: none; color: #000000;" target="_blank"><span style="word-break: break-word; font-size: 30px; color: #000000;">RFK Jr.'s Decision Shocks Medical Community</span></a></strong></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="text_block block-2 desktop_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden; word-break: break-word;" width="100%">
+<tbody>
+<tr>
+<td class="pad" style="padding: 40px 5px 5px 5px;">
+<div style="font-family: Tahoma, Verdana, sans-serif;">
+<div class="" style="font-size: 12px; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 16.8px;"><strong><span style="word-break: break-word; font-size: 18px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349486-ae3e89c339-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583390952%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=UITl3Jpre7hwqOGwUSx3uEGPCY%2F4RVK0a20Oz1XkxUg%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349486-ae3e89c339-bnb96f5767" rel="noopener" style="text-decoration: none; color: #000000;" target="_blank"><span style="word-break: break-word; color: #000000;">RFK Jr.'s Decision Shocks Medical Community</span></a></span></strong></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border: 0px; padding: 8px 5px 3px 5px;" width="100%">
+<div class="spacer_block block-1" style="height: 20px; line-height: 20px; font-size: 1px;"> </div>
+<table border="0" cellpadding="0" cellspacing="0" class="html_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_130157 ow">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px;" width="600">
+<tbody>
+<tr>
+<td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349487-7844c73fa6-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583405843%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=6nsByWtmW4WGnM4F0gRAG%2BxeCNc9N0nssg2YS1t9Guo%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349487-7844c73fa6-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130157&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; max-width: 600px;" width="600"/></a></td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px;" width="600">
+<tbody>
+<tr>
+<td align="center" height="3" style="font-size: 3px; height: 3px; line-height: 3px; vertical-align: top;" valign="top"> </td>
+</tr>
+<tr>
+<td align="right"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="spacer_block block-3" style="height: 20px; line-height: 20px; font-size: 1px;"> </div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border: 0px; padding: 5px 15px 5px 20px;" width="58.333333333333336%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad" style="width: 100%;">
+<div align="center" class="alignment" style="line-height: 10px;">
+<div style="max-width: 335.417px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349488-370df83fa1-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583420954%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=q95oVT4A9cG3uL%2BXu8M0KQrEHrqsgGJyQv2EHvrrBn0%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349488-370df83fa1-bnb96f5767" rel="noopener" style="outline: none;" tabindex="-1" target="_blank"><img alt="I'm an image" height="auto" src="https://c1980.drhinternet.net/ga/campaign_images/18862/Passenger%20Dies%20Suddenly%20Mid-Flight%20Chaos%20Erupt.jpg" style="display: block; height: auto; border: 0; width: 100%;" title="I'm an image" width="335.417"/></a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border: 0px;" width="41.666666666666664%">
+<table border="0" cellpadding="0" cellspacing="0" class="text_block block-1 mobile_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tbody>
+<tr>
+<td class="pad" style="padding-bottom: 5px; padding-right: 5px; padding-top: 45px;">
+<div style="font-family: Tahoma, Verdana, sans-serif;">
+<div class="" style="font-size: 12px; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 16.8px;"><strong><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349488-370df83fa1-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583436045%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=FyNwn1Ki4m7IXGxPB2C8grzxy5qAvrlVJrm3HoJ05Tk%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349488-370df83fa1-bnb96f5767" rel="noopener" style="text-decoration: none; color: #000000;" target="_blank"><span style="word-break: break-word; font-size: 30px; color: #000000;">Passenger Dies Suddenly Mid-Flight, Chaos Erupts</span></a></strong></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="text_block block-2 desktop_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-hide: all; display: none; max-height: 0; overflow: hidden; word-break: break-word;" width="100%">
+<tbody>
+<tr>
+<td class="pad" style="padding: 40px 5px 5px 5px;">
+<div style="font-family: Tahoma, Verdana, sans-serif;">
+<div class="" style="font-size: 12px; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 16.8px;"><strong><span style="word-break: break-word; font-size: 18px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349488-370df83fa1-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583451209%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=6%2FFN11yPNmtXQDdSrJPp5%2BcAFxFBN4zafrHvnQSLZTY%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349488-370df83fa1-bnb96f5767" rel="noopener" style="text-decoration: none; color: #000000;" target="_blank"><span style="word-break: break-word; color: #000000;">Passenger Dies Suddenly Mid-Flight, Chaos Erupts</span></a></span></strong></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-6" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border: 0px; padding: 18px 5px 8px 5px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="html_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_130158 ow">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px;" width="600">
+<tbody>
+<tr>
+<td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349489-770db4de2f-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583466205%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=8QcMyv6Vjb%2BZiFU95nXV6jNowMhEdr6ok9VyCh9bFB0%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349489-770db4de2f-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130158&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; max-width: 600px;" width="600"/></a></td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px;" width="600">
+<tbody>
+<tr>
+<td align="center" height="3" style="font-size: 3px; height: 3px; line-height: 3px; vertical-align: top;" valign="top"> </td>
+</tr>
+<tr>
+<td align="right"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="10" cellspacing="0" class="divider_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" class="alignment">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="divider_inner" style="font-size: 1px; line-height: 1px; border-top: 2px dashed #8A3C90;"><span style="word-break: break-word;"> </span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="html_block block-3" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_display ow"> </div>
+</div>
+</div>
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_display ow">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="ow_container" width="100%">
+<tbody>
+<tr>
+<td align="center">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocol" width="49%">
+<tbody>
+<tr>
+<td align="center">
+<div class="ow ow_130159">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td width="100%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349490-ae71b066dd-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583486301%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=FwTXp5eKyFXQmqgi1SjOr5IuYFiKeMihFpx%2F%2B3y7QIk%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349490-ae71b066dd-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130159&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom" style="width: 100%; max-width: 300px; display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;" width="100%"/></a></td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td align="center" height="3" style="font-size: 3px; height: 3px; line-height: 3px; vertical-align: top;" valign="top"> </td>
+</tr>
+<tr>
+<td align="right"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocolspace" width="2%">
+<tbody>
+<tr>
+<td align="center" height="10" style="font-size: 10px; height: 10px; line-height: 10px; vertical-align: top;" valign="top"> </td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocol" width="49%">
+<tbody>
+<tr>
+<td align="center">
+<div class="ow ow_130160">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td width="100%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349491-480a0122da-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583501641%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=M2kAm7eEiSwcjL%2FLcyVs2dCR0ixVQNcJ3JccSxdTzeQ%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349491-480a0122da-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130160&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom&amp;cs_offset=1" style="width: 100%; max-width: 300px; display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;" width="100%"/></a></td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td align="center" height="3" style="font-size: 3px; height: 3px; line-height: 3px; vertical-align: top;" valign="top"> </td>
+</tr>
+<tr>
+<td align="right"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="html_block block-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_display ow"> </div>
+</div>
+</div>
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_display ow">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="ow_container" width="100%">
+<tbody>
+<tr>
+<td align="center">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocol" width="49%">
+<tbody>
+<tr>
+<td align="center">
+<div class="ow ow_130161">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td width="100%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349492-f69bf52ceb-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583516729%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=r3nehdWrdREQnswac7iXH7tZQLXKj6YNVDa1FgHNXdU%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349492-f69bf52ceb-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130161&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom" style="width: 100%; max-width: 300px; display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;" width="100%"/></a></td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td align="center" height="3" style="font-size: 3px; height: 3px; line-height: 3px; vertical-align: top;" valign="top"> </td>
+</tr>
+<tr>
+<td align="right"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocolspace" width="2%">
+<tbody>
+<tr>
+<td align="center" height="10" style="font-size: 10px; height: 10px; line-height: 10px; vertical-align: top;" valign="top"> </td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocol" width="49%">
+<tbody>
+<tr>
+<td align="center">
+<div class="ow ow_130162">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td width="100%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349493-ccd6be813a-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583531629%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=fj3q2KOfEq4ThvToG%2BWrv%2BeRKsqlkRPlLo%2FTH%2Fp%2FHC0%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349493-ccd6be813a-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130162&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom&amp;cs_offset=1" style="width: 100%; max-width: 300px; display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;" width="100%"/></a></td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;" width="100%">
+<tbody>
+<tr>
+<td align="center" height="3" style="font-size: 3px; height: 3px; line-height: 3px; vertical-align: top;" valign="top"> </td>
+</tr>
+<tr>
+<td align="right"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-7" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; border-radius: 0; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-left: 5px; padding-right: 5px; padding-top: 2px; vertical-align: top; border: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="divider_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" class="alignment">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="divider_inner" style="font-size: 1px; line-height: 1px; border-top: 2px dashed #8A3C90;"><span style="word-break: break-word;"> </span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="html_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow ow_130163"> </div>
+</div>
+</div>
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow ow_130163">
+<table border="0" cellpadding="0" cellspacing="0" class="ow_container" width="100%">
+<tbody>
+<tr>
+<td align="left" height="40" style="color: #000000; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold;">You Might Like</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="ow_container" width="100%">
+<tbody>
+<tr>
+<td style="border-collapse: collapse;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocol" width="49%">
+<tbody>
+<tr>
+<td width="49%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349494-969792d40c-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583546439%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=2%2BTNIK7cFtgIFRyiUai%2BEJ5jVSWYn9k95PomhxS0e7U%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349494-969792d40c-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130163&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; width: 100%;" width="141"/></a></td>
+<td align="center" height="12" style="font-size: 12px; height: 12px; line-height: 12px; vertical-align: top;" valign="top" width="2%"> </td>
+<td width="49%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349495-8a377c0616-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583561426%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=Qwv%2FPmjzgwrnJQ0%2BSbqu5P31blNdsI0HkmnPvcItCBg%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349495-8a377c0616-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130163&amp;cs_sendid=22900&amp;cs_offset=1&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; width: 100%;" width="141"/></a></td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocolspace" width="2%">
+<tbody>
+<tr>
+<td align="center" height="12" style="font-size: 12px; height: 12px; line-height: 12px; vertical-align: top;" valign="top"> </td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="ow_twocol" width="49%">
+<tbody>
+<tr>
+<td width="49%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349496-454d8078e3-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583576315%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=NFqdyvEP%2FBNxXxGQwzOpDfeCSoeRbShAbHyx5g0%2Fmhk%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349496-454d8078e3-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130163&amp;cs_sendid=22900&amp;cs_offset=2&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; width: 100%;" width="141"/></a></td>
+<td align="center" height="12" style="font-size: 12px; height: 12px; line-height: 12px; vertical-align: top;" valign="top" width="2%"> </td>
+<td width="49%"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349498-9a214d74c9-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583591160%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=7s0d5Ds3tBv%2BbmNZj5sKkPAtUMaFT9T%2FI4hfk5YPAgM%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349498-9a214d74c9-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130163&amp;cs_sendid=22900&amp;cs_offset=3&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; width: 100%;" width="141"/></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-8" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 15px; vertical-align: top; border: 0px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="html_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div align="center" style="font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center;">
+<div class="ow_130156 ow">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px;" width="600">
+<tbody>
+<tr>
+<td align="center"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Fclick%2F2-31727685-47-22900-44784-349499-7f38b8375d-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583606233%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=B6Widd6%2FYVIT3MxTKoQ0MBxuU9vtRFvhKo14hbnqQ%2Fk%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/click/2-31727685-47-22900-44784-349499-7f38b8375d-bnb96f5767" rel="noopener" style="border-style: none; outline: none; text-decoration: none;" target="_blank"><img alt="" height="auto" src="https://rs-stripe.networknewslive.com/stripe/image?cs_email=31727685&amp;cs_stripeid=130156&amp;cs_sendid=22900&amp;cs_offset=0&amp;cs_esp=custom" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; width: 100%; max-width: 600px;" width="600"/></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-9" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; border-radius: 0; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border: 0px; padding: 15px 30px 5px 30px;" width="100%">
+<table border="0" cellpadding="5" cellspacing="0" class="paragraph_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div style="color: #a8acb0; direction: ltr; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 13px; font-weight: 400; letter-spacing: 0px; line-height: 120%; text-align: center; mso-line-height-alt: 15.6px;">
+<p style="margin: 0;">NetworkNewsLive is dedicated to truth in reporting, keeping our readers up-to-date on important issues happening around the world. We deliver unbiased news stories that respect your moral standards and convictions.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-10" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eeeeee;" width="100%">
+<tbody>
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; border-radius: 0; color: #000000; width: 635.00px; margin: 0 auto;" width="635.00">
+<tbody>
+<tr>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border: 0px; padding: 10px 30px 10px 30px;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="paragraph_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width="100%">
+<tbody>
+<tr>
+<td class="pad">
+<div style="color: #a8acb0; direction: ltr; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 13px; font-weight: 400; letter-spacing: 0px; line-height: 120%; text-align: center; mso-line-height-alt: 15.6px;">
+<p style="margin: 0; margin-bottom: 14px;"><span style="font-size: 10pt;">This email, content and site are subject to the terms and conditions and privacy policy found on the site.</span><br/><span style="font-size: 10pt;">Some of the content above are paid ads. We do not make any claims or endorse them. This email is for informational purposes only and should not be used as advice from a professional.</span><br/><span style="font-size: 10pt;">Please do your own research before taking any actions based on any of the information herein on this email or site.</span><br/><span style="font-size: 10pt;">© Copyright networknewslive. All Rights Reserved.</span><br/><span style="word-break: break-word; font-size: 10pt;">5 Brewster Street #2008 </span><span style="word-break: break-word; font-family: Arial, Helvetica Neue, Helvetica, sans-serif background-color: transparent;"><span style="font-size: 10pt;">Glen Cove New York 11542</span><br/><span style="font-size: 10pt;">Visit here to <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.now.networknewslive.com%2Fga%2Funsubscribe%2F2-31727685-47-22900-44784-3ad726aa416d08d-bnb96f5767&amp;data=05%7C02%7Clcs%40larrysullivan.com%7Cb70ebe8d5e824509954c08dd7a2bf3f6%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801051583621379%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C60000%7C%7C%7C&amp;sdata=EG5oPCntt3CBO0cmmENd4D4GXOs9Zb590FxLUbe4S24%3D&amp;reserved=0" originalsrc="https://tracking.now.networknewslive.com/ga/unsubscribe/2-31727685-47-22900-44784-3ad726aa416d08d-bnb96f5767">unsubscribe</a></span><br/></span></p>
+<p style="margin: 0;"><span style="word-break: break-word; color: #9f9898;"> </span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- End -->
+<img alt="" height="2" src="https://tracking.now.networknewslive.com/ga/open/2-31727685-47-22900-44784-bnb96f5767" width="3"/></body>
+</html>

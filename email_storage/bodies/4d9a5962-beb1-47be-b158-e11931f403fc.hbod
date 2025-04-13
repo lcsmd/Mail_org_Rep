@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><title></title><!--[if !mso]><!-- --><meta content="IE=edge" http-equiv="X-UA-Compatible"/><!--<![endif]--><meta content="width=device-width,initial-scale=1" name="viewport"/><style type="text/css">#outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }</style><!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--><!--[if lte mso 11]>
+        <style type="text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]--><!--[if gte mso 9]>
+        <style>
+        li {
+            text-indent: -1em;
+        }
+        </style>
+        <![endif]--><style type="text/css">@media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-6 {
+        width: 6% !important;
+        max-width: 6%;
+      }
+
+      .mj-column-per-10 {
+        width: 10% !important;
+        max-width: 10%;
+      }
+
+      .mj-column-per-78 {
+        width: 78% !important;
+        max-width: 78%;
+      }
+
+      .mj-column-per-50 {
+        width: 50% !important;
+        max-width: 50%;
+      }
+
+      .mj-column-per-33 {
+        width: 33% !important;
+        max-width: 33%;
+      }
+
+      .mj-column-per-34 {
+        width: 34% !important;
+        max-width: 34%;
+      }
+
+      .mj-column-px-230 {
+        width: 230px !important;
+        max-width: 230px;
+      }
+
+      .mj-column-per-21-73913043478261 {
+        width: 21.73913043478261% !important;
+        max-width: 21.73913043478261%;
+      }
+
+      .mj-column-per-13-043478260869565 {
+        width: 13.043478260869565% !important;
+        max-width: 13.043478260869565%;
+      }
+    }</style><style type="text/css">@media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }</style><style type="text/css">@media all and (max-width: 480px) {
+
+      .mobile-body div:first-child,
+      .mobile-body div {
+        margin: 0 auto !important;
+        max-width: 310px !important;
+      }
+
+      .body-1,
+      .body-1 div {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        line-height: 17px !important;
+      }
+
+      .body-4,
+      .body-4 div {
+        font-size: 22px !important;
+        font-weight: 400 !important;
+        line-height: 30px !important;
+      }
+
+      .dls-logo-bluebox-solid-sm,
+      .dls-logo-bluebox-solid-sm img {
+        width: 45px !important;
+        height: 45px !important;
+      }
+
+      .dls-card-xs,
+      .dls-card-xs img {
+        width: 70px !important;
+        height: 44px !important;
+      }
+
+      .text-align-center,
+      .text-align-center div {
+        text-align: center !important;
+      }
+
+      .text-align-left,
+      .text-align-left div {
+        text-align: left !important;
+      }
+
+      .btn-align-center,
+      .btn-align-center table {
+        text-align: center !important;
+      }
+
+      .btn-align-center table {
+        margin: 0 auto !important;
+      }
+
+      .dls-tagline-blue-sm td,
+      .dls-tagline-blue-sm img {
+        width: 220px !important;
+      }
+
+      .nav-bar-border-b {
+        border-bottom: 1px solid #d9d9d6;
+      }
+
+      .in-img td,
+      .in-img img {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .pad-0,
+      .pad-0-sm div {
+        padding: 0 !important;
+      }
+
+      .pad-0-t,
+      .pad-0-t-sm div {
+        padding-top: 0 !important;
+      }
+
+      .pad-0-b,
+      .pad-0-b-sm div {
+        padding-bottom: 0 !important;
+      }
+
+      .pad-0-l,
+      .pad-0-l-sm div {
+        padding-left: 0 !important;
+      }
+
+      .pad-0-r,
+      .pad-0-r-sm div {
+        padding-right: 0 !important;
+      }
+
+      .pad-0-lr,
+      .pad-0-lr-sm div {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .pad-0-tb,
+      .pad-0-tb-sm div {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+      .pad-1,
+      .pad-1-sm div {
+        padding: 10px !important;
+      }
+
+      .pad-1-t,
+      .pad-1-t-sm div {
+        padding-top: 10px !important;
+      }
+
+      .pad-1-b,
+      .pad-1-b-sm div {
+        padding-bottom: 10px !important;
+      }
+
+      .pad-1-l,
+      .pad-1-l-sm div {
+        padding-left: 10px !important;
+      }
+
+      .pad-1-r,
+      .pad-1-r-sm div {
+        padding-right: 10px !important;
+      }
+
+      .pad-1-lr,
+      .pad-1-lr-sm div {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+      }
+
+      .pad-1-tb,
+      .pad-1-tb-sm div {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+      }
+
+      .pad-2,
+      .pad-2-sm div {
+        padding: 20px !important;
+      }
+
+      .pad-2-t,
+      .pad-2-t-sm div {
+        padding-top: 20px !important;
+      }
+
+      .pad-2-b,
+      .pad-2-b-sm div {
+        padding-bottom: 20px !important;
+      }
+
+      .pad-2-l,
+      .pad-2-l-sm div {
+        padding-left: 20px !important;
+      }
+
+      .pad-2-r,
+      .pad-2-r-sm div {
+        padding-right: 20px !important;
+      }
+
+      .pad-2-lr,
+      .pad-2-lr-sm div {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+
+      .pad-2-tb,
+      .pad-2-tb-sm div {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+      }
+
+      .pad-3,
+      .pad-3-sm div {
+        padding: 30px !important;
+      }
+
+      .pad-3-t,
+      .pad-3-t-sm div {
+        padding-top: 30px !important;
+      }
+
+      .pad-3-b,
+      .pad-3-b-sm div {
+        padding-bottom: 30px !important;
+      }
+
+      .pad-3-l,
+      .pad-3-l-sm div {
+        padding-left: 30px !important;
+      }
+
+      .pad-3-r,
+      .pad-3-r-sm div {
+        padding-right: 30px !important;
+      }
+
+      .pad-3-lr,
+      .pad-3-lr-sm div {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+      }
+
+      .pad-3-tb,
+      .pad-3-tb-sm div {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+      }
+
+      .pad-4,
+      .pad-4-sm div {
+        padding: 40px !important;
+      }
+
+      .pad-4-t,
+      .pad-4-t-sm div {
+        padding-top: 40px !important;
+      }
+
+      .pad-4-b,
+      .pad-4-b-sm div {
+        padding-bottom: 40px !important;
+      }
+
+      .pad-4-l,
+      .pad-4-l-sm div {
+        padding-left: 40px !important;
+      }
+
+      .pad-4-r,
+      .pad-4-r-sm div {
+        padding-right: 40px !important;
+      }
+
+      .pad-4-lr,
+      .pad-4-lr-sm div {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+      }
+
+      .pad-4-tb,
+      .pad-4-tb-sm div {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+      }
+
+      .dt,
+      .dt div {
+        font-weight: bold !important;
+      }
+
+      .dls-gray-06,
+      .dls-gray-06 div {
+        color: #333 !important;
+      }
+
+      .dls-gray-06-bg,
+      .dls-gray-06-bg div {
+        background-color: #333 !important;
+      }
+
+      .dls-gray-06-bg-hvr:hover,
+      .dls-gray-06-bg-hvr div:hover {
+        background-color: #333 !important;
+      }
+    }
+
+    .body-5 {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 34px;
+    }
+
+    .dls-gray-06 {
+      color: #333;
+    }
+
+    .dls-gray-06-bg {
+      background-color: #333;
+    }
+
+    .dls-gray-07 {
+      color: #d9d9d6;
+    }
+
+    .dls-gray-07-bg {
+      background-color: #d9d9d6;
+    }
+
+    .dls-gray-07-bg-hvr:hover {
+      background-color: #d9d9d6;
+    }
+
+    .text-underline-none {
+      text-decoration: none;
+    }
+
+    .pad-0-d,
+    .pad-0-d-sm div {
+      padding: 0 !important;
+    }
+
+    @media all and (max-width: 480px) {
+
+      /* START: Progress Tracker Mobile CSS */
+      .step tbody tr {
+        display: inline-block !important;
+      }
+
+      .divider tbody td p {
+        border-left-width: 2px;
+        border-left-style: solid;
+        height: 20px;
+        border-top: 0 !important;
+      }
+
+      .divider tbody td {
+        padding-top: 0 !important;
+      }
+
+      .divider {
+        padding-left: 22px !important;
+      }
+
+      .blue-border tbody td p {
+        border-left-color: #006FCF;
+      }
+
+      .grey-border tbody td p {
+        border-left-color: #97999b;
+      }
+
+      div.ptracker-image-section {
+        display: inline-block;
+        vertical-align: middle;
+        width: 20% !important;
+      }
+
+      div.ptracker-label-section {
+        display: inline-block;
+        vertical-align: middle;
+        width: 51% !important;
+      }
+
+      div.step-label3,
+      div.step-label4 {
+        max-width: 310px !important;
+        width: 100% !important;
+      }
+
+      td.step-text {
+        height: 68px;
+        vertical-align: middle;
+        padding: 0 !important;
+      }
+
+      .step-text div {
+        padding: 0 !important;
+        width: 100% !important;
+        text-align: left !important;
+      }
+
+      /* END: Progress Tracker Mobile CSS */
+      .mj-custom-column-per-20 {
+        width: 20% !important;
+      }
+
+      .mj-custom-column-per-80 {
+        width: 80% !important;
+      }
+
+      /* Image Module CSS for mobile */
+      .squareImgSize td,
+      .squareImgSize img {
+        width: 230px !important;
+        height: 230px !important;
+      }
+
+      .portraitImgSize td,
+      .portraitImgSize img {
+        width: 230px !important;
+        height: 460px !important;
+      }
+
+      .landscapeImgSize td,
+      .landscapeImgSize img {
+        width: 230px !important;
+        height: 96px !important;
+        max-height: 96px !important;
+      }
+
+      .imageContent>table>tbody>tr>td {
+        padding: 0px !important;
+      }
+
+      /* END Image Module CSS for mobile */
+    }
+
+    .margin-negative-10 div {
+      margin: 0 -10px;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* Start Image Module CSS for desktop */
+    .landscapeImgSize td,
+    .landscapeImgSize img {
+      max-height: 220px !important;
+    }
+
+    .table-layout-fixed>table table {
+      table-layout: fixed;
+    }
+
+    .word-break-all {
+      width: 100%;
+      word-break: break-all;
+      word-wrap: break-word;
+    }
+
+    /* END Image Module CSS for desktop */
+    /* Partner Logo CSS */
+    .horizontalLogo td,
+    .horizontalLogo img {
+      max-height: 60px;
+    }
+
+    /* END Partner Logo CSS */
+    /* START: Progress Tracker Desktop CSS */
+    .ptracker-l4-section-outlook {
+      width: 560px !important;
+    }
+
+    .ptracker-l3-section-outlook {
+      width: 620px !important;
+    }
+
+    .step-label3-outlook {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+
+    div.step-label4 {
+      max-width: 22.5%;
+      width: 22.5%;
+    }
+
+    div.step-label3 {
+      max-width: 33%;
+      width: 33%;
+    }
+
+    .step-text div {
+      width: 120px !important;
+    }
+
+    /* END: Progress Tracker Desktop CSS */</style></head><body style="background-color:#d9d9d6;"><div class="mobile-body" lang="en" style="background-color:#d9d9d6;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:620px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="background-color:#d9d9d6;vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-align:center;color:#333333;'><p style="margin:0 0 0 0px">See the details about this purchase</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:620px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" class="pad-1" style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" style="color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;table-layout:auto;width:100%;border:none;" width="100%"><tr><td valign="top" width="15%"><img alt="American Express Logo" class="dls-logo-bluebox-solid-sm" height="60" src="https://cdaas.americanexpress.com/akamai/axp/comms/logos/logo.png" width="60"/></td><td align="right" class="pad-1-l pad-1-r" style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:15px;font-weight:500;color:#333;padding-left:10px;padding-right:10px' valign="top"><p class="body-1" style="display:inline-block;line-height:22px;margin:0"><b>LAWRENCE SULLIVAN</b></p><p class="body-1" style="font-weight:normal;line-height:22px;word-break:break-word;margin:0">Account Ending: 88004</p></td><td align="right" valign="top" width="17%"><img alt="Card Art" class="dls-card-xs" height="60" src="https://www.aexp-static.com/online/myca/shared/summary/cardasset/images/NUS000000245_160x101_STRAIGHT_96.jpg" width="96"/></td></tr></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" bgcolor="#006fcf" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:#006fcf;background-color:#006fcf;margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#006fcf;background-color:#006fcf;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" bgcolor="#006fcf" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:620px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0.5, 0" position="0.5, 0" src="https://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pattern-50pc.png" color="#006fcf" type="tile" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]--><div style="background:#006fcf url('https://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pattern-50pc.png') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;margin:0px auto;max-width:620px;"><div style="line-height:0;font-size:0;"><table align="center" background="https://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pattern-50pc.png" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#006fcf url('https://cdaas.americanexpress.com/akamai/axp/comms/icons/hl-pattern-50pc.png') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:40px;padding-top:40px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:middle;width:37.2px;" ><![endif]--><div class="mj-column-per-6 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"><tbody></tbody></table></div><!--[if mso | IE]></td><td class="text-align-center-outlook" style="vertical-align:middle;width:62px;" ><![endif]--><div class="mj-column-per-10 mj-outlook-group-fix text-align-center" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:middle;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-3-b" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:60px;"><img alt="Information Icon" height="60" src="https://cdaas.americanexpress.com/akamai/axp/comms/icons/eds-library/blue-box/white-headline-icons-60px/info-white.png" style="border:0;display:block;outline:none;text-decoration:none;height:60px;width:100%;font-size:13px;" width="60"/></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:483.6px;" ><![endif]--><div class="mj-column-per-78 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:middle;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" class="pad-0 pad-4-lr body-4 text-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:20px;word-break:break-word;"><div style='font-family:"Helvetica Neue", Helvetica, sans-serif;font-size:26px;font-weight:400;line-height:34px;text-align:left;color:#ffffff;'><p aria-level="1" role="heading" style="margin:0 0 0 0px"><strong>There was a large purchase on your Card</strong></p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:37.2px;" ><![endif]--><div class="mj-column-per-6 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"><tbody></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div></div><!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:40px;padding-right:40px;padding-top:20px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="text-align-left-outlook" style="vertical-align:top;width:540px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix text-align-left" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#333333;'><p style="margin:0 0 0 0px">Dear LAWRENCE SULLIVAN,</p></div></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#333333;'><p style="margin:0 0 0 0px">As you requested, we're letting you know that this purchase was more than $10.00.</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:40px;padding-right:40px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="pad-0-outlook text-align-center-outlook" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="pad-0-outlook text-align-center-outlook" role="presentation" style="width:540px;" width="540" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div class="pad-0 text-align-center" style="margin:0px auto;max-width:540px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="540px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:540px;" width="540" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:540px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" class="text-align-left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-align:left;color:#53565a;'><p style="margin:0 0 0 0px">You can<strong> <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.amex%2F%2FyN7981%3Fcomm_track_id%3Dr_02700000000850684994301460_1_x%26dotAmexDomain%3Dgo%2520%26Intlink%3DUS-AMEX-MYCA-%2520-ManageAlerts&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399684121%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=6F0J7bWamkLve5Zr4EPyS8e0tJRoLlUwpZO2hjGOL%2F8%3D&amp;reserved=0" originalsrc="https://go.amex//yN7981?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=go%20&amp;Intlink=US-AMEX-MYCA-%20-ManageAlerts" style="color:#006fcf">change the dollar amount</a> </strong>of these large purchase notifications online.</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="540px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:540px;" width="540" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:540px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:0;padding-right:0;padding-top:20px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:540px;" width="540" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:540px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="540px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:540px;" width="540" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:540px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="border-bottom:1px solid #c8c9c7;border-top:1px solid #c8c9c7;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:270px;" ><![endif]--><div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" class="pad-0 text-align-center pad-2-t" style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:40px;padding-bottom:20px;padding-left:60px;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:15px;font-weight:bold;line-height:22px;text-align:left;color:#006fcf;'><p style="margin:0 0 0 0px">APPLECOMBILL</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td class="" style="vertical-align:top;width:270px;" ><![endif]--><div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" class="pad-0 text-align-center" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-right:60px;padding-bottom:10px;padding-left:40px;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:15px;font-weight:bold;line-height:22px;text-align:left;color:#333333;'><p style="margin:0 0 0 0px">$21.76*</p></div></td></tr><tr><td align="left" class="pad-0 pad-2-b text-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:60px;padding-bottom:10px;padding-left:40px;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-align:left;color:#53565a;'><p style="margin:0 0 0 0px">Sat, Apr 12, 2025</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="540px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:540px;" width="540" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:540px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" class="text-align-left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-align:left;color:#53565a;'><p style="margin:0 0 0 0px">*The amount above may not reflect the final amount as some merchants issue a pre-authorization charge</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:10px;padding-left:40px;padding-right:40px;padding-top:10px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="pad-0-outlook" style="vertical-align:top;width:540px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix pad-0" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#333333;'><p style="margin:0 0 0 0px">You can <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.amex%2F%2FPyhcC1%3Fcomm_track_id%3Dr_02700000000850684994301460_1_x%26dotAmexDomain%3Dgo&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399707689%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=%2Fyzbg2WEhSCOJfnDsSeKRyWIu43oCLv669OO8gRjsc8%3D&amp;reserved=0" originalsrc="https://go.amex//PyhcC1?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=go" style="color:#006fcf">track this spending charge online</a> and be notified when the final amount is posted to your account.</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:10px;padding-left:40px;padding-right:40px;padding-top:10px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="text-align-left-outlook" style="vertical-align:top;width:540px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix text-align-left" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:left;color:#333333;'><p style="margin:0 0 0 0px">If you still have questions about this transaction, we suggest contacting the merchant directly.</p></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" bgcolor="#00175a" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:#00175a;background-color:#00175a;margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#00175a;background-color:#00175a;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-left:0;padding-right:0;padding-top:20px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:620px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="dls-tagline-blue-sm" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:268px;"><img alt="Don't do business without it" height="auto" src="https://cdaas.americanexpress.com/akamai/axp/comms/logos/ddbwi-footer-tagline.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="268"/></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="text-align-center-outlook nav-bar-border-b-outlook" style="vertical-align:middle;width:204.6px;" ><![endif]--><div class="mj-column-per-33 mj-outlook-group-fix text-align-center nav-bar-border-b" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:middle;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-4-lr pad-2-tb text-align-center" style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:40px;word-break:break-word;"><div style="font-family:Helvetica, Arial, Roboto, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:center;color:#000000;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fm.amex%2Fcontact-us%3Fcomm_track_id%3Dr_02700000000850684994301460_1_x%26dotAmexDomain%3Dm&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399868896%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=zu45N7ALmUIapzJw0OyZlfJJJtl8%2FbC%2FdU1bWRY0OKU%3D&amp;reserved=0" originalsrc="https://m.amex/contact-us?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=m" style="color:#006fcf;align:center;text-decoration:none">Contact us</a></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td class="text-align-center-outlook nav-bar-border-b-outlook" style="vertical-align:middle;width:204.6px;" ><![endif]--><div class="mj-column-per-33 mj-outlook-group-fix text-align-center nav-bar-border-b" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:middle;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-4-lr pad-2-tb text-align-center" style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;word-break:break-word;"><div style="font-family:Helvetica, Arial, Roboto, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:center;color:#000000;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fm.amex%2Fupdate-email-us%3Fcomm_track_id%3Dr_02700000000850684994301460_1_x%26dotAmexDomain%3Dm&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399891465%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=p2iIig5pPtcmOIcmuXfLsmJFFLwk%2FkReNQIByWhzhWE%3D&amp;reserved=0" originalsrc="https://m.amex/update-email-us?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=m" style="color:#006fcf;align:center;text-decoration:none">Update your email address</a></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td class="text-align-center-outlook nav-bar-border-b-outlook" style="vertical-align:middle;width:210.8px;" ><![endif]--><div class="mj-column-per-34 mj-outlook-group-fix text-align-center nav-bar-border-b" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:middle;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-4-lr pad-2-tb text-align-center" style="font-size:0px;padding:10px 25px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;word-break:break-word;"><div style="font-family:Helvetica, Arial, Roboto, sans-serif;font-size:15px;font-weight:400;line-height:22px;text-align:center;color:#000000;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fm.amex%2Fprivacy-us%3Fcomm_track_id%3Dr_02700000000850684994301460_1_x%26dotAmexDomain%3Dgo&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399910873%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=9NKESlTpMSaUA2ToWkON9DIBOE0PRunbxryd2fvzUwM%3D&amp;reserved=0" originalsrc="https://m.amex/privacy-us?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=go" style="color:#006fcf;align:center;text-decoration:none">Privacy statement</a></div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-left:40px;padding-right:40px;padding-top:40px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:30px;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="text-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:16px;font-weight:bold;line-height:24px;text-align:center;color:#333333;'>How do you feel about this fraud protection experience?</div></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:40px;padding-left:40px;padding-right:40px;padding-top:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="pad-0-outlook text-align-center-outlook" style="width:230px;" ><![endif]--><div class="mj-column-px-230 mj-outlook-group-fix pad-0 text-align-center" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;"><!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:50px;" ><![endif]--><div class="mj-column-per-21-73913043478261 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:21.73913043478261%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:20px;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-0 btn-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:30px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Famericanexpress.com%2F&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399926739%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=cVbJw2B6aZK9wY8hDRCEjOhOY0cu4wTFqKSwGuMNB8c%3D&amp;reserved=0" originalsrc="https://americanexpress.com/" target="_blank"><img alt="Rating 1 of 5" height="30" src="https://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" style="border:0;display:block;outline:none;text-decoration:none;height:30px;width:100%;font-size:13px;" width="30"/></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td style="vertical-align:top;width:50px;" ><![endif]--><div class="mj-column-per-21-73913043478261 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:21.73913043478261%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:20px;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-0 btn-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:30px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Famericanexpress.com%2F&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399942032%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=eaTEhGYA0NahC4hXTyyLUKwOrIKrzy0og6%2FaolLPHiU%3D&amp;reserved=0" originalsrc="https://americanexpress.com/" target="_blank"><img alt="Rating 2 of 5" height="30" src="https://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" style="border:0;display:block;outline:none;text-decoration:none;height:30px;width:100%;font-size:13px;" width="30"/></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td style="vertical-align:top;width:50px;" ><![endif]--><div class="mj-column-per-21-73913043478261 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:21.73913043478261%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:20px;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-0 btn-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:30px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Famericanexpress.com%2F&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399957669%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=jHV%2BgfRc0mtErICxhZYWwZzAcpckm54V7gUkAxQk3Tg%3D&amp;reserved=0" originalsrc="https://americanexpress.com/" target="_blank"><img alt="Rating 3 of 5" height="30" src="https://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" style="border:0;display:block;outline:none;text-decoration:none;height:30px;width:100%;font-size:13px;" width="30"/></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td style="vertical-align:top;width:50px;" ><![endif]--><div class="mj-column-per-21-73913043478261 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:21.73913043478261%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:20px;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-0 btn-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:30px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Famericanexpress.com%2F&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399973305%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3qR7SxLp3fqfpdQPkceGiVQNohpjM8peBXoR1XF3C%2Bc%3D&amp;reserved=0" originalsrc="https://americanexpress.com/" target="_blank"><img alt="Rating 4 of 5" height="30" src="https://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" style="border:0;display:block;outline:none;text-decoration:none;height:30px;width:100%;font-size:13px;" width="30"/></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td><td style="vertical-align:top;width:30px;" ><![endif]--><div class="mj-column-per-13-043478260869565 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:13.043478260869565%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="center" class="pad-0 btn-align-center" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style="width:30px;"><a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Famericanexpress.com%2F&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046399989453%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=JhWi9P%2BOl%2BgaJAvLX%2F5q%2Fjh%2BCoGmGxLG3d7JHf%2FzScI%3D&amp;reserved=0" originalsrc="https://americanexpress.com/" target="_blank"><img alt="Rating 5 of 5" height="30" src="https://cdaas-dev.americanexpress.com/akamai/axp/comms/icons/star.png" style="border:0;display:block;outline:none;text-decoration:none;height:30px;width:100%;font-size:13px;" width="30"/></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="620px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:620px;" width="620" bgcolor="#d9d9d6" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:#d9d9d6;background-color:#d9d9d6;margin:0px auto;max-width:620px;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#d9d9d6;background-color:#d9d9d6;width:100%;"><tbody><tr><td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:10px;padding-left:0;padding-right:0;padding-top:10px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:620px;" ><![endif]--><div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td style="vertical-align:top;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;"><table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"><tbody><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:10px;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-align:left;color:#53565a;'><p style="margin:0 0 0 0px">To stop this alert, simply click <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fm.amex%2Falertnotifications&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046400005084%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=wYrs99hiL%2FOExD1Ja31qwPHfNw6zDTXIE%2FKA8x4A6mQ%3D&amp;reserved=0" originalsrc="https://m.amex/alertnotifications" style='color:#53565a;font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-decoration:underline'>here</a>.</p></div></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-align:left;color:#53565a;'><p style="margin:0 0 0 0px">Your account information is included above to help you recognize this as a customer care email from American Express. To learn more about email security or report a suspicious email, please visit us at <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.amex%2F%2FvBgd4F%3Fcomm_track_id%3Dr_02700000000850684994301460_1_x%26dotAmexDomain%3Dgo&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046400020527%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=GKOZz1Wb2W7M%2BR%2BhNowWrDUyCjNTsX%2FRb7X2zv0q5y0%3D&amp;reserved=0" originalsrc="https://go.amex//vBgd4F?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=go" style='color:#53565a;font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-decoration:underline'>americanexpress.com/phishing</a>. We kindly ask you not to reply to this email but instead contact us via <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.amex%2F%2FnKKHzB%3Fcomm_track_id%3Dr_02700000000850684994301460_1_x%26dotAmexDomain%3Dgo&amp;data=05%7C02%7Clcs%40lcs.nyc%7C2316cc0e0c184ea798a108dd7a2acac7%7C9fb208c9eb9743819458caf0dc0e4fe3%7C0%7C0%7C638801046400036003%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=XuMSI1sqv7aH5a4RPr6bLVDe%2Bl9xDi5nJYbJu3QUhYE%3D&amp;reserved=0" originalsrc="https://go.amex//nKKHzB?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=go" style='color:#53565a;font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-decoration:underline'>Customer Care</a>.</p></div></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><div style='font-family:"Helvetica Neue", Roboto, Helvetica, sans-serif;font-size:13px;font-weight:400;line-height:20px;text-align:left;color:#53565a;'><p style="margin:0 0 0 0px">©2025 American Express. All rights reserved.</p><p style="margin:0 0 0 0px"> </p><p style="margin:0 0 0 0px">SAM0FYI568</p></div></td></tr><tr><td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;word-break:break-word;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td height="1px" style="vertical-align:top;height:1px;"><![endif]--><div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;height:1px;"><img alt="" height="1" role="none" src="https://m.amex/opentrack?comm_track_id=r_02700000000850684994301460_1_x&amp;dotAmexDomain=m" style="height:1px;width:1px" width="1"/></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td></tr></tbody></table></div><!--[if mso | IE]></td></tr></table><![endif]--></div></body></html>

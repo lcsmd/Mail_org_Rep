@@ -459,18 +459,52 @@ def fetch_emails_exchange(account, max_emails=50):
         logger.info(f"Received {len(mail_data.get('value', []))} emails from Graph API")
         
         for msg in mail_data.get('value', []):
-            # Get the full message with MIME content
-            message_id = msg['id']
-            mime_url = f"https://graph.microsoft.com/v1.0/me/messages/{message_id}/$value"
-            mime_response = requests.get(mime_url, headers=headers)
-            
-            if mime_response.status_code != 200:
-                logger.warning(f"Failed to get MIME content for message {message_id}: {mime_response.status_code}")
+            try:
+                # Instead of trying to fetch MIME content, we'll construct our own email object
+                # from the Graph API data
+                
+                # Extract message details
+                message_id = msg.get('id', '')
+                subject = msg.get('subject', '(No Subject)')
+                sender = msg.get('from', {}).get('emailAddress', {}).get('address', '')
+                sender_name = msg.get('from', {}).get('emailAddress', {}).get('name', '')
+                if sender_name:
+                    sender = f"{sender_name} <{sender}>"
+                    
+                to_recipients = [r.get('emailAddress', {}).get('address', '') for r in msg.get('toRecipients', [])]
+                cc_recipients = [r.get('emailAddress', {}).get('address', '') for r in msg.get('ccRecipients', [])]
+                
+                # Get the received date
+                received_date = msg.get('receivedDateTime', '')
+                
+                # Get the body of the message
+                body_content = msg.get('body', {}).get('content', '')
+                body_type = msg.get('body', {}).get('contentType', 'text')
+                
+                # Create an RFC822 format email
+                message = email.message.EmailMessage()
+                message['Message-ID'] = f"<{message_id}@microsoft.exchange>"
+                message['Subject'] = subject
+                message['From'] = sender
+                message['To'] = ', '.join(to_recipients)
+                if cc_recipients:
+                    message['Cc'] = ', '.join(cc_recipients)
+                message['Date'] = received_date
+                
+                # Set the content
+                if body_type == 'html':
+                    message.add_alternative(body_content, subtype='html')
+                else:
+                    message.set_content(body_content)
+                
+                # Convert to bytes
+                raw_email = message.as_bytes()
+                emails.append(raw_email)
+                
+                logger.info(f"Processed email: {subject}")
+            except Exception as msg_error:
+                logger.error(f"Error processing message {msg.get('id', 'unknown')}: {str(msg_error)}")
                 continue
-            
-            # Add the raw email content
-            raw_email = mime_response.content
-            emails.append(raw_email)
         
         logger.info(f"Successfully processed {len(emails)} emails for {account.email}")
     
