@@ -32,8 +32,11 @@ GMAIL_SCOPE = "https://mail.google.com/"
 MS_CLIENT_ID = os.environ.get("MS_CLIENT_ID")
 MS_CLIENT_SECRET = os.environ.get("MS_CLIENT_SECRET")
 MS_REDIRECT_URI = f"https://{replit_dev_domain}/accounts/add/exchange" if replit_dev_domain else os.environ.get("MS_REDIRECT_URI", f"{replit_domain}/accounts/add/exchange")
-MS_AUTH_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize"
-MS_TOKEN_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+# For single tenant applications, we need to use the tenant-specific endpoint
+# Your selection in Azure was: "Accounts in this organizational directory only (Lawrence Sullivan MD PC only - Single tenant)"
+TENANT_ID = os.environ.get("MS_TENANT_ID")  # Get tenant ID from environment
+MS_AUTH_URL = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/v2.0/authorize"
+MS_TOKEN_URL = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/v2.0/token"
 MS_SCOPE = "https://outlook.office.com/IMAP.AccessAsUser.All https://outlook.office.com/mail.read"
 
 # Print configuration information for debugging
@@ -48,7 +51,9 @@ logger.info(f"GOOGLE_OAUTH_CLIENT_SECRET env var: {'Set with length '+str(len(os
 
 logger.info(f"MS_CLIENT_ID: {MS_CLIENT_ID[:10]}... (length: {len(MS_CLIENT_ID)})" if MS_CLIENT_ID else "MS_CLIENT_ID: Not set")
 logger.info(f"MS_CLIENT_SECRET: {MS_CLIENT_SECRET[:5]}... (length: {len(MS_CLIENT_SECRET)})" if MS_CLIENT_SECRET else "MS_CLIENT_SECRET: Not set")
+logger.info(f"MS_TENANT_ID: {TENANT_ID[:10]}... (length: {len(TENANT_ID)})" if TENANT_ID else "MS_TENANT_ID: Not set")
 logger.info(f"MS_REDIRECT_URI: {MS_REDIRECT_URI}")
+logger.info(f"MS_AUTH_URL: {MS_AUTH_URL}")
 
 def start_gmail_oauth():
     """Start the OAuth2 flow for Gmail."""
