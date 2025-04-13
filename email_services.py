@@ -156,13 +156,19 @@ def get_gmail_user_email(access_token):
 
 def start_exchange_oauth():
     """Start the OAuth2 flow for Exchange Online."""
-    if not MS_CLIENT_ID or not MS_CLIENT_SECRET:
+    # Get the OAuth client ID directly from environment variable
+    oauth_client_id = os.environ.get("MS_CLIENT_ID")
+    oauth_client_secret = os.environ.get("MS_CLIENT_SECRET")
+    
+    if not oauth_client_id or not oauth_client_secret:
         logger.warning("Microsoft client ID and secret not configured")
         # Return a dictionary with error info instead of raising an exception
-        return {"error": True, "message": "Microsoft client ID and secret must be configured. Please set the MS_CLIENT_ID and MS_CLIENT_SECRET environment variables."}
+        return {"error": True, "message": "Microsoft client ID and secret must be configured."}
+    
+    logger.info(f"Using direct Microsoft Client ID: {oauth_client_id[:10]}...")
     
     auth_params = {
-        "client_id": MS_CLIENT_ID,
+        "client_id": oauth_client_id,
         "redirect_uri": MS_REDIRECT_URI,
         "response_type": "code",
         "scope": MS_SCOPE,
@@ -180,9 +186,18 @@ def start_exchange_oauth():
 def process_exchange_oauth(request):
     """Process the OAuth2 callback for Exchange Online."""
     try:
+        # Get the OAuth client ID directly from environment variable
+        oauth_client_id = os.environ.get("MS_CLIENT_ID")
+        oauth_client_secret = os.environ.get("MS_CLIENT_SECRET")
+        
+        if not oauth_client_id or not oauth_client_secret:
+            logger.error("Microsoft client ID and secret not found for callback")
+            return {"success": False, "message": "Microsoft client ID and secret must be configured."}
+            
         # Log the request URL and args for debugging
         logger.info(f"Processing Exchange OAuth callback. Request URL: {request.url}")
         logger.info(f"Request args: {request.args}")
+        logger.info(f"Processing callback with direct Microsoft Client ID: {oauth_client_id[:10]}...")
         
         code = request.args.get('code')
         if not code:
@@ -191,8 +206,8 @@ def process_exchange_oauth(request):
         
         # Exchange code for access token
         token_params = {
-            "client_id": MS_CLIENT_ID,
-            "client_secret": MS_CLIENT_SECRET,
+            "client_id": oauth_client_id,
+            "client_secret": oauth_client_secret,
             "code": code,
             "redirect_uri": MS_REDIRECT_URI,
             "grant_type": "authorization_code"
@@ -301,13 +316,23 @@ def refresh_gmail_token(account):
 def refresh_exchange_token(account):
     """Refresh the OAuth2 token for an Exchange account."""
     try:
+        # Get the OAuth client ID directly from environment variable
+        oauth_client_id = os.environ.get("MS_CLIENT_ID")
+        oauth_client_secret = os.environ.get("MS_CLIENT_SECRET")
+        
+        if not oauth_client_id or not oauth_client_secret:
+            logger.error("Microsoft client ID and secret not found for refresh")
+            return False
+            
         if not account.refresh_token:
             logger.error(f"No refresh token for account {account.email}")
             return False
         
+        logger.info(f"Refreshing token with direct Microsoft Client ID: {oauth_client_id[:10]}...")
+        
         token_params = {
-            "client_id": MS_CLIENT_ID,
-            "client_secret": MS_CLIENT_SECRET,
+            "client_id": oauth_client_id,
+            "client_secret": oauth_client_secret,
             "refresh_token": account.refresh_token,
             "grant_type": "refresh_token",
             "scope": MS_SCOPE
