@@ -56,8 +56,16 @@ def index():
 @app.route('/setup')
 def setup():
     # Import the configuration to pass to the template
-    from config import current_config
-    return render_template('setup.html', config=current_config)
+    import logging
+    try:
+        from config import current_config
+        logging.info(f"Rendering setup.html with config={current_config.__dict__}")
+        return render_template('setup.html', config=current_config)
+    except Exception as e:
+        logging.error(f"Error rendering setup page: {e}")
+        import traceback
+        logging.error(traceback.format_exc())
+        return f"Error rendering setup page: {str(e)}", 500
 
 @app.errorhandler(404)
 def page_not_found(e):
