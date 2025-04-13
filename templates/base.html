@@ -35,22 +35,22 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {% if 'emails' in request.endpoint %}active{% endif %}" href="{{ url_for('list_emails') }}">
+                            <a class="nav-link {% if request.endpoint and 'emails' in request.endpoint %}active{% endif %}" href="{{ url_for('list_emails') }}">
                                 <i data-feather="mail"></i> Emails
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {% if 'categories' in request.endpoint %}active{% endif %}" href="{{ url_for('list_categories') }}">
+                            <a class="nav-link {% if request.endpoint and 'categories' in request.endpoint %}active{% endif %}" href="{{ url_for('list_categories') }}">
                                 <i data-feather="tag"></i> Categories
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {% if 'rules' in request.endpoint %}active{% endif %}" href="{{ url_for('list_rules') }}">
+                            <a class="nav-link {% if request.endpoint and 'rules' in request.endpoint %}active{% endif %}" href="{{ url_for('list_rules') }}">
                                 <i data-feather="sliders"></i> Rules
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {% if 'accounts' in request.endpoint %}active{% endif %}" href="{{ url_for('list_accounts') }}">
+                            <a class="nav-link {% if request.endpoint and 'accounts' in request.endpoint %}active{% endif %}" href="{{ url_for('list_accounts') }}">
                                 <i data-feather="user"></i> Accounts
                             </a>
                         </li>
