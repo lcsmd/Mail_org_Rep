@@ -87,46 +87,78 @@ def register_routes(app):
     
     @app.route('/accounts/add/gmail', methods=['GET', 'POST'])
     def add_gmail_account():
-        if request.method == 'POST':
+        import logging
+        
+        # Debug information
+        logging.info(f"Gmail OAuth Route - Method: {request.method}")
+        logging.info(f"Gmail OAuth Route - URL: {request.url}")
+        logging.info(f"Gmail OAuth Route - Args: {request.args}")
+        
+        # Check if this is the OAuth callback (has code in query string)
+        if request.args.get('code'):
             # Process Gmail OAuth callback
+            logging.info("Processing Gmail OAuth callback (code detected in query args)")
             from email_services import process_gmail_oauth
             result = process_gmail_oauth(request)
             if result['success']:
+                logging.info(f"Gmail OAuth successful: {result['message']}")
                 return redirect(url_for('list_accounts'))
             else:
+                logging.error(f"Gmail OAuth error: {result['message']}")
                 return render_template('error.html', message=result['message'])
         else:
             # Initiate Gmail OAuth flow
+            logging.info("Initiating Gmail OAuth flow")
             from email_services import start_gmail_oauth
             result = start_gmail_oauth()
             
             # Check if we got an error instead of an auth URL
             if isinstance(result, dict) and result.get('error'):
+                logging.error(f"Gmail OAuth error: {result['message']}")
                 return render_template('error.html', message=result['message'])
+            
+            # Log the authorization URL 
+            logging.info(f"Gmail OAuth redirecting to: {result}")
                 
-            # Otherwise, redirect to the authorization URL
+            # Redirect to the authorization URL
             return redirect(result)
     
     @app.route('/accounts/add/exchange', methods=['GET', 'POST'])
     def add_exchange_account():
-        if request.method == 'POST':
+        import logging
+        
+        # Debug information
+        logging.info(f"Exchange OAuth Route - Method: {request.method}")
+        logging.info(f"Exchange OAuth Route - URL: {request.url}")
+        logging.info(f"Exchange OAuth Route - Args: {request.args}")
+        
+        # Check if this is the OAuth callback (has code in query string)
+        if request.args.get('code'):
             # Process Exchange OAuth callback
+            logging.info("Processing Exchange OAuth callback (code detected in query args)")
             from email_services import process_exchange_oauth
             result = process_exchange_oauth(request)
             if result['success']:
+                logging.info(f"Exchange OAuth successful: {result['message']}")
                 return redirect(url_for('list_accounts'))
             else:
+                logging.error(f"Exchange OAuth error: {result['message']}")
                 return render_template('error.html', message=result['message'])
         else:
             # Initiate Exchange OAuth flow
+            logging.info("Initiating Exchange OAuth flow")
             from email_services import start_exchange_oauth
             result = start_exchange_oauth()
             
             # Check if we got an error instead of an auth URL
             if isinstance(result, dict) and result.get('error'):
+                logging.error(f"Exchange OAuth error: {result['message']}")
                 return render_template('error.html', message=result['message'])
+            
+            # Log the authorization URL 
+            logging.info(f"Exchange OAuth redirecting to: {result}")
                 
-            # Otherwise, redirect to the authorization URL
+            # Redirect to the authorization URL
             return redirect(result)
     
     @app.route('/accounts/delete/<int:account_id>', methods=['POST'])

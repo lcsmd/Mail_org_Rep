@@ -36,8 +36,18 @@
             </ul>
             <hr>
             <p class="mb-0">
-                <strong>Redirect Domain:</strong> <code>{{ config.replit_domain }}</code><br>
-                <small>Use this domain to configure your OAuth redirect URIs in Google Cloud Console and Microsoft Azure Portal.</small>
+                <strong>Required OAuth Redirect URIs:</strong><br>
+                <ul class="list-unstyled">
+                    <li>
+                        <strong>Gmail/Google:</strong><br>
+                        <code>{{ config.GMAIL_REDIRECT_URI }}</code>
+                    </li>
+                    <li class="mt-2">
+                        <strong>Exchange/Microsoft:</strong><br>
+                        <code>{{ config.MS_REDIRECT_URI }}</code>
+                    </li>
+                </ul>
+                <small class="text-muted">Configure these exact redirect URIs in Google Cloud Console and Microsoft Azure Portal.</small>
             </p>
         </div>
     </div>
