@@ -482,7 +482,8 @@ def fetch_emails_exchange(account, max_emails=50):
                 body_type = msg.get('body', {}).get('contentType', 'text')
                 
                 # Create an RFC822 format email
-                message = email.message.EmailMessage()
+                from email.message import EmailMessage
+                message = EmailMessage()
                 message['Message-ID'] = f"<{message_id}@microsoft.exchange>"
                 message['Subject'] = subject
                 message['From'] = sender

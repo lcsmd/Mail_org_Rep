@@ -140,11 +140,19 @@
                     
                     <!-- Pagination -->
                     {% if emails.pages > 1 %}
+                        {# Create a dictionary with all request args except 'page' #}
+                        {% set query_params = {} %}
+                        {% for key, value in request.args.items() %}
+                            {% if key != 'page' %}
+                                {% if query_params.update({key: value}) %}{% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        
                         <nav aria-label="Email pagination" class="mt-4">
                             <ul class="pagination justify-content-center">
                                 {% if emails.has_prev %}
                                     <li class="page-item">
-                                        <a class="page-link" href="{{ url_for('list_emails', page=emails.prev_num, **request.args) }}">
+                                        <a class="page-link" href="{{ url_for('list_emails', page=emails.prev_num, **query_params) }}">
                                             Previous
                                         </a>
                                     </li>
@@ -162,7 +170,7 @@
                                             </li>
                                         {% else %}
                                             <li class="page-item">
-                                                <a class="page-link" href="{{ url_for('list_emails', page=page_num, **request.args) }}">
+                                                <a class="page-link" href="{{ url_for('list_emails', page=page_num, **query_params) }}">
                                                     {{ page_num }}
                                                 </a>
                                             </li>
@@ -176,7 +184,7 @@
                                 
                                 {% if emails.has_next %}
                                     <li class="page-item">
-                                        <a class="page-link" href="{{ url_for('list_emails', page=emails.next_num, **request.args) }}">
+                                        <a class="page-link" href="{{ url_for('list_emails', page=emails.next_num, **query_params) }}">
                                             Next
                                         </a>
                                     </li>
