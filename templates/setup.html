@@ -10,6 +10,39 @@
     </div>
 </div>
 
+<!-- Status Alert for OAuth Configuration -->
+<div class="row mb-4">
+    <div class="col">
+        <div class="alert alert-info">
+            <h5 class="alert-heading"><i data-feather="info"></i> OAuth Configuration Status</h5>
+            <p>To connect email accounts, you need to set up OAuth credentials in your cloud providers:</p>
+            <ul>
+                <li>
+                    <strong>Gmail/Google:</strong> 
+                    {% if config.GMAIL_CLIENT_ID and config.GMAIL_CLIENT_SECRET %}
+                    <span class="badge bg-success">Configured</span>
+                    {% else %}
+                    <span class="badge bg-danger">Not Configured</span>
+                    {% endif %}
+                </li>
+                <li>
+                    <strong>Exchange/Microsoft:</strong> 
+                    {% if config.MS_CLIENT_ID and config.MS_CLIENT_SECRET %}
+                    <span class="badge bg-success">Configured</span>
+                    {% else %}
+                    <span class="badge bg-danger">Not Configured</span>
+                    {% endif %}
+                </li>
+            </ul>
+            <hr>
+            <p class="mb-0">
+                <strong>Redirect Domain:</strong> <code>{{ config.replit_domain }}</code><br>
+                <small>Use this domain to configure your OAuth redirect URIs in Google Cloud Console and Microsoft Azure Portal.</small>
+            </p>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="col-lg-6 mb-4">
         <div class="card h-100">
@@ -22,17 +55,31 @@
                 <div class="mb-4">
                     <h6>Gmail</h6>
                     <p>Connect your Gmail account using Google OAuth.</p>
+                    {% if config.GMAIL_CLIENT_ID and config.GMAIL_CLIENT_SECRET %}
                     <a href="{{ url_for('add_gmail_account') }}" class="btn btn-danger">
                         <i data-feather="mail"></i> Connect Gmail
                     </a>
+                    {% else %}
+                    <button class="btn btn-danger" disabled>
+                        <i data-feather="mail"></i> Connect Gmail (Missing Credentials)
+                    </button>
+                    <div class="mt-2 small text-muted">Set GMAIL_CLIENT_ID and GMAIL_CLIENT_SECRET in environment variables</div>
+                    {% endif %}
                 </div>
                 
                 <div>
                     <h6>Exchange Online</h6>
                     <p>Connect your Microsoft Exchange Online account using Microsoft OAuth.</p>
+                    {% if config.MS_CLIENT_ID and config.MS_CLIENT_SECRET %}
                     <a href="{{ url_for('add_exchange_account') }}" class="btn btn-primary">
                         <i data-feather="mail"></i> Connect Exchange
                     </a>
+                    {% else %}
+                    <button class="btn btn-primary" disabled>
+                        <i data-feather="mail"></i> Connect Exchange (Missing Credentials)
+                    </button>
+                    <div class="mt-2 small text-muted">Set MS_CLIENT_ID and MS_CLIENT_SECRET in environment variables</div>
+                    {% endif %}
                 </div>
             </div>
         </div>

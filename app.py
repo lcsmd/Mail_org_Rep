@@ -55,7 +55,9 @@ def index():
 
 @app.route('/setup')
 def setup():
-    return render_template('setup.html')
+    # Import the configuration to pass to the template
+    from config import current_config
+    return render_template('setup.html', config=current_config)
 
 @app.errorhandler(404)
 def page_not_found(e):
