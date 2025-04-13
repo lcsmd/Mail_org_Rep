@@ -11,6 +11,8 @@ import requests
 from app import db
 from models import EmailAccount
 
+# Configure logging
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Replit domain for redirect URIs
@@ -18,9 +20,10 @@ replit_dev_domain = os.environ.get("REPLIT_DEV_DOMAIN", "")
 replit_domain = f"https://{replit_dev_domain}" if replit_dev_domain else f"https://{os.environ.get('REPL_SLUG')}.{os.environ.get('REPL_OWNER')}.repl.co"
 
 # Google OAuth2 constants
-GMAIL_CLIENT_ID = os.environ.get("GMAIL_CLIENT_ID")
-GMAIL_CLIENT_SECRET = os.environ.get("GMAIL_CLIENT_SECRET")
-GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", f"{replit_domain}/accounts/add/gmail")
+# First try using the new GOOGLE_OAUTH values, fall back to old GMAIL values if not available
+GMAIL_CLIENT_ID = os.environ.get("GOOGLE_OAUTH_CLIENT_ID") or os.environ.get("GMAIL_CLIENT_ID")
+GMAIL_CLIENT_SECRET = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET") or os.environ.get("GMAIL_CLIENT_SECRET")
+GMAIL_REDIRECT_URI = f"https://{replit_dev_domain}/accounts/add/gmail" if replit_dev_domain else os.environ.get("GMAIL_REDIRECT_URI", f"{replit_domain}/accounts/add/gmail")
 GMAIL_AUTH_URL = "https://accounts.google.com/o/oauth2/auth"
 GMAIL_TOKEN_URL = "https://oauth2.googleapis.com/token"
 GMAIL_SCOPE = "https://mail.google.com/"
@@ -28,10 +31,18 @@ GMAIL_SCOPE = "https://mail.google.com/"
 # Microsoft OAuth2 constants
 MS_CLIENT_ID = os.environ.get("MS_CLIENT_ID")
 MS_CLIENT_SECRET = os.environ.get("MS_CLIENT_SECRET")
-MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", f"{replit_domain}/accounts/add/exchange")
+MS_REDIRECT_URI = f"https://{replit_dev_domain}/accounts/add/exchange" if replit_dev_domain else os.environ.get("MS_REDIRECT_URI", f"{replit_domain}/accounts/add/exchange")
 MS_AUTH_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize"
 MS_TOKEN_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/token"
 MS_SCOPE = "https://outlook.office.com/IMAP.AccessAsUser.All https://outlook.office.com/mail.read"
+
+# Print configuration information for debugging
+logger.info(f"GMAIL_CLIENT_ID: {'Set' if GMAIL_CLIENT_ID else 'Not set'}")
+logger.info(f"GMAIL_CLIENT_SECRET: {'Set' if GMAIL_CLIENT_SECRET else 'Not set'}")
+logger.info(f"GMAIL_REDIRECT_URI: {GMAIL_REDIRECT_URI}")
+logger.info(f"MS_CLIENT_ID: {'Set' if MS_CLIENT_ID else 'Not set'}")
+logger.info(f"MS_CLIENT_SECRET: {'Set' if MS_CLIENT_SECRET else 'Not set'}")
+logger.info(f"MS_REDIRECT_URI: {MS_REDIRECT_URI}")
 
 def start_gmail_oauth():
     """Start the OAuth2 flow for Gmail."""

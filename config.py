@@ -17,8 +17,8 @@ class Config:
     
     # API keys and credentials - explicitly setting as instance variables 
     # so they'll be accessible in templates
-    GMAIL_CLIENT_ID = os.environ.get("GMAIL_CLIENT_ID", "")
-    GMAIL_CLIENT_SECRET = os.environ.get("GMAIL_CLIENT_SECRET", "")
+    GMAIL_CLIENT_ID = os.environ.get("GOOGLE_OAUTH_CLIENT_ID") or os.environ.get("GMAIL_CLIENT_ID", "")
+    GMAIL_CLIENT_SECRET = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET") or os.environ.get("GMAIL_CLIENT_SECRET", "")
     MS_CLIENT_ID = os.environ.get("MS_CLIENT_ID", "")
     MS_CLIENT_SECRET = os.environ.get("MS_CLIENT_SECRET", "")
     
