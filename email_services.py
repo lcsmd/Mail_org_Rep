@@ -37,9 +37,9 @@ MS_REDIRECT_URI = f"https://{replit_dev_domain}/accounts/add/exchange" if replit
 TENANT_ID = os.environ.get("MS_TENANT_ID")  # Get tenant ID from environment
 MS_AUTH_URL = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/v2.0/authorize"
 MS_TOKEN_URL = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/v2.0/token"
-# Using updated scopes to include IMAP access
+# Using Microsoft Graph API to access emails
 # These permissions need to be enabled in your Azure app registration
-MS_SCOPE = "offline_access https://graph.microsoft.com/mail.read https://outlook.office.com/IMAP.AccessAsUser.All"
+MS_SCOPE = "offline_access https://graph.microsoft.com/mail.read"
 
 # Print configuration information for debugging
 logger.info(f"GMAIL_CLIENT_ID: {GMAIL_CLIENT_ID[:10]}... (length: {len(GMAIL_CLIENT_ID)})" if GMAIL_CLIENT_ID else "GMAIL_CLIENT_ID: Not set")
@@ -418,7 +418,7 @@ def fetch_emails_gmail(account, max_emails=50):
     return emails
 
 def fetch_emails_exchange(account, max_emails=50):
-    """Fetch emails from Exchange Online using IMAP."""
+    """Fetch emails from Exchange Online using Microsoft Graph API."""
     emails = []
     
     try:
@@ -428,46 +428,55 @@ def fetch_emails_exchange(account, max_emails=50):
                 logger.error(f"Failed to refresh token for {account.email}")
                 return emails
         
-        # Connect to Exchange Online IMAP
-        mail = imaplib.IMAP4_SSL('outlook.office365.com')
-        
-        # Authenticate with OAuth2
-        auth_string = f'user={account.email}\1auth=Bearer {account.access_token}\1\1'
-        mail.authenticate('XOAUTH2', lambda x: auth_string)
-        
-        # Select inbox
-        mail.select('INBOX')
+        logger.info(f"Fetching emails for {account.email} using Microsoft Graph API")
         
         # Get last sync time or default to last week
         last_sync = account.last_sync or (datetime.utcnow() - timedelta(days=7))
         
-        # Search for emails since last sync
-        date_str = last_sync.strftime("%d-%b-%Y")
-        result, data = mail.search(None, f'(SINCE {date_str})')
+        # Format date for Graph API (ISO 8601)
+        date_str = last_sync.strftime("%Y-%m-%dT%H:%M:%SZ")
         
-        if result != 'OK':
-            logger.error(f"Error searching emails: {result}")
+        # Prepare the Graph API request
+        headers = {"Authorization": f"Bearer {account.access_token}"}
+        
+        # Query for messages in the inbox, received after last sync
+        query_params = {
+            "$filter": f"receivedDateTime gt {date_str}",
+            "$top": str(max_emails),
+            "$orderby": "receivedDateTime desc"
+        }
+        
+        # Make the request to Graph API
+        url = "https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messages"
+        response = requests.get(url, headers=headers, params=query_params)
+        
+        if response.status_code != 200:
+            logger.error(f"Error fetching emails: {response.status_code} - {response.text}")
             return emails
         
-        # Get email IDs
-        email_ids = data[0].split()
+        # Process the email data
+        mail_data = response.json()
+        logger.info(f"Received {len(mail_data.get('value', []))} emails from Graph API")
         
-        # Limit number of emails to process
-        email_ids = email_ids[-max_emails:] if len(email_ids) > max_emails else email_ids
-        
-        # Fetch emails
-        for e_id in reversed(email_ids):  # Process newest first
-            result, data = mail.fetch(e_id, '(RFC822)')
-            if result != 'OK':
-                logger.error(f"Error fetching email {e_id}: {result}")
+        for msg in mail_data.get('value', []):
+            # Get the full message with MIME content
+            message_id = msg['id']
+            mime_url = f"https://graph.microsoft.com/v1.0/me/messages/{message_id}/$value"
+            mime_response = requests.get(mime_url, headers=headers)
+            
+            if mime_response.status_code != 200:
+                logger.warning(f"Failed to get MIME content for message {message_id}: {mime_response.status_code}")
                 continue
             
-            raw_email = data[0][1]
+            # Add the raw email content
+            raw_email = mime_response.content
             emails.append(raw_email)
         
-        mail.logout()
+        logger.info(f"Successfully processed {len(emails)} emails for {account.email}")
     
     except Exception as e:
         logger.error(f"Error fetching Exchange emails: {str(e)}")
+        import traceback
+        logger.error(f"Traceback: {traceback.format_exc()}")
     
     return emails
