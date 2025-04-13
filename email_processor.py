@@ -17,6 +17,34 @@ from email_services import fetch_emails_gmail, fetch_emails_exchange
 
 logger = logging.getLogger(__name__)
 
+def process_account_emails(account, max_emails=50):
+    """Fetch and process new emails from a specific account."""
+    try:
+        processed_count = 0
+        
+        # Fetch emails based on account type
+        if account.account_type == 'gmail':
+            emails = fetch_emails_gmail(account, max_emails)
+        elif account.account_type == 'exchange':
+            emails = fetch_emails_exchange(account, max_emails)
+        else:
+            logger.warning(f"Unknown account type: {account.account_type}")
+            return {"success": False, "message": f"Unknown account type: {account.account_type}"}
+        
+        # Process each email
+        for email_data in emails:
+            if process_email(email_data, account):
+                processed_count += 1
+        
+        return {
+            "success": True,
+            "message": f"Processed {processed_count} new emails for {account.email}",
+            "processed": processed_count
+        }
+    except Exception as e:
+        logger.error(f"Error processing emails for {account.email}: {str(e)}")
+        return {"success": False, "message": f"Error: {str(e)}"}
+
 def process_new_emails():
     """Fetch and process new emails from all configured accounts."""
     try:
@@ -27,17 +55,9 @@ def process_new_emails():
         processed_count = 0
         
         for account in accounts:
-            if account.account_type == 'gmail':
-                emails = fetch_emails_gmail(account)
-            elif account.account_type == 'exchange':
-                emails = fetch_emails_exchange(account)
-            else:
-                logger.warning(f"Unknown account type: {account.account_type}")
-                continue
-            
-            for email_data in emails:
-                if process_email(email_data, account):
-                    processed_count += 1
+            result = process_account_emails(account)
+            if result["success"]:
+                processed_count += result.get("processed", 0)
             
             # Update last sync time
             account.last_sync = datetime.utcnow()

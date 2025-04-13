@@ -295,6 +295,25 @@ def register_routes(app):
             'message': result['message'],
             'processed': result.get('processed', 0)
         })
+        
+    @app.route('/accounts/<int:account_id>/sync', methods=['POST'])
+    def sync_account(account_id):
+        from models import EmailAccount
+        from email_processor import process_account_emails
+        from datetime import datetime
+        
+        account = EmailAccount.query.get_or_404(account_id)
+        result = process_account_emails(account)
+        
+        # Update last sync time
+        account.last_sync = datetime.utcnow()
+        db.session.commit()
+        
+        return jsonify({
+            'success': result['success'],
+            'message': result['message'],
+            'processed': result.get('processed', 0)
+        })
     
     # AI operations
     @app.route('/ai/categorize', methods=['POST'])
