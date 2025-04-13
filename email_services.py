@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 # Google OAuth2 constants
 GMAIL_CLIENT_ID = os.environ.get("GMAIL_CLIENT_ID")
 GMAIL_CLIENT_SECRET = os.environ.get("GMAIL_CLIENT_SECRET")
-GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", "http://localhost:5000/accounts/add/gmail")
+GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/gmail")
 GMAIL_AUTH_URL = "https://accounts.google.com/o/oauth2/auth"
 GMAIL_TOKEN_URL = "https://oauth2.googleapis.com/token"
 GMAIL_SCOPE = "https://mail.google.com/"
@@ -24,7 +24,7 @@ GMAIL_SCOPE = "https://mail.google.com/"
 # Microsoft OAuth2 constants
 MS_CLIENT_ID = os.environ.get("MS_CLIENT_ID")
 MS_CLIENT_SECRET = os.environ.get("MS_CLIENT_SECRET")
-MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", "http://localhost:5000/accounts/add/exchange")
+MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/exchange")
 MS_AUTH_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize"
 MS_TOKEN_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/token"
 MS_SCOPE = "https://outlook.office.com/IMAP.AccessAsUser.All https://outlook.office.com/mail.read"

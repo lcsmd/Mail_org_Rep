@@ -14,11 +14,11 @@ class Config:
     # API keys and credentials
     GMAIL_CLIENT_ID = os.environ.get("GMAIL_CLIENT_ID")
     GMAIL_CLIENT_SECRET = os.environ.get("GMAIL_CLIENT_SECRET")
-    GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", "http://localhost:5000/accounts/add/gmail")
+    GMAIL_REDIRECT_URI = os.environ.get("GMAIL_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/gmail")
     
     MS_CLIENT_ID = os.environ.get("MS_CLIENT_ID")
     MS_CLIENT_SECRET = os.environ.get("MS_CLIENT_SECRET")
-    MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", "http://localhost:5000/accounts/add/exchange")
+    MS_REDIRECT_URI = os.environ.get("MS_REDIRECT_URI", "https://workspace.lcs2.repl.co/accounts/add/exchange")
     
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
     
