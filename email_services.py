@@ -37,7 +37,9 @@ MS_REDIRECT_URI = f"https://{replit_dev_domain}/accounts/add/exchange" if replit
 TENANT_ID = os.environ.get("MS_TENANT_ID")  # Get tenant ID from environment
 MS_AUTH_URL = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/v2.0/authorize"
 MS_TOKEN_URL = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/v2.0/token"
-MS_SCOPE = "https://outlook.office.com/IMAP.AccessAsUser.All https://outlook.office.com/mail.read"
+# Using simplified scope that might be more compatible with your Azure app configuration
+# If this doesn't work, you'll need to add these permissions in your Azure portal
+MS_SCOPE = "offline_access https://graph.microsoft.com/mail.read"
 
 # Print configuration information for debugging
 logger.info(f"GMAIL_CLIENT_ID: {GMAIL_CLIENT_ID[:10]}... (length: {len(GMAIL_CLIENT_ID)})" if GMAIL_CLIENT_ID else "GMAIL_CLIENT_ID: Not set")

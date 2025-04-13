@@ -48,6 +48,20 @@
                     </li>
                 </ul>
                 <small class="text-muted">Configure these exact redirect URIs in Google Cloud Console and Microsoft Azure Portal.</small>
+                <hr>
+                <p><strong>Microsoft Azure Setup Instructions:</strong></p>
+                <ol>
+                    <li>In the Azure portal App Registration, add the redirect URI above under "Web" platform.</li>
+                    <li>In "Authentication", make sure "Access tokens" and "ID tokens" are checked.</li>
+                    <li>In "API permissions", add the following permissions:
+                        <ul>
+                            <li>Microsoft Graph API: User.Read (delegated)</li>
+                            <li>Microsoft Graph API: Mail.Read (delegated)</li>
+                            <li>Office 365 Exchange Online: IMAP.AccessAsUser.All (delegated)</li>
+                        </ul>
+                    </li>
+                    <li>Click "Grant admin consent" for these permissions.</li>
+                </ol>
             </p>
         </div>
     </div>
