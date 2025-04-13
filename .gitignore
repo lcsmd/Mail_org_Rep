@@ -51,3 +51,8 @@ logs/
 
 # Miscellaneous
 .DS_Store
+
+# Replit specific
+.cache
+.pythonlibs
+.upm
