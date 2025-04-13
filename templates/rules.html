@@ -249,7 +249,7 @@
                 <h5 class="modal-title" id="editRuleModalLabel">Edit Rule</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="{{ url_for('edit_rule') }}" method="POST" id="editRuleForm">
+            <form action="{{ url_for('list_rules') }}" method="POST" id="editRuleForm">
                 <div class="modal-body">
                     <input type="hidden" name="rule_id" id="editRuleId">
                     
